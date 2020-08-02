@@ -29,7 +29,7 @@
 <div class="card 1"  onclick="clickone()">
   <div class="card_image"> <img src="https://thewallpaper.co/wp-content/uploads/2016/10/full-hd-desktop-desktop-hd-1080p-photo-desktop-images-windows-10-backgrounds-amazing-free-quality-images-computer-wallpapers-cool-best-1920x1080.jpg" /> </div>
   <div class="card_title title-white">
-    <p>{{ textproject }}</p>
+    <p v-if="text">المسابقة الأولى</p> <p v-if="textproject">فكرة المسابقة الأولى</p>
   </div>
 </div></div>
 
@@ -38,7 +38,7 @@
     <img src="http://selfrecruiter.com/wp-content/uploads/2015/07/automne-1920-1080.jpg" />
     </div>
   <div class="card_title title-black">
-    <p>  {{ textproject }} </p>
+    <p v-if="text">المسابقة الثانية</p> <p v-if="textproject">فكرة المسابقةالثانية</p>
   </div>
 </div></div>
 
@@ -47,7 +47,7 @@
     <img src="https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif" />
   </div>
   <div class="card_title title-white">
-    <p>{{ textproject }}</p>
+    <p v-if="text">المسابقة الثالثة</p> <p v-if="textproject">فكرة المسابقة الثالثة</p>
   </div>
 </div></div>
   
@@ -56,8 +56,11 @@
     <img src="https://media.giphy.com/media/LwIyvaNcnzsD6/giphy.gif" />
     </div>
   <div class="card_title title-black">
-    <p>{{ textproject }}</p>
+<p v-if="text">المسابقة الرابعة</p> <p v-if="textproject">فكرة المسابقة الرابعة</p>
   </div>
+  </div>
+
+
   </div>
 
 
