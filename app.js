@@ -3,7 +3,7 @@ var myApp = new Vue({
     data: {
 		apptitle:true,
 		apptitlereturn:false,
-		text: 'التطبيق',
+		text: 'المسابقات',
 		text1: 'العودة'}
 })
 
