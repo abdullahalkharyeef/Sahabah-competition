@@ -6,7 +6,16 @@ var myApp = new Vue({
 		text: 'التطبيق',
 		text1: 'العودة'}
 })
-
+function texttitlereturn (){
+  myApp1.text= true;
+	myApp2.text= true;
+  myApp3.text= true;
+  myApp4.text= true;
+ myApp1.textproject= false;
+ myApp2.textproject= false;
+ myApp3.textproject= false;
+ myApp4.textproject= false;
+}
 function apptitlereturn () {
    myApp.apptitle=false;
 	 myApp.apptitlereturn=true;
@@ -21,35 +30,43 @@ function titlereturn (){
 	 myApp2.card2= true;
 	 myApp3.card3= true;
    myApp4.card4= true;
-	 
+	 texttitlereturn();
 }
 
 var myApp1 = new Vue({
     el: '#appone',
     data: {
 		card1: true,
-		textproject: 'المسابقة الأولى'}
+    text:true,
+		textproject: false
+}
 })
 
  var myApp2 = new Vue({
     el: '#apptwo',
     data: {
     card2: true,
-    textproject: 'المسابقة الثانية'}
+    text: true,
+    textproject: false
+}
 })
 
 var myApp3 = new Vue({
     el: '#appthree',
     data: {
 		card3: true,
-    textproject: 'المسابقة الثالثة'}
+    text:true,
+		textproject: false
+}
 })
 
 var myApp4 = new Vue({
     el: '#appfour',
     data: {
 		card4: true,
-		textproject: 'المسابقة الرابعة'}
+		text:true,
+		textproject: false
+}
 })
 
 
@@ -57,27 +74,31 @@ function clickone () {
 myApp2.card2= false;
 myApp3.card3= false;
 myApp4.card4= false;
-myApp1.textproject="فكرة المسابقة الأولى";
+myApp1.text=false;
+myApp1.textproject=true;
 apptitlereturn();
 }
 function clicktwo () {
 myApp1.card1= false;
 myApp3.card3= false;
 myApp4.card4= false;
-myApp2.textproject="فكرة المسابقة الثانية";
+myApp2.text=false;
+myApp2.textproject=true;
 apptitlereturn();
 }
 function clickthree () {
 myApp1.card1= false;
 myApp2.card2= false;
 myApp4.card4= false;
-myApp3.textproject="فكرة المسابقة الثالثة";
+myApp3.text=false
+myApp3.textproject=true;
 apptitlereturn();
 }
 function clickfour () {
 myApp1.card1= false;
 myApp2.card2= false;
 myApp3.card3= false;
-myApp4.textproject="فكرة المسابقة الرابعة";
+myApp4.text=false;
+myApp4.textproject=true;
 apptitlereturn();
 }
