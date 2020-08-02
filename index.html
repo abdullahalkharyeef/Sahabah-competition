@@ -2,47 +2,65 @@
 
 <html lang="ar" dir="rtl">
   <head>
-    <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@900&display=swap" rel="stylesheet">
 </head>
- <h1> التطبيق </h1>
 
+
+<div id="apptitle" >
+<div class="cardme">
+  <div class="card_imageme"> <img src="https://www.hdwallpaper.nu/wp-content/uploads/2015/02/chicago-illinois-world-hd-wallpaper-1920x1080-10189.jpg" /> </div>
+  <div class="card_titleme title-whiteme">
+<p v-if="apptitle">{{text}}</p>
+    <p v-if="apptitlereturn" onclick="titlereturn()">{{text1}}</p>
+
+  </div>
+</div></div>
+
+
+
+
+
+
+ 
 <div class="cards-list">
   
-<div class="card 1" style="display:block" onclick="clickone()">
+<div id="appone" v-if="card1">
+<div class="card 1"  onclick="clickone()">
   <div class="card_image"> <img src="https://i.redd.it/b3esnz5ra34y.jpg" /> </div>
   <div class="card_title title-white">
-    <p>المشروع الأول</p>
+    <p>{{ textproject }}</p>
   </div>
-</div>
+</div></div>
 
-  <div class="card 2"      style="display:block" onclick="clicktwo()">
+  <div id="apptwo" v-if="card2"><div class="card 2"      style="display:block" onclick="clicktwo()">
   <div class="card_image">
     <img src="https://cdn.blackmilkclothing.com/media/wysiwyg/Wallpapers/PhoneWallpapers_FloralCoral.jpg" />
     </div>
   <div class="card_title title-white">
-    <p> المشروع الثاني </p>
+    <p>  {{ textproject }} </p>
   </div>
-</div>
+</div></div>
 
-<div class="card 3" style="display:block" onclick="clickthree()">
+<div id="appthree" v-if="card3"><div class="card 3" style="display:block" onclick="clickthree()">
   <div class="card_image">
     <img src="https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif" />
   </div>
   <div class="card_title">
-    <p>المشروع الثالث </p>
+    <p>{{ textproject }}</p>
   </div>
-</div>
+</div></div>
   
-  <div class="card 4" style="display:block" onclick="clickfour()" >
+  <div id="appfour" v-if="card4"><div class="card 4" style="display:block" onclick="clickfour()" >
   <div class="card_image">
     <img src="https://media.giphy.com/media/LwIyvaNcnzsD6/giphy.gif" />
     </div>
   <div class="card_title title-black">
-    <p>المشروع الرابع </p>
+    <p>{{ textproject }}</p>
   </div>
   </div>
 
+
 </div>
+  <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script src="app.js"></script>
   </html>
