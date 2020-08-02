@@ -6,32 +6,6 @@ var myApp = new Vue({
 		text: 'التطبيق',
 		text1: 'العودة'}
 })
-function texttitlereturn (){
-  myApp1.text= true;
-	myApp2.text= true;
-  myApp3.text= true;
-  myApp4.text= true;
- myApp1.textproject= false;
- myApp2.textproject= false;
- myApp3.textproject= false;
- myApp4.textproject= false;
-}
-function apptitlereturn () {
-   myApp.apptitle=false;
-	 myApp.apptitlereturn=true;
-}
-myApp.apptitle=true;
-myApp.apptitlereturn=false;
-
-function titlereturn (){
-   myApp.apptitle=true;
- myApp.apptitlereturn=false;
-	 myApp1.card1= true;
-	 myApp2.card2= true;
-	 myApp3.card3= true;
-   myApp4.card4= true;
-	 texttitlereturn();
-}
 
 var myApp1 = new Vue({
     el: '#appone',
@@ -69,6 +43,33 @@ var myApp4 = new Vue({
 }
 })
 
+function apptitlereturn () {
+   myApp.apptitle=false;
+myApp.apptitlereturn=true;
+}
+myApp.apptitle=true;
+myApp.apptitlereturn=false;
+
+function titlereturn (){
+   myApp.apptitle=true;
+myApp.apptitlereturn=false;
+	 myApp1.card1= true;
+	 myApp2.card2= true;
+	 myApp3.card3= true;
+   myApp4.card4= true;
+	 texttitlereturn();
+}
+
+function texttitlereturn (){
+  myApp1.text= true;
+	myApp2.text= true;
+  myApp3.text= true;
+  myApp4.text= true;
+ myApp1.textproject= false;
+ myApp2.textproject= false;
+ myApp3.textproject= false;
+ myApp4.textproject= false;
+}
 
 function clickone () {
 myApp2.card2= false;
