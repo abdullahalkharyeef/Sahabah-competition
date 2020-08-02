@@ -62,7 +62,6 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   width: 700px;
   height: 700px;
   border-radius: 50px;
-  background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -92,12 +91,12 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 .cardme {
   font-family: 'Cairo', sans-serif;
   margin: 30px auto;
-  width: 300px;
+  width: 600px;
   height: 300px;
   border-radius: 40px;
 box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
   cursor: pointer;
-  transition: 0.4s;
+  transition: 0.5s;
 }
 
 .cardme .card_imageme {
@@ -137,10 +136,9 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 }
 .cardme {
   margin: 30px auto;
-  width: 300px;
+  width: 600px;
   height: 300px;
   border-radius: 40px;
-  background-image: url('https://i.redd.it/b3esnz5ra34y.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
