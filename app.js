@@ -71,7 +71,7 @@ points.points=points.points+1;
 }
 points.points=0;
 
-function appapptitlereturntitlereturn () {
+function apptitlereturn () {
    myApp.apptitle=false;
 myApp.apptitlereturn=true;
 }
