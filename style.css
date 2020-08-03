@@ -121,6 +121,24 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   height: 40px;
 }
 
+.cardpoints .card_titlepoints {
+
+  text-align: center;
+
+  border-radius: 0px 0px 40px 40px;
+
+
+
+  font-weight: bold;
+
+  font-size: 80px;
+
+  margin-top: -370px;
+
+  height: 40px;
+
+}
+
 .cardme:hover {
   transform: scale(0.9, 0.9);
   box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
