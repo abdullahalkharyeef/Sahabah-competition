@@ -21,11 +21,11 @@ var points = new Vue({
 
     el: '#points',
 
-    data: {points:2,pointstext:"نقاطك هي:",pointsCard:true}})
+    data: {points:0,pointstext:"نقاطك هي:",pointsCard:true}})
 
 
 
- 
+
 
 
 
