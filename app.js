@@ -9,20 +9,25 @@ var myApp = new Vue({
     }
 })
 
+
+		
+
+
+
+
+
+
 var points = new Vue({
 
     el: '#points',
 
-    data: {
-
-		
-
-	
+    data: {points:0,pointstext:"نقاطك هي:",pointsCard:false}})
 
 
-}
 
-})
+ 
+
+
 
 var myApp1 = new Vue({
     el: '#appone',
@@ -62,9 +67,9 @@ var myApp4 = new Vue({
 function points () {
 	
 	
-myApp.points=myApp.points+1;
+points.points=points.points+1;
 }
-myApp.points=0;
+points.points=0;
 
 function appapptitlereturntitlereturn () {
    myApp.apptitle=false;
