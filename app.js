@@ -4,14 +4,18 @@ var myApp = new Vue({
 		apptitle:true,
 		apptitlereturn:false,
 		text: 'المسابقات',
-		text1: 'العودة'}
+		text1: 'العودة',
+	        points: 0,
+	        pointsCard:true,
+	        pointstext: "نقاطك هي:"
+    }
 })
 
 var myApp1 = new Vue({
     el: '#appone',
     data: {
 		card1: true,
-    text:true,
+                text:true,
 		textproject: false
 }
 })
@@ -42,8 +46,14 @@ var myApp4 = new Vue({
 		textproject: false
 }
 })
+function points () {
+	
+	
+myApp.points=myApp.points+1;
+}
+myApp.points=0;
 
-function apptitlereturn () {
+function appapptitlereturntitlereturn () {
    myApp.apptitle=false;
 myApp.apptitlereturn=true;
 }
@@ -103,3 +113,9 @@ myApp4.text=false;
 myApp4.textproject=true;
 apptitlereturn();
 }
+
+
+
+
+
+
