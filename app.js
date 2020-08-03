@@ -5,10 +5,23 @@ var myApp = new Vue({
 		apptitlereturn:false,
 		text: 'المسابقات',
 		text1: 'العودة',
-	        points: 0,
-	        pointsCard:true,
-	        pointstext: "نقاطك هي:"
+	
     }
+})
+
+var points = new Vue({
+
+    el: '#points',
+
+    data: {
+
+		
+
+	
+
+
+}
+
 })
 
 var myApp1 = new Vue({
