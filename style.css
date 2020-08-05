@@ -1,4 +1,4 @@
-body {
+        body {
 background-image: url("https://i.pinimg.com/originals/2b/a6/95/2ba695fd5ecada4d9b337b35e3b7ffbe.gif");
 }
 .cards-list {
@@ -145,7 +145,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 }
 
 .title-whiteme {
-  color; white;
+  color: white;
 }
 
 .title-blackme {
