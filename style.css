@@ -80,9 +80,9 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   }
 }
 
-$border: 5px;
+/*$border: 5px;
 $border-delta: 80%;
-
+*/
 .box {
 	font-family: 'Cairo', sans-serif;
   font-size: 10px;
@@ -94,65 +94,55 @@ $border-delta: 80%;
   color: red;
   background: white;
   background-clip: padding-box;
-  border: solid $border transparent;
+  border: solid 5px transparent;
   border-radius: 10px;
   cursor: pointer;
-
+}
   .border {
     position: absolute;
-    margin: -$border;
+    margin: -5px;
     border-radius: inherit;
     z-index: -1;
     background: linear-gradient(to right, red, orange);
-    transition: all 8s;
+    transition: all 0.9s;
+}
 
-    &-top-left {
+ .-top-left {
       top: 0;
-      right: $border-delta;
-      bottom: $border-delta;
+      right: 80%;
+      bottom: 80%;
       left: 0;
     }
 
-    &-top-right {
+  .-top-right {
       top: 0;
       right: 0;
-      bottom: $border-delta;
-      left: $border-delta;
+      bottom: 80%;
+      left: 80%;
     }
 
-    &-bottom-right {
-      top: $border-delta;
+   .-bottom-right {
+      top: 80%;
       right: 0;
       bottom: 0;
-      left: $border-delta;
+      left: 80%;
     }
 
-    &-bottom-left {
-      top: $border-delta;
-      right: $border-delta;
+   .-bottom-left {
+      top: 80%;
+      right: 80%;
       bottom: 0;
       left: 0;
     }
 		
-  }
 
-  &:hover {
-    .border {
+  .border:hover {
       top: 0;
       right: 0;
       bottom: 0;
       left: 0;
     }
-  }
-}
 
-    .thumbnail {
-      transition: all 0.2s ease-out
-
-      &:hover {
-        transform: scale(1.35, 1.35);
-      }
-    }
  
 
 
@@ -198,8 +188,8 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   border-radius: 0px 0px 40px 40px;
   font-family: sans-serif;
   font-weight: bold;
-  font-size: 20px;
-  margin-top: -100px;
+  font-size: 40px;
+  margin-top: -115px;
   height: 40px;
 }
 
@@ -241,8 +231,8 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
 
 
-$borderfull: 3px;
-$borderfull-deltafull: 0%;
+/*$borderfull: 3px;
+$borderfull-deltafull: 0%; */
 
 .boxfull {
 	font-family: 'Cairo', sans-serif;
@@ -252,60 +242,57 @@ $borderfull-deltafull: 0%;
   text-transform: uppercase;
   text-align: center;
   position: relative;
-  color: #black;
+  color: black;
   background: white;
   background-clip: padding-box;
-  border: solid $borderfull transparent ;
+  border: solid 3px transparent;
   border-radius: 10px;
   cursor: pointer;
+}
 
-  .borderfull {
+  .boxfull .borderfull {
     position: absolute;
-    margin: -$borderfull;
+    margin: -3px;
     border-radius: inherit;
     z-index: -1;
     background: linear-gradient(to right, orange, red);
     transition: all 8s;
-
-    &-topfull-leftfull {
+}
+  	.-topfull-leftfull {
       top: 0;
-      right: $borderfull-deltafull;
-      bottom: $borderfull-deltafull;
+      right: 0%;
+      bottom: 0%;
       left: 0;
     }   
 
-    &-topfull-rightfull {
+    .-topfull-rightfull {
       top: 0;
       right: 0; 
-      bottom: $borderfull-deltafull;
-      left: $borderfull-deltafull;
+      bottom: 0%;
+      left: 0%;
     }   
 
-    &-bottomfull-rightfull {
-      top: $borderfull-deltafull;
+    .-bottomfull-rightfull {
+      top: 0%;
       right: 0;
       bottom: 0;
-      left: $borderfull-deltafull;
+      left: 0%;
     }
 
-    &-bottomfull-leftfull {
-      top: $borderfull-deltafull;
-      right: $borderfull-deltafull;
+    .-bottomfull-leftfull {
+      top: 0%;
+      right: 0%;
       bottom: 0;
       left: 0;
     }
 		
-  }
 
-  &:hover {
-    .borderfull {
+  .borderfull:hover {
       top: 0;
       right: 0;
       bottom: 0;
       left: 0;
     }
-  }
-}
 
 
 
@@ -314,10 +301,10 @@ $borderfull-deltafull: 0%;
 
 
 
- $borderthreeA: 5px;
-$borderthreeA-deltathreeA: 80%;
+/* $borderthreeA: 5px;
+$borderthreeA-deltathreeA: 80%; */
 
-.boxthreeA {
+/*.boxthreeA {
   font-family: 'Cairo', sans-serif;
   font-size: 10px;
   box-sizing: border-box;
@@ -326,56 +313,112 @@ $borderthreeA-deltathreeA: 80%;
   text-align: center;
   position: relative;
   color: green;
-  background: #FFF;
+  background: white;
   background-clip: padding-box;
-  border: solid $borderthreeA transparent;
+  border: solid 5px transparent;
   border-radius: 10px;
   cursor: pointer;
-
+}
   .borderthreeA {
     position: absolute;
-    margin: -$borderthreeA;
+    margin: -5px;
     border-radius: inherit;
     z-index: -1;
     background: linear-gradient(to right, orange, green);
-    transition: all 6s;
-
-    &-top1-left1 {
-      top: 0;
-      right: $borderthreeA-deltathreeA;
-      bottom: $borderthreeA-deltathreeA;
-      left: 0;
-    }
-
-    &-top1-right1 {
-      top: 0;
-      right: 0;
-      bottom: $borderthreeA-deltathreeA;
-      left: $borderthreeA-deltathreeA;
-    }
-
-    &-bottom1-right1 {
-      top: $borderthreeA-deltathreeA;
-      right: 0;
-      bottom: 0;
-      left: $borderthreeA-deltathreeA;
-    }
-
-    &-bottom1-left1 {
-      top: $borderthreeA-deltathreeA;
-      right: $borderthreeA-deltathreeA;
-      bottom: 0;
-      left: 0;
-    }
-
-  }
-
-  &:hover {
-    .borderthreeA {
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-    }
-  }
+    transition: all 0.9s;
 }
+    .-top1-left1 {
+      top: 0;
+      right: 80%;
+      bottom: 80%;
+      left: 0;
+    }
+
+    .-top1-right1 {
+      top: 0;
+      right: 0;
+      bottom: 80%;
+      left: 80%;
+    }
+
+    .-bottom1-right1 {
+      top: 80%;
+      right: 0;
+      bottom: 0;
+      left: 80%;
+    }
+
+    .-bottom1-left1 {
+      top: 80%;
+      right: 80%;
+      bottom: 0;
+      left: 0;
+    }
+
+
+  .borderthreeA:hover1 {
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }*/
+.boxthreeA {
+	font-family: 'Cairo', sans-serif;
+  font-size: 10px;
+  box-sizing: border-box;
+  padding: 15px 30px;
+  text-transform: uppercase;
+  text-align: center;
+  position: relative;
+  color: green;
+  background: white;
+  background-clip: padding-box;
+  border: solid 5px transparent;
+  border-radius: 10px;
+  cursor: pointer;
+}
+  .borderthreeA {
+    position: absolute;
+    margin: -5px;
+    border-radius: inherit;
+    z-index: -1;
+    background: linear-gradient(to right, orange, green);
+    transition: all 0.9s;
+}
+
+ .-top-left {
+      top: 0;
+      right: 80%;
+      bottom: 80%;
+      left: 0;
+    }
+
+  .-top-right {
+      top: 0;
+      right: 0;
+      bottom: 80%;
+      left: 80%;
+    }
+
+   .-bottom-right {
+      top: 80%;
+      right: 0;
+      bottom: 0;
+      left: 80%;
+    }
+
+   .-bottom-left {
+      top: 80%;
+      right: 80%;
+      bottom: 0;
+      left: 0;
+    }
+		
+
+  .borderthreeA:hover {
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+    }
+ 
