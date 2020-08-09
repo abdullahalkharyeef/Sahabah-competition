@@ -4,7 +4,7 @@ background-image: url("https://i.pinimg.com/originals/2b/a6/95/2ba695fd5ecada4d9
 .cards-list {
   font-family: 'Cairo', sans-serif;
   z-index: 0;
-  width: 100%;
+  width: auto;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
