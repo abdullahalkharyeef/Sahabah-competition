@@ -1,5 +1,7 @@
 body {
-background-image: url("https://i.pinimg.com/originals/fe/e5/ea/fee5eab30a698c169dc4fd5752359c2c.jpg");
+background-image: url("https://i.pinimg.com/originals/fe/e5/ea/fee5eab30a698c169dc4fd5752359c2c.jpg")
+width: 100%;
+height: 100%;
 }
 .cards-list {
   font-family: 'Cairo', sans-serif;
