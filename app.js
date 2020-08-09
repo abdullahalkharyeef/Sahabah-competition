@@ -77,6 +77,7 @@ function ansrguideone () {
 myApp1.answersguideone= false;
 myApp1.guidefive= false;
 myApp1.card1= false;
+boxone.optionA=true
 boxone.boxone= true
 boxone.one= true;
 boxone.two= true;
