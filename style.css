@@ -1,6 +1,8 @@
 body {
 background-image: url("https://i.ibb.co/XC24ZZp/Project-Capture-3.jpg");
 background-repeat: no-repeat, repeat;
+width: 100%;
+height: 100%;
 }
 .cards-list {
   font-family: 'Cairo', sans-serif;
