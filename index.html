@@ -6,6 +6,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@900&display=swap" rel="stylesheet">  
   </head>
 
+
 <div id="apptitle" >
 <div class="cardme">
   <div class="card_imageme"> <img onclick="titlereturn()" src="https://www.hdwallpaper.nu/wp-content/uploads/2015/02/chicago-illinois-world-hd-wallpaper-1920x1080-10189.jpg" /> </div>
@@ -16,15 +17,7 @@
   </div>
 </div></div>
 
-<div id="points" v-if="pointsCard">
-<div class="card">
-  <div class="card_image"> <img src="https://www.hdwallpaper.nu/wp-content/uploads/2015/02/chicago-illinois-world-hd-wallpaper-1920x1080-10189.jpg" /> </div>
-  <div class="card_title title-white">
-<p>{{pointstext}}</p>
-    <p>{{points}}</p>
 
-  </div>
-</div></div>
 
 
 
@@ -33,19 +26,93 @@
 <div class="cards-list">
   
 <div id="appone" v-if="card1">
-<div class="card 1"  onclick="clickone(), points()">
-  <div class="card_image"> <img src="https://cdn.hipwallpaper.com/i/51/32/H3UcwZ.jpg" /> </div>
+<div class="card 1">
+
+
+
+ <div class="card_image">
+        <img v-if="img1" onclick="clickone()" src="https://i.ibb.co/1GG2BX5/IMG-20200809-041253.jpg">
+				<img v-if="img2" src="https://static.vecteezy.com/system/resources/previews/000/109/070/original/grunge-texture-vector-background.jpg">
+    </div>
+
+
+     <p style="text-align:center; font-size:10px; color:white;" v-if="text">تم حذف المسابقات<br> الأخرى والعمل على <br>هذه المسابقة حتى إنهائها مؤقتا</p>  
+
   <div class="card_title title-white">
-    <p v-if="text">المسابقة الأولى</p> <p v-if="textproject" style="font-size:25px">اضمر الصحابي:<br> من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو صاحب هذه المواقف</p>
+
+<p v-if="textproject" style="font-size:13px; color:black;">اضمر الصحابي:<br>
+من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو   صاحب هذه المواقف </p> 
+    <p v-if="guideone" style="color:black">{{guideOne1}}</p>
+    <p v-if="guidetwo" style="color:black">{{guideOne2}}</p>
+  <p v-if="guidethree" style="color:black">{{guideOne3}}</p>
+  <p v-if="guidefour" style="color:black">{{guideOne4}}</p>	
+  <p v-if="guidefive" style="color:black">{{guideOne5}}</p><br><br><br>
+ <p class="nextbtn" onclick="guideone1()" v-if="textproject">التالي</p>
+<p class="nextbtn" onclick="guideone2()" v-if="guideone">التالي</p>
+<p class="nextbtn" onclick="guideone3()" v-if="guidetwo">التالي</p>
+  <p class="nextbtn" onclick="guideone4()" v-if="guidethree">التالي</p>
+  <p class="nextbtn" onclick="guideone5()" v-if="guidefour">التالي</p>
+<p class="nextbtn" onclick="ansrguideone()" v-if="answersguideone">التالي</p>
+</div></div></div>
+<div id="boxone" v-if="boxone">
+<div  class="boxfull" v-if="optionA">
+	اختر الإجابة الصحيحة:
+	<div class="borderfull borderfull-topfull-leftfull"></div>
+	<div class="borderfull borderfull-topfull-rightfull"></div>
+	<div class="borderfull borderfull-bottomfull-rightfull"></div>
+	<div class="borderfull borderfull-bottomfull-leftfull"></div>
+  </div><br><br>
+
+<div class="box" id="fiveA" v-if="five" onclick="fouroneA(5)">
+	 {{fiveA}} 
+	<div class="border border-top-left"></div>
+	<div class="border border-top-right"></div>
+	<div class="border border-bottom-right"></div>
+	<div class="border border-bottom-left"></div>
+  </div><br>
+
+<div class="box" id="fourA" v-if="four" onclick="fouroneA(4)">
+	 {{fourA}} 
+	<div class="border border-top-left"></div>
+	<div class="border border-top-right"></div>
+	<div class="border border-bottom-right"></div>
+	<div class="border border-bottom-left"></div>
+  </div><br>
+
+<div class="box" id="oneA" v-if="one" onclick="fouroneA(1)">
+	{{oneA}} 
+	<div class="border border-top-left"></div>
+	<div class="border border-top-right"></div>
+	<div class="border border-bottom-right"></div>
+	<div class="border border-bottom-left"></div>
+  </div><br>
+
+<div class="box" id="twoA" v-if="two" onclick="fouroneA(2)">
+	 {{twoA}} 
+	<div class="border border-top-left"></div>
+	<div class="border border-top-right"></div>
+	<div class="border border-bottom-right"></div>
+	<div class="border border-bottom-left"></div>
+  </div><br>
+
+<div class="boxthreeA" id="threeA" v-if="three" onclick="threeoneA()">
+	 {{threeA}}
+	<div class="borderthreeA borderthreeA-top1-left1"> <!--class="border border-top-left"--> </div>
+	<div class="borderthreeA borderthreeA-top1-right1"> <!--class="border border-top-right"--> </div>
+	<div class="borderthreeA borderthreeA-bottom1-right1"> <!--class="border border-bottom-right"--></div>
+	<div class="borderthreeA borderthreeA-bottom1-left1"> <!--class="border border-bottom-left"--></div>
   </div>
-</div></div>
+</div>
+
+
+
 
   <div id="apptwo" v-if="card2"><div class="card 2"      style="display:block" onclick="clicktwo()">
   <div class="card_image">
     <img src="http://selfrecruiter.com/wp-content/uploads/2015/07/automne-1920-1080.jpg" />
     </div>
   <div class="card_title title-black">
-    <p v-if="text">المسابقة الثانية</p> <p v-if="textproject">الفكرة<br>blah blah blah</p>
+    <p v-if="text">المسابقة الثانية</p> <p v-if="textproject">فكرة المسابقة الثانية</p>
   </div>
 </div></div>
 
@@ -54,7 +121,7 @@
     <img src="https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif" />
   </div>
   <div class="card_title title-white">
-    <p v-if="text">المسابقة الثالثة</p> <p v-if="textproject">الفكرة<br>blah blah blah</p>
+    <p v-if="text">المسابقة الثالثة</p> <p v-if="textproject">فكرة المسابقة الثالثة</p>
   </div>
 </div></div>
   
@@ -63,7 +130,7 @@
     <img src="https://media.giphy.com/media/LwIyvaNcnzsD6/giphy.gif" />
     </div>
   <div class="card_title title-black">
-<p v-if="text">المسابقة الرابعة</p> <p v-if="textproject">الفكرة<br>blah blah blah</p>
+<p v-if="text">المسابقة الرابعة</p> <p v-if="textproject">فكرة المسابقة الرابعة</p>
   </div>
   </div>
 
@@ -71,7 +138,7 @@
   </div>
 
 
-</div>
+
   <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
   <script src="app.js"></script>
   </html>
