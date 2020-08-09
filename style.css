@@ -99,6 +99,7 @@ $border-delta: 80%;
   border: solid 5px transparent;
   border-radius: 10px;
   cursor: pointer;
+  display: flex;
 }
   .border {
     position: absolute;
@@ -320,6 +321,7 @@ $borderthreeA-deltathreeA: 80%; */
   border: solid 5px transparent;
   border-radius: 10px;
   cursor: pointer;
+  display: flex;
 }
   .borderthreeA {
     position: absolute;
