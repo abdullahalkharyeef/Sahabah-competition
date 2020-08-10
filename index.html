@@ -39,7 +39,6 @@
  
 
   <div class="card_title title-white">
-<p v-if="img1" style="color: white"  onclick="clickone()">مسابقة التخمين</p>
 <p v-if="textproject" style="font-size:13px; color:white;">اضمر الصحابي:<br>
 من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو   صاحب هذه المواقف </p> 
     <p v-if="guideone" style="color:white">{{guideOne1}}</p>
@@ -54,7 +53,8 @@
   <p class="nextbtn" onclick="guideone5()" v-if="guidefour">التالي</p>
 <p class="nextbtn" onclick="ansrguideone()" v-if="answersguideone">التالي</p>
 </div></div>
-<p style="text-align:center; font-size:30px; color:white;">النقاط: {{point}}</p> 
+<p v-if="img1" style="text-align=center; color: white"  onclick="clickone()">مسابقة التخمين</p>
+<p style="text-align:center; font-size:30px; color:white;" v-if="title">النقاط: {{point}}</p> 
 	</div>
 <div id="boxone" v-if="boxone">
 <div  class="boxfull" v-if="optionA">
