@@ -89,6 +89,9 @@ boxone.five= true;
 }
 
 function threeoneA () {
+if (boxone.optionA=true) {
+myApp1.point=myApp1.point+1
+}
 boxone.optionA= false;
 boxone.one= false;
 boxone.two= false;
@@ -96,7 +99,6 @@ boxone.four= false;
 boxone.five= false;
 boxone.threeA= "الإجابة صحيحة";
 myApp.title=true;
-myApp1.point=myApp1.point+1
 }
 
 function fouroneA (x) {
