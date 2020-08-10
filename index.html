@@ -9,7 +9,7 @@
 
 <body>
 
-<div id="apptitle" >
+<div id="apptitle" v-if="title">
 <div class="cardme">
   <div class="card_imageme"> <img onclick="titlereturn()" src="https://www.hdwallpaper.nu/wp-content/uploads/2015/02/chicago-illinois-world-hd-wallpaper-1920x1080-10189.jpg" /> </div>
   <div class="card_titleme title-whiteme">
@@ -33,28 +33,27 @@
 
 
  <div class="card_image">
-        <img v-if="img1" onclick="clickone()" src="https://i.ibb.co/1GG2BX5/IMG-20200809-041253.jpg">
-				<img v-if="img2" src="https://static.vecteezy.com/system/resources/previews/000/109/070/original/grunge-texture-vector-background.jpg">
+        <img v-if="img1" onclick="clickone()" src="https://i.ibb.co/pXhvzgk/Project-Capture-14.jpg">
+				<img v-if="img2" src="https://i.ibb.co/pXhvzgk/Project-Capture-14.jpg">
     </div>
-
-
-     <p style="text-align:center; font-size:10px; color:white;" v-if="text">تم حذف المسابقات<br> الأخرى والعمل على <br>هذه المسابقة حتى إنهائها مؤقتا</p>  
+ 
 
   <div class="card_title title-white">
-
-<p v-if="textproject" style="font-size:13px; color:black;">اضمر الصحابي:<br>
+<p v-if="img1" style="color: #7174e7"  onclick="clickone()">مسابقة التخمين</p>
+<p v-if="textproject" style="font-size:13px; color:#7174e7;">اضمر الصحابي:<br>
 من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو   صاحب هذه المواقف </p> 
-    <p v-if="guideone" style="color:black">{{guideOne1}}</p>
-    <p v-if="guidetwo" style="color:black">{{guideOne2}}</p>
-  <p v-if="guidethree" style="color:black">{{guideOne3}}</p>
-  <p v-if="guidefour" style="color:black">{{guideOne4}}</p>	
-  <p v-if="guidefive" style="color:black">{{guideOne5}}</p><br><br><br>
+    <p v-if="guideone" style="color:#7174e7">{{guideOne1}}</p>
+    <p v-if="guidetwo" style="color:#7174e7">{{guideOne2}}</p>
+  <p v-if="guidethree" style="color:#7174e7">{{guideOne3}}</p>
+  <p v-if="guidefour" style="color:#7174e7">{{guideOne4}}</p>	
+  <p v-if="guidefive" style="color:#7174e7">{{guideOne5}}</p><br><br>
  <p class="nextbtn" onclick="guideone1()" v-if="textproject">التالي</p>
 <p class="nextbtn" onclick="guideone2()" v-if="guideone">التالي</p>
 <p class="nextbtn" onclick="guideone3()" v-if="guidetwo">التالي</p>
   <p class="nextbtn" onclick="guideone4()" v-if="guidethree">التالي</p>
   <p class="nextbtn" onclick="guideone5()" v-if="guidefour">التالي</p>
 <p class="nextbtn" onclick="ansrguideone()" v-if="answersguideone">التالي</p>
+<p style="text-align:center; font-size:30px; color:white;">النقاط: {{point}}</p> 
 </div></div></div>
 <div id="boxone" v-if="boxone">
 <div  class="boxfull" v-if="optionA">
