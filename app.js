@@ -47,9 +47,7 @@ var myApp1 = new Vue({
     guideOne5: "التلميحة الخامسة",
     answersguideone: false,
     optionansr: false,
-  correctAnsrguideone:"الإجابة الصحيحة",
-    incorrectAnsrguideone:["الإجابة الخاطئة","الإجابة الخاطئة","الإجابة الخاطئة","الإجابة الخاطئة"]
-}
+  }
 })
 function guideone1 (){
  myApp1.textproject=false;
