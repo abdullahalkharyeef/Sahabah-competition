@@ -89,8 +89,8 @@ boxone.five= true;
 }
 
 function threeoneA () {
-if (boxone.optionA=true) {
-myApp1.point=myApp1.point+1
+if (boxone.optionA==true) {
+myApp1.point=myApp1.point+1;
 }
 boxone.optionA= false;
 boxone.one= false;
