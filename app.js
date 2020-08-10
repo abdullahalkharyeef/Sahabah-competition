@@ -1,10 +1,11 @@
 var myApp = new Vue({
     el: '#apptitle',
     data: {
+    title: true,
 		apptitle:true,
 		apptitlereturn:false,
 		text: 'التطبيق',
-		text1: 'العودة' 
+		text1: 'العودة'
 
 }
 })
@@ -28,6 +29,7 @@ var boxone = new Vue({
 var myApp1 = new Vue({
     el: '#appone',
     data: {
+		point:0,
 		card1: true,
     img1:true,
     img2:false,
@@ -93,6 +95,8 @@ boxone.two= false;
 boxone.four= false;
 boxone.five= false;
 boxone.threeA= "الإجابة صحيحة";
+myApp.title=true;
+myApp1.point=myApp1.point+1
 }
 
 function fouroneA (x) {
@@ -129,7 +133,7 @@ boxone.four= false;
 boxone.five= true;
 boxone.fiveA= "الإجابة خاطئة";} 
 
-
+myApp.title=true;
 
 
 }
@@ -221,6 +225,7 @@ myApp2.card2= false;
 myApp3.card3= false;
 myApp4.card4= false;
 myApp1.text=false;
+myApp.title=false;
 myApp1.textproject=true;
 myApp1.img1=false;
 myApp1.img2=true;
