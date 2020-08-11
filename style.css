@@ -96,7 +96,7 @@ $border-delta: 80%;
   text-align: center;
   position: relative;
   color: red;
-  background-image: url("https://i.ibb.co/r4LXmC9/geometric-art-wallpaper-3554x1999.jpg");
+  background: white;
   background-clip: padding-box;
   border: solid 5px transparent;
   border-radius: 10px;
@@ -235,19 +235,17 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
 
 
-/*$borderfull: 3px;
-$borderfull-deltafull: 0%; */
 
 .boxfull {
-	font-family: 'Cairo', sans-serif;
+  font-family: 'Cairo', sans-serif;
   font-size: 20px;
   box-sizing: border-box;
   padding: 15px 30px;
   text-transform: uppercase;
   text-align: center;
   position: relative;
-  color: #7174e7;
-  background-image: url("https://i.ibb.co/r4LXmC9/geometric-art-wallpaper-3554x1999.jpg");
+  color: #white;
+  background-image: url("http://www.androidguys.com/wp-content/uploads/2016/05/geometric-shapes-design-wallpaper-3.jpg");
   background-clip: padding-box;
   border: solid 3px transparent;
   border-radius: 10px;
@@ -308,7 +306,7 @@ $borderfull-deltafull: 0%; */
   text-align: center;
   position: relative;
   color: green;
-  background-image: url("https://i.ibb.co/r4LXmC9/geometric-art-wallpaper-3554x1999.jpg");
+  background: white;
   background-clip: padding-box;
   border: solid 5px transparent;
   border-radius: 10px;
