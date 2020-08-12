@@ -12,16 +12,6 @@ background-position: center;
   flex-wrap: wrap;
 }
 .nextbtn {
-text-align:center;
-background-repeat: no-repeat, repeat;
-border-radius: 0px 0px 40px 40px;
-font-family: 'Cairo', sans-serif;
-font-weight: bold;
-z-index: 0;
-width: 250px;
-height: 150px;
-border-radius: 25px;
-color: black;
 background-image: url("https://i.ibb.co/vcYZ697/New-Project.png");
 }
 .card {
