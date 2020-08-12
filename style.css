@@ -13,6 +13,7 @@ background-position: center;
 }
 .nextbtn {
 background-image: url("https://i.ibb.co/vcYZ697/New-Project.png");
+background-repeat: no-repeat, repeat;
 }
 .card {
   font-family: 'Cairo', sans-serif;
