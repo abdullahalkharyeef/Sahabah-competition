@@ -45,7 +45,7 @@
     <p style="text-align:center; font-size:13px; color: white" v-if="guidetwo">{{guideOne2}}</p>
   <p style="text-align:center; font-size:13px; color: white" v-if="guidethree">{{guideOne3}}</p>
   <p style="text-align:center; font-size:13px; color: white" v-if="guidefour">{{guideOne4}}</p>	
-  <p style="text-align:center; font-size:13px; color: white" v-if="guidefive">{{guideOne5}}</p><br><br>
+  <p style="text-align:center; font-size:7px; color: white" v-if="guidefive">{{guideOne5}}</p><br><br>
 	  
 <p v-if="img1" style="text-align:center; color: white"  onclick="clickone()">مسابقة التخمين</p>
 <p style="text-align:center; font-size:30px; color:white;" v-if="img1">النقاط: {{point}}</p>
@@ -61,7 +61,7 @@
 <div id="boxone" v-if="boxone">
 <div  class="boxfull" v-if="optionA">
 	اختر الإجابة الصحيحة:
-	<div class="borderfull -topfull-leftfull"></div>
+        <div class="borderfull -topfull-leftfull"></div>
 	<div class="borderfull -topfull-rightfull"></div>
 	<div class="borderfull -bottomfull-rightfull"></div>
 	<div class="borderfull -bottomfull-leftfull"></div>
@@ -69,34 +69,18 @@
 
 <div class="box" id="fiveA" v-if="five" onclick="fouroneA(5)">
 	 {{fiveA}} 
-	<div class="border -top-left"></div>
-	<div class="border -top-right"></div>
-	<div class="border -bottom-right"></div>
-	<div class="border -bottom-left"></div>
   </div><br>
 
 <div class="box" id="fourA" v-if="four" onclick="fouroneA(4)">
 	 {{fourA}} 
-	<div class="border -top-left"></div>
-	<div class="border -top-right"></div>
-	<div class="border -bottom-right"></div>
-	<div class="border -bottom-left"></div>
   </div><br>
 
 <div class="box" id="oneA" v-if="one" onclick="fouroneA(1)">
 	{{oneA}} 
-	<div class="border -top-left"></div>
-	<div class="border -top-right"></div>
-	<div class="border -bottom-right"></div>
-	<div class="border -bottom-left"></div>
   </div><br>
 
 <div class="box" id="twoA" v-if="two" onclick="fouroneA(2)">
 	 {{twoA}} 
-	<div class="border -top-left"></div>
-	<div class="border -top-right"></div>
-	<div class="border -bottom-right"></div>
-	<div class="border -bottom-left"></div>
   </div><br>
 
 <div class="box" id="threeA" v-if="three" onclick="threeoneA()">
