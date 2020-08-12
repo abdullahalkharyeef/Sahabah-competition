@@ -14,7 +14,7 @@ background-position: center;
 .nextbtn {
  border: 4px solid black; 
     width: 300px;
-  height: 250px;
+  height: 200px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
