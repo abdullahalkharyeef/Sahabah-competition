@@ -137,19 +137,6 @@ myApp.title=true;
 
 
 }
-//var guideOne = new Vue({
-    //el: 'guides',
-//    data:{
-	//  guideone:false,
-// + //  guidetwo:false,
-   // guidethree:false,
- //   guidefour:false,
-//  +  guidefive:false,
-//	  guideOne1:"التلميحة الأولى",
-  //  guideOne2:"التلميحة الثانية",
-  //  guideOne3:"التلميحة الثالثة",
-  //  guideOne4:"التلميحة الرابعة",
-  //  guideOne5:"التلميحة الخامسة"} })
 
 
  var myApp2 = new Vue({
@@ -201,11 +188,11 @@ myApp1.guidefour=false;
 myApp1.guidefive=false;
 myApp1.answersguideone=false;
 boxone.boxone=false;
-boxone.threeA= "الإجابة الصحيحة";
-boxone.fourA= "الإجابة الخاطئة";
-boxone.fiveA= "الإجابة الخاطئة";
-boxone.oneA= "الإجابة الخاطئة";
-boxone.twoA= "الإجابة الخاطئة";
+boxone.threeA= "سلمان الفارسي";
+boxone.fourA= "صهيب الرومي";
+boxone.fiveA= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
+boxone.oneA= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
+boxone.twoA= "سعد بن معاذ";
 	 texttitlereturn();
 }
 
