@@ -13,6 +13,7 @@ background-position: center;
 }
 .nextbtn {
 text-align:center;
+background-repeat: no-repeat, repeat;
 border-radius: 0px 0px 40px 40px;
 font-family: 'Cairo', sans-serif;
 font-weight: bold;
