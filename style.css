@@ -92,7 +92,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   text-align: center;
   position: relative;
   color: red;
-  background: white;
+  background: #3cc1fa;
   background-clip: padding-box;
   border: solid 5px transparent;
   border-radius: 10px;
@@ -103,38 +103,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     margin: -5px;
     border-radius: inherit;
     z-index: -1;
-    background: linear-gradient(to right, #7174e7, red);
-    transition: all 0.9s;
 }
-
- .-top-left {
-      top: 0;
-      right: 80%;
-      bottom: 80%;
-      left: 0;
-    }
-
-  .-top-right {
-      top: 0;
-      right: 0;
-      bottom: 80%;
-      left: 80%;
-    }
-
-   .-bottom-right {
-      top: 80%;
-      right: 0;
-      bottom: 0;
-      left: 80%;
-    }
-
-   .-bottom-left {
-      top: 80%;
-      right: 80%;
-      bottom: 0;
-      left: 0;
-    }
-		
 
   .border:hover {
       top: 0;
@@ -234,7 +203,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
 .boxfull {
   font-family: 'Cairo', sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   box-sizing: border-box;
   padding: 15px 30px;
   text-transform: uppercase;
@@ -294,15 +263,15 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
 
 .boxthreeA {
-	font-family: 'Cairo', sans-serif;
-  font-size: 10px;
+  font-family: 'Cairo', sans-serif;
+  font-size: 20px;
   box-sizing: border-box;
   padding: 15px 30px;
   text-transform: uppercase;
   text-align: center;
   position: relative;
   color: green;
-  background: white;
+  background: #3cc1fa;
   background-clip: padding-box;
   border: solid 5px transparent;
   border-radius: 10px;
@@ -313,43 +282,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     margin: -5px;
     border-radius: inherit;
     z-index: -1;
-    background: linear-gradient(to right, #7174e7, green);
     transition: all 0.9s;
 }
 
- .-top-left {
-      top: 0;
-      right: 80%;
-      bottom: 80%;
-      left: 0;
-    }
-
-  .-top-right {
-      top: 0;
-      right: 0;
-      bottom: 80%;
-      left: 80%;
-    }
-
-   .-bottom-right {
-      top: 80%;
-      right: 0;
-      bottom: 0;
-      left: 80%;
-    }
-
-   .-bottom-left {
-      top: 80%;
-      right: 80%;
-      bottom: 0;
-      left: 0;
-    }
-		
-
-  .borderthreeA:hover {
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-    }
  
