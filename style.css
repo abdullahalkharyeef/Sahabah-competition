@@ -97,20 +97,8 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   border: solid 5px transparent;
   border-radius: 10px;
   cursor: pointer;
+  border: solid 3px transparent;
 }
-  .border {
-    position: absolute;
-    margin: -5px;
-    border-radius: inherit;
-    z-index: -1;
-}
-
-  .border:hover {
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-    }
 
  
 
@@ -210,6 +198,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   text-align: center;
   position: relative;
   color: #white;
+  border: solid 3px transparent;
   background: #3cc1fa;
   background-clip: padding-box;
   border: solid 3px transparent;
@@ -217,49 +206,6 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   cursor: pointer;
 }
 
-  .boxfull .borderfull {
-    position: absolute;
-    margin: -3px;
-    border-radius: inherit;
-    z-index: -1;
-    background: linear-gradient(to right, #7174e7, #7174e7);
-    transition: all 8s;
-}
-  	.-topfull-leftfull {
-      top: 0;
-      right: 0%;
-      bottom: 0%;
-      left: 0;
-    }   
-
-    .-topfull-rightfull {
-      top: 0;
-      right: 0; 
-      bottom: 0%;
-      left: 0%;
-    }   
-
-    .-bottomfull-rightfull {
-      top: 0%;
-      right: 0;
-      bottom: 0;
-      left: 0%;
-    }
-
-    .-bottomfull-leftfull {
-      top: 0%;
-      right: 0%;
-      bottom: 0;
-      left: 0;
-    }
-		
-
-  .borderfull:hover {
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-    }
 
 
 .boxthreeA {
