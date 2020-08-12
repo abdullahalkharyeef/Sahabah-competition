@@ -42,7 +42,8 @@
 <p v-if="textproject" style="font-size:13px; color:white;">اضمر الصحابي:<br>
 من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو   صاحب هذه المواقف </p> 
 	  </div></div>
-
+<p v-if="img1" style="text-align:center; color: white"  onclick="clickone()">مسابقة التخمين</p>
+<p style="text-align:center; font-size:30px; color:white;" v-if="img1">النقاط: {{point}}</p>
     <p style="text-align:center; color: white" v-if="guideone" style="color:white">{{guideOne1}}</p>
     <p style="text-align:center; color: white" v-if="guidetwo" style="color:white">{{guideOne2}}</p>
   <p style="text-align:center; color: white" v-if="guidethree" style="color:white">{{guideOne3}}</p>
@@ -53,9 +54,7 @@
 <p style="text-align:center; color: white" class="nextbtn" onclick="guideone3()" v-if="guidetwo">التالي</p>
   <p style="text-align:center; color: white" class="nextbtn" onclick="guideone4()" v-if="guidethree">التالي</p>
   <p style="text-align:center; color: white" class="nextbtn" onclick="guideone5()" v-if="guidefour">التالي</p>
-<p style="text-align:center; color: white" class="nextbtn" onclick="ansrguideone()" v-if="answersguideone">التالي</p>
-<p v-if="img1" style="text-align:center; color: white"  onclick="clickone()">مسابقة التخمين</p>
-<p style="text-align:center; font-size:30px; color:white;" v-if="img1">النقاط: {{point}}</p> 
+<p style="text-align:center; color: white" class="nextbtn" onclick="ansrguideone()" v-if="answersguideone">التالي</p> 
 	</div>
 <div id="boxone" v-if="boxone">
 <div  class="boxfull" v-if="optionA">
