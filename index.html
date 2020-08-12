@@ -41,18 +41,19 @@
   <div class="card_title title-white">
 <p v-if="textproject" style="font-size:13px; color:white;">اضمر الصحابي:<br>
 من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو   صاحب هذه المواقف </p> 
-    <p v-if="guideone" style="color:white">{{guideOne1}}</p>
-    <p v-if="guidetwo" style="color:white">{{guideOne2}}</p>
-  <p v-if="guidethree" style="color:white">{{guideOne3}}</p>
-  <p v-if="guidefour" style="color:white">{{guideOne4}}</p>	
-  <p v-if="guidefive" style="color:white">{{guideOne5}}</p><br><br>
- <p class="nextbtn" onclick="guideone1()" v-if="textproject">التالي</p>
-<p class="nextbtn" onclick="guideone2()" v-if="guideone">التالي</p>
-<p class="nextbtn" onclick="guideone3()" v-if="guidetwo">التالي</p>
-  <p class="nextbtn" onclick="guideone4()" v-if="guidethree">التالي</p>
-  <p class="nextbtn" onclick="guideone5()" v-if="guidefour">التالي</p>
-<p class="nextbtn" onclick="ansrguideone()" v-if="answersguideone">التالي</p>
-</div></div>
+	  </div></div>
+
+    <p style="text-align:center; color: white" v-if="guideone" style="color:white">{{guideOne1}}</p>
+    <p style="text-align:center; color: white" v-if="guidetwo" style="color:white">{{guideOne2}}</p>
+  <p style="text-align:center; color: white" v-if="guidethree" style="color:white">{{guideOne3}}</p>
+  <p style="text-align:center; color: white" v-if="guidefour" style="color:white">{{guideOne4}}</p>	
+  <p style="text-align:center; color: white" v-if="guidefive" style="color:white">{{guideOne5}}</p><br><br>
+ <p style="text-align:center; color: white" class="nextbtn" onclick="guideone1()" v-if="textproject">التالي</p>
+<p style="text-align:center; color: white" class="nextbtn" onclick="guideone2()" v-if="guideone">التالي</p>
+<p style="text-align:center; color: white" class="nextbtn" onclick="guideone3()" v-if="guidetwo">التالي</p>
+  <p style="text-align:center; color: white" class="nextbtn" onclick="guideone4()" v-if="guidethree">التالي</p>
+  <p style="text-align:center; color: white" class="nextbtn" onclick="guideone5()" v-if="guidefour">التالي</p>
+<p style="text-align:center; color: white" class="nextbtn" onclick="ansrguideone()" v-if="answersguideone">التالي</p>
 <p v-if="img1" style="text-align:center; color: white"  onclick="clickone()">مسابقة التخمين</p>
 <p style="text-align:center; font-size:30px; color:white;" v-if="img1">النقاط: {{point}}</p> 
 	</div>
