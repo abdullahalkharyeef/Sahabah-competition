@@ -18,7 +18,7 @@ background-position: center;
   display: flex;
  border-radius: 50px;
 color: black;
-background-image: url("https://i.ibb.co/mRnzyV8/gold-brush-stoke-texture-white-background-with-black-line-frame-46250-123.jpg");
+background-image: url("https://i.ibb.co/QJZyKwY/gold-brush-stoke-texture-white-background-with-black-line-frame-46250-123.png");
 }
 .card {
   font-family: 'Cairo', sans-serif;
@@ -246,7 +246,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   text-align: center;
   position: relative;
   color: #white;
-  background-image: url("https://i.ibb.co/mRnzyV8/gold-brush-stoke-texture-white-background-with-black-line-frame-46250-123.jpg");
+  background-image: url("https://i.ibb.co/QJZyKwY/gold-brush-stoke-texture-white-background-with-black-line-frame-46250-123.png");
   background-clip: padding-box;
   border: solid 3px transparent;
   border-radius: 10px;
