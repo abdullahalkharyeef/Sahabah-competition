@@ -4,7 +4,7 @@ var myApp = new Vue({
     title: true,
 		apptitle:true,
 		apptitlereturn:false,
-		text: 'التطبيق',
+		text: 'جوانا زعلانه',
 		text1: 'العودة'
 
 }
