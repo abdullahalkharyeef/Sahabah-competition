@@ -81,53 +81,40 @@ var myApp1 = new Vue({
 		textproject: false,
   }
 })
-function guide1 (x){
- myApp1.textproject=false;
-   boxone.guideone=true;
-}
-function guide2 (x){
-   myApp1.guideone=false;
-   myApp1.guidetwo=true;
-}
-function guide3 (x){
-   myApp1.guidetwo=false;
-   myApp1.guidethree=true;
-}
-function guide4 (x){
-   myApp1.guidethree=false;
-	 myApp1.guidefour=true;
-}
-function guide5 (x){
-   boxone.guidefour=false;
-   boxone.answersguide=true;
-   boxone.guidefive=true;
-}
-
-function ansrguide (x) {
-boxone.answersguide= false;	
-	boxone.guidefive= false;
-myApp1.card1= false;
-boxone.optionA=true
-boxone.boxone= true
-boxone.one= true;
-boxone.two= true;
-boxone.three= true;
-boxone.four= true;
-boxone.five= true;
-}
+function guide1 (x){ myApp1.textproject=false;  if(x==1){boxone.guideone=true;} if(x==2){boxtwo.guideone=true;}if(x==3){boxthree.guideone=true;}if(x==4){boxfour.guideone=true;}if(x==5){boxfive.guideone=true;}}
+function guide2 (x){  if(x==1){boxone.guideone=false;  boxone.guidetwo=true;}if(x==2){boxtwo.guideone=false;  boxtwo.guidetwo=true;}if(x==3){boxthree.guideone=false;  boxthree.guidetwo=true;}if(x==4){boxfour.guideone=false;  boxfour.guidetwo=true;}if(x==5){boxfive.guideone=false;  boxfive.guidetwo=true;}}
+function guide3 (x){   if(x==1){boxone.guidetwo=false;   boxone.guidethree=true;}if(x==2){boxtwo.guidetwo=false;   boxtwo.guidethree=true;}if(x==3){boxthree.guidetwo=false;   boxthree.guidethree=true;}if(x==4){boxfour.guidetwo=false;   boxfour.guidethree=true;}if(x==5){boxfive.guidetwo=false;   boxfive.guidethree=true;}}
+function guide4 (x){  if (x==1){ boxone.guidethree=false;	 boxone.guidefour=true;}if (x==2){ boxtwo.guidethree=false;	 boxtwo.guidefour=true;}if (x==3){ boxthree.guidethree=false;	 boxthree.guidefour=true;}if (x==4){ boxfour.guidethree=false;	 boxfour.guidefour=true;}if (x==5){ boxfive.guidethree=false;	 boxfive.guidefour=true;}}
+function guide5(x){  if (x==1){boxone.guidefour=false;boxone.answersguide=true; boxone.guidefive=true;} if (x==2){boxtwo.guidefour=false;boxtwo.answersguide=true; boxtwo.guidefive=true;} if (x==3){boxthree.guidefour=false;boxthree.answersguide=true; boxthree.guidefive=true;} if (x==4){boxfour.guidefour=false;boxfour.answersguide=true; boxfour.guidefive=true;} if (x==5){boxfive.guidefour=false;boxfive.answersguide=true; boxfive.guidefive=true;}}
+function ansrguide (x) { if(x==1){boxone.answersguide= false;	boxone.guidefive=false;myApp1.card1= false;boxone.optionA=true;boxone.boxone= true;boxone.one= true;boxone.two= true;boxone.three= true;boxone.four= true;boxone.five= true;} if(x==2){boxtwo.answersguide= false;	boxtwo.guidefive=false;myApp1.card1= false;boxtwo.optionA=true;boxtwo.boxtwo= true;boxtwo.one= true;boxtwo.two= true;boxtwo.three= true;boxtwo.four= true;boxtwo.five= true;} if(x==3){boxthree.answersguide= false;	boxthree.guidefive=false;myApp1.card1= false;boxthree.optionA=true;boxthree.boxthree= true;boxthree.one= true;boxthree.two= true;boxthree.three= true;boxthree.four= true;boxthree.five= true;} if(x==4){boxfour.answersguide= false;	boxfour.guidefive=false;myApp1.card1= false;boxfour.optionA=true;boxfour.boxfour= true;boxfour.one= true;boxfour.two= true;boxfour.three= true;boxfour.four= true;boxfour.five= true;} if(x==5){boxfive.answersguide= false;	boxfive.guidefive=false;myApp1.card1= false;boxfive.optionA=true;boxfive.boxfive= true;boxfive.one= true;boxfive.two= true;boxfive.three= true;boxfive.four= true;boxfive.five= true;}}
 
 function threeA (x) {
-if (boxone.optionA==true) {
-myApp1.point=myApp1.point+1;
-}
-boxone.optionA= false;
-boxone.one= false;
-boxone.two= false;
-boxone.four= false;
-boxone.five= false;
-boxone.threeA= "الإجابة صحيحة";
+
+if(boxone.boxone==true){if (boxone.optionA==true) {myApp1.point=myApp1.point+1;}
+
+boxone.optionA= false;boxone.one= false;boxone.two= false;boxone.four= false;boxone.five= false;boxone.threeA= "الإجابة صحيحة";myApp.title=true;}
+
+if(boxtwo.boxtwo==true){if (boxtwo.optionA==true) {myApp1.point=myApp1.point+1;}
+
+boxtwo.optionA= false;boxtwo.one= false;boxtwo.two= false;boxtwo.four= false;boxtwo.five= false;boxtwo.threeA= "الإجابة صحيحة";myApp.title=true;}
+
+if(boxthree.boxthree==true){if (boxthree.optionA==true) {myApp1.point=myApp1.point+1;}
+
+boxthree.optionA= false;boxthree.one= false;boxthree.two= false;boxthree.four= false;boxthree.five= false;boxthree.threeA= "الإجابة صحيحة";myApp.title=true;}
+
+if(boxfour.boxfour==true){if (boxfour.optionA==true) {myApp1.point=myApp1.point+1;}
+
+boxfour.optionA= false;boxfour.one= false;boxfour.two= false;boxfour.four= false;boxfour.five= false;boxfour.threeA= "الإجابة صحيحة";myApp.title=true;}
+
+if(boxfive.boxfive==true){if (boxfive.optionA==true) {myApp1.point=myApp1.point+1;}
+
+boxfive.optionA= false;boxfive.one= false;boxfive.two= false;boxfive.four= false;boxfive.five= false;boxfive.threeA= "الإجابة صحيحة";myApp.title=true;}
+
 myApp.title=true;
+
 }
+
+
 
 function fourA (x) {
 boxone.optionA= false;
