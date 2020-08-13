@@ -28,6 +28,7 @@ var boxone = new Vue({
     optionansr: false,
     three: true,
     one: true,
+    textproject:true,
     two: true,
     four: true,
     five: true,
@@ -78,7 +79,7 @@ var myApp1 = new Vue({
     img1:true,
     img2:false,
     text: true,
-		textproject: false,
+		textproject: true,
   }
 })
 function guide1 (x){ myApp1.textproject=true;  if(x==1){boxone.guideone=true;} if(x==2){boxtwo.guideone=true;}if(x==3){boxthree.guideone=true;}if(x==4){boxfour.guideone=true;}if(x==5){boxfive.guideone=true;}}
