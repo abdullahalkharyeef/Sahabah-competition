@@ -117,6 +117,7 @@ myApp.title=true;
 
 
 function fourA (x) {
+if (boxone.boxone==true){
 boxone.optionA= false;
 if (x=1){
 boxone.one= true;
@@ -151,6 +152,155 @@ boxone.five= true;
 boxone.fiveA= "الإجابة خاطئة";} 
 
 myApp.title=true;
+}
+
+if (boxtwo.boxtwo==true){
+boxtwo.optionA= false;
+if (x=1){
+boxtwo.one= true;
+boxtwo.two= false;
+boxtwo.three= false;
+boxtwo.four= false;
+boxtwo.five= false;
+boxtwo.oneA= "الإجابة خاطئة";}
+
+if (x=2){
+boxtwo.one= false;
+boxtwo.two= true;
+boxtwo.three= false;
+boxtwo.four= false;
+boxtwo.five= false;
+boxtwo.twoA= "الإجابة خاطئة";}  
+ 
+if (x=4){
+boxtwo.one= false;
+boxtwo.two= false;
+boxtwo.three= false;
+boxtwo.four= true;
+boxtwo.five= false;
+boxtwo.fourA= "الإجابة خاطئة";} 
+
+if (x=5){
+boxtwo.one= false;
+boxtwo.two= false;
+boxtwo.three= false;
+boxtwo.four= false;
+boxtwo.five= true;
+boxtwo.fiveA= "الإجابة خاطئة";} 
+
+myApp.title=true;
+}
+
+if (boxthree.boxthree==true){
+boxthree.optionA= false;
+if (x=1){
+boxthree.one= true;
+boxthree.two= false;
+boxthree.three= false;
+boxthree.four= false;
+boxthree.five= false;
+boxthree.oneA= "الإجابة خاطئة";}
+
+if (x=2){
+boxthree.one= false;
+boxthree.two= true;
+boxthree.three= false;
+boxthree.four= false;
+boxthree.five= false;
+boxthree.twoA= "الإجابة خاطئة";}  
+ 
+if (x=4){
+boxthree.one= false;
+boxthree.two= false;
+boxthree.three= false;
+boxthree.four= true;
+boxthree.five= false;
+boxthree.fourA= "الإجابة خاطئة";} 
+
+if (x=5){
+boxthree.one= false;
+boxthree.two= false;
+boxthree.three= false;
+boxthree.four= false;
+boxthree.five= true;
+boxthree.fiveA= "الإجابة خاطئة";} 
+
+myApp.title=true;
+}
+
+if (boxfour.boxfour==true){
+boxfour.optionA= false;
+if (x=1){
+boxfour.one= true;
+boxfour.two= false;
+boxfour.three= false;
+boxfour.four= false;
+boxfour.five= false;
+boxfour.oneA= "الإجابة خاطئة";}
+
+if (x=2){
+boxfour.one= false;
+boxfour.two= true;
+boxfour.three= false;
+boxfour.four= false;
+boxfour.five= false;
+boxfour.twoA= "الإجابة خاطئة";}  
+ 
+if (x=4){
+boxfour.one= false;
+boxfour.two= false;
+boxfour.three= false;
+boxfour.four= true;
+boxfour.five= false;
+boxfour.fourA= "الإجابة خاطئة";} 
+
+if (x=5){
+boxfour.one= false;
+boxfour.two= false;
+boxfour.three= false;
+boxfour.four= false;
+boxfour.five= true;
+boxfour.fiveA= "الإجابة خاطئة";} 
+
+myApp.title=true;
+}
+
+if (boxfive.boxfive==true){
+boxfive.optionA= false;
+if (x=1){
+boxfive.one= true;
+boxfive.two= false;
+boxfive.three= false;
+boxfive.four= false;
+boxfive.five= false;
+boxfive.oneA= "الإجابة خاطئة";}
+
+if (x=2){
+boxfive.one= false;
+boxfive.two= true;
+boxfive.three= false;
+boxfive.four= false;
+boxfive.five= false;
+boxfive.twoA= "الإجابة خاطئة";}  
+ 
+if (x=4){
+boxfive.one= false;
+boxfive.two= false;
+boxfive.three= false;
+boxfive.four= true;
+boxfive.five= false;
+boxfive.fourA= "الإجابة خاطئة";} 
+
+if (x=5){
+boxfive.one= false;
+boxfive.two= false;
+boxfive.three= false;
+boxfive.four= false;
+boxfive.five= true;
+boxfive.fiveA= "الإجابة خاطئة";} 
+
+myApp.title=true;
+}
 
 
 }
