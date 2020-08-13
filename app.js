@@ -11,9 +11,21 @@ var myApp = new Vue({
 })
 var boxone = new Vue({
     el: '#boxone',
-    data: {
-		boxone: false,
+    data: {	
+	boxone: false,
     optionA: true,
+	   guideone: false,
+    guidetwo: false,
+    guidethree: false,
+    guidefour: false,
+    guidefive: false,
+	  guide1: "انتقل بين البلدان ليصحب الرجال الصالحين من القساوسة، إلى أن وصف له أحدهم ظهور نبي في بلاد العرب محمد صلى الله عليه وسلم",
+    guide2: "أعلى النبي صلى الله عليه وسلم من منزلته، فقد روى أنس بن مالك عن النبي صلى الله عليه وسلم قوله: «الجنة تشتاق إلى ثلاثة:...» وذكره منهم. /سنن الترمذي» كتاب المناقب",
+    guide3: "قال عنه الخليفة علي بن أبي طالب رضي الله عنه: «أدرك العلم الأول، والعلم الآخر، بحر لا يدرك قعره، وهو منا أهل البيت». /سير أعلام النبلاء",
+    guide4: "قال رضي الله عنه: «شهدت مع رسول الله صلى الله عليه وسلم الخندق، ثم لم يفتني معه مشهد». رواه الإمام أحمد في مسنده برقم ٢٣٧٣٧",
+    guide5: "روى الإمام أحمد في مسنده من حديث الحسن قال: لما احتضر (...) بكى، وقال: إن رسول الله صلى الله عليه وسلم عهد إلينا عهدًا، فتركنا ما عهد إلينا، أن يكون بلغة أحدنا من الدنيا كزاد الراكب، قال: ثم نظرنا فيما ترك، فإذا قيمة ما ترك بضعة وعشرون درهمًا، أو بضعة وثلاثون درهمًا. توفي سنة خمس وثلاثين من هجرة الرسول صلى الله عليه وسلم آخر خلافة عثمان رضي الله عنه",
+    answersguide: false,
+    optionansr: false,
     three: true,
     one: true,
     two: true,
@@ -26,6 +38,24 @@ var boxone = new Vue({
     oneA: "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ"
 }
 })
+var boxtwo = new Vue({
+    el: '#boxtwo',
+    data: {		
+	boxtwo: false, 
+	optionA: true,
+        three: true,
+        one: true,
+        two: true,
+        four: true,
+        five: true,	
+	fiveA: "صهيب الرومي",
+        fourA: "أبو أيوب خالد بن زيد بن كليب الأنصاري",
+        threeA:"سلمان الفارسي",		
+	twoA: "سعد بن معاذ",
+        oneA: "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ"
+}
+})
+
 var myApp1 = new Vue({
     el: '#appone',
     data: {
@@ -35,47 +65,33 @@ var myApp1 = new Vue({
     img2:false,
     text: true,
 		textproject: false,
-    guideone: false,
-    guidetwo: false,
-    guidethree: false,
-    guidefour: false,
-    guidefive: false,
-	  guideOne1: "انتقل بين البلدان ليصحب الرجال الصالحين من القساوسة، إلى أن وصف له أحدهم ظهور نبي في بلاد العرب محمد صلى الله عليه وسلم",
-    guideOne2: "أعلى النبي صلى الله عليه وسلم من منزلته، فقد روى أنس بن مالك عن النبي صلى الله عليه وسلم قوله: «الجنة تشتاق إلى ثلاثة:...» وذكره منهم. /سنن الترمذي» كتاب المناقب",
-    guideOne3: "قال عنه الخليفة علي بن أبي طالب رضي الله عنه: «أدرك العلم الأول، والعلم الآخر، بحر لا يدرك قعره، وهو منا أهل البيت». /سير أعلام النبلاء",
-    guideOne4: "قال رضي الله عنه: «شهدت مع رسول الله صلى الله عليه وسلم الخندق، ثم لم يفتني معه مشهد». رواه الإمام أحمد في مسنده برقم ٢٣٧٣٧",
-    guideOne5: "روى الإمام أحمد في مسنده من حديث الحسن قال: لما احتضر (...) بكى، وقال: إن رسول الله صلى الله عليه وسلم عهد إلينا عهدًا، فتركنا ما عهد إلينا، أن يكون بلغة أحدنا من الدنيا كزاد الراكب، قال: ثم نظرنا فيما ترك، فإذا قيمة ما ترك بضعة وعشرون درهمًا، أو بضعة وثلاثون درهمًا. توفي سنة خمس وثلاثين من هجرة الرسول صلى الله عليه وسلم آخر خلافة عثمان رضي الله عنه",
-    answersguideone: false,
-    optionansr: false,
   }
 })
-function guideone1 (){
+function guide1 (x){
  myApp1.textproject=false;
-   myApp1.guideone=true;
+   boxone.guideone=true;
 }
-function guideone2 (){
+function guide2 (x){
    myApp1.guideone=false;
    myApp1.guidetwo=true;
 }
-function guideone3 (){
+function guide3 (x){
    myApp1.guidetwo=false;
    myApp1.guidethree=true;
 }
-function guideone4 (){
+function guide4 (x){
    myApp1.guidethree=false;
 	 myApp1.guidefour=true;
 }
-function guideone5 (){
-   myApp1.guidefour=false;
-   myApp1.answersguideone=true;
-   myApp1.guidefive=true;
+function guide5 (x){
+   boxone.guidefour=false;
+   boxone.answersguide=true;
+   boxone.guidefive=true;
 }
-  myApp1.answersguideone=false;
-   myApp1.guidefive=false;
 
-function ansrguideone () {
-myApp1.answersguideone= false;
-myApp1.guidefive= false;
+function ansrguide (x) {
+boxone.answersguide= false;	
+	boxone.guidefive= false;
 myApp1.card1= false;
 boxone.optionA=true
 boxone.boxone= true
@@ -86,7 +102,7 @@ boxone.four= true;
 boxone.five= true;
 }
 
-function threeoneA () {
+function threeA (x) {
 if (boxone.optionA==true) {
 myApp1.point=myApp1.point+1;
 }
@@ -99,7 +115,7 @@ boxone.threeA= "الإجابة صحيحة";
 myApp.title=true;
 }
 
-function fouroneA (x) {
+function fourA (x) {
 boxone.optionA= false;
 if (x=1){
 boxone.one= true;
