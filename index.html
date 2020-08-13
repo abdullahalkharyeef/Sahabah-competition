@@ -59,9 +59,9 @@
   <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide4(1)" v-if="guidethree"> التالي</p>
   <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide5(1)" v-if="guidefour"> التالي</p>
 <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="ansrguide(1)" v-if="answersguide"> التالي</p> 
-	</div></div></div></div>
+	</div></div></div>
 
-<div id="boxone" v-if="boxone">
+<div v-if="boxone">
 <div  class="boxfull" v-if="optionA">
 	اختر الإجابة الصحيحة:
   </div><br><br>
@@ -84,7 +84,7 @@
 
 <div class="box" id="threeA" v-if="three" onclick="threeA(1)">
 {{threeA}}
-</div>
+</div></div>
 
 	
 	
@@ -106,9 +106,9 @@
   <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide4(2)" v-if="guidethree"> التالي</p>
   <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide5(2)" v-if="guidefour"> التالي</p>
 <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="ansrguide(2)" v-if="answersguide"> التالي</p> 
-	</div></div></div></div>
+	</div></div></div>
 
-<div id="boxtwo" v-if="boxtwo">
+<div v-if="boxtwo">
 <div  class="boxfull" v-if="optionA">
 	اختر الإجابة الصحيحة:
   </div><br><br>
@@ -117,6 +117,10 @@
 
 	 {{fiveA}} 
   </div><br>
+
+<div class="box" id="threeA" v-if="three" onclick="threeA(2)">
+{{threeA}}
+</div><br>
 
 <div class="box" id="fourA" v-if="four" onclick="fourA(4)">
 	 {{fourA}} 
@@ -128,10 +132,8 @@
 
 <div class="box" id="twoA" v-if="two" onclick="fourA(2)">
 	 {{twoA}} 
-  </div><br>
+  </div>
 
-<div class="box" id="threeA" v-if="three" onclick="threeA(2)">
-{{threeA}}
 </div>
 	
 	
