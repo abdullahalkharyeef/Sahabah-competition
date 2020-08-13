@@ -81,7 +81,7 @@ var myApp1 = new Vue({
 		textproject: false,
   }
 })
-function guide1 (x){ myApp1.textproject=false;  if(x==1){boxone.guideone=true;} if(x==2){boxtwo.guideone=true;}if(x==3){boxthree.guideone=true;}if(x==4){boxfour.guideone=true;}if(x==5){boxfive.guideone=true;}}
+function guide1 (x){ myApp1.textproject=true;  if(x==1){boxone.guideone=true;} if(x==2){boxtwo.guideone=true;}if(x==3){boxthree.guideone=true;}if(x==4){boxfour.guideone=true;}if(x==5){boxfive.guideone=true;}}
 function guide2 (x){  if(x==1){boxone.guideone=false;  boxone.guidetwo=true;}if(x==2){boxtwo.guideone=false;  boxtwo.guidetwo=true;}if(x==3){boxthree.guideone=false;  boxthree.guidetwo=true;}if(x==4){boxfour.guideone=false;  boxfour.guidetwo=true;}if(x==5){boxfive.guideone=false;  boxfive.guidetwo=true;}}
 function guide3 (x){   if(x==1){boxone.guidetwo=false;   boxone.guidethree=true;}if(x==2){boxtwo.guidetwo=false;   boxtwo.guidethree=true;}if(x==3){boxthree.guidetwo=false;   boxthree.guidethree=true;}if(x==4){boxfour.guidetwo=false;   boxfour.guidethree=true;}if(x==5){boxfive.guidetwo=false;   boxfive.guidethree=true;}}
 function guide4 (x){  if (x==1){ boxone.guidethree=false;	 boxone.guidefour=true;}if (x==2){ boxtwo.guidethree=false;	 boxtwo.guidefour=true;}if (x==3){ boxthree.guidethree=false;	 boxthree.guidefour=true;}if (x==4){ boxfour.guidethree=false;	 boxfour.guidefour=true;}if (x==5){ boxfive.guidethree=false;	 boxfive.guidefour=true;}}
