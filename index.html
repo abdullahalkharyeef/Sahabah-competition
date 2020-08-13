@@ -41,14 +41,17 @@
   <div class="card_title title-white">
 <p v-if="textproject" style="font-size:13px; color:white;">اضمر الصحابي:<br>
 من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو   صاحب هذه المواقف </p> 
+	  <p v-if="img1" style="text-align:center; color: white"  onclick="clickone()">مسابقة التخمين</p><br>
+<p style="text-align:center; font-size:30px; color:white;" v-if="img1">النقاط: {{point}}</p>
+	  
+	  
 	      <p style="text-align:center; font-size:13px; color: white" v-if="guideone">{{guideOne1}}</p>
     <p style="text-align:center; font-size:13px; color: white" v-if="guidetwo">{{guideOne2}}</p>
   <p style="text-align:center; font-size:13px; color: white" v-if="guidethree">{{guideOne3}}</p>
   <p style="text-align:center; font-size:13px; color: white" v-if="guidefour">{{guideOne4}}</p>
   <p style="text-align:center; font-size:11px; color: white" v-if="guidefive">{{guideOne5}}</p><br><br>
 	  
-<p v-if="img1" style="text-align:center; color: white"  onclick="clickone()">مسابقة التخمين</p><br>
-<p style="text-align:center; font-size:30px; color:white;" v-if="img1">النقاط: {{point}}</p>
+
 	  
  <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guideone1()" v-if="textproject"> التالي</p>
 <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guideone2()" v-if="guideone"> التالي</p>
@@ -83,8 +86,60 @@
 {{threeA}}
 </div>
 
+	
+	
+	
 
+   <p style="text-align:center; font-size:13px; color: white" v-if="guideone2">{{guideTwo1}}</p>
+    <p style="text-align:center; font-size:13px; color: white" v-if="guidetwo2">{{guideTwo2}}</p>
+  <p style="text-align:center; font-size:13px; color: white" v-if="guidethree2">{{guideTwo3}}</p>
+  <p style="text-align:center; font-size:13px; color: white" v-if="guidefour2">{{guideTwo4}}</p>
+  <p style="text-align:center; font-size:11px; color: white" v-if="guidefive2">{{guideTwo5}}</p><br><br>
 
+	  
+
+	  
+
+ <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guidetwo1()" v-if="textproject"> التالي</p>
+<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guidetwo2()" v-if="guideone2"> التالي</p>
+<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guidetwo3()" v-if="guidetwo2"> التالي</p>
+  <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guidetwo4()" v-if="guidethree2"> التالي</p>
+  <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guidetwo5()" v-if="guidefour2"> التالي</p>
+
+<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="ansrguidetwo()" v-if="answersguidetwo"> التالي</p> 
+	</div></div></div>
+
+<div id="boxone" v-if="boxtwo">
+<div  class="boxfull" v-if="optionB">
+	اختر الإجابة الصحيحة:
+  </div><br><br>
+
+<div class="box" id="fiveA" v-if="five2" onclick="fourtwoA(5)">
+
+	 {{five2A}} 
+  </div><br>
+
+<div class="box" id="fourA" v-if="four2" onclick="fourtwoA(4)">
+	 {{four2A}} 
+  </div><br>
+
+<div class="box" id="oneA" v-if="one2" onclick="fourtwoA(1)">
+	{{one2A}} 
+  </div><br>
+
+<div class="box" id="twoA" v-if="two2" onclick="fourtwoA(2)">
+	 {{two2A}} 
+  </div><br>
+
+<div class="box" id="threeA" v-if="three2" onclick="threetwoA()">
+{{three2A}}
+</div>
+	
+	
+	
+	
+	
+	
 
   <div id="apptwo" v-if="card2"><div class="card 2"      style="display:block" onclick="clicktwo()">
   <div class="card_image">
