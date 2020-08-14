@@ -45,6 +45,7 @@ var boxtwo = new Vue({
 	boxtwo: false, 
 	optionA: true,
         three: true,
+        textproject: false,
         one: true,
         two: true,
         four: true,
@@ -78,11 +79,10 @@ var myApp1 = new Vue({
 		card1: true,
     img1:true,
     img2:false,
-    text: true,
-		textproject: true,
+    text: true
   }
 })
-function guide1 (x){ myApp1.textproject=true;  if(x==1){boxone.guideone=true;} if(x==2){boxtwo.guideone=true;}if(x==3){boxthree.guideone=true;}if(x==4){boxfour.guideone=true;}if(x==5){boxfive.guideone=true;}}
+function guide1 (x){  if(x==1){boxone.textproject=true; boxone.guideone=true;} if(x==2){boxtwo.textproject=true;boxtwo.guideone=true;}if(x==3){boxthree.textproject=true;boxthree.guideone=true;}if(x==4){boxfour.textproject=true;boxfour.guideone=true;}if(x==5){boxfive.textproject=true;boxfive.guideone=true;}}
 function guide2 (x){  if(x==1){boxone.guideone=false;  boxone.guidetwo=true;}if(x==2){boxtwo.guideone=false;  boxtwo.guidetwo=true;}if(x==3){boxthree.guideone=false;  boxthree.guidetwo=true;}if(x==4){boxfour.guideone=false;  boxfour.guidetwo=true;}if(x==5){boxfive.guideone=false;  boxfive.guidetwo=true;}}
 function guide3 (x){   if(x==1){boxone.guidetwo=false;   boxone.guidethree=true;}if(x==2){boxtwo.guidetwo=false;   boxtwo.guidethree=true;}if(x==3){boxthree.guidetwo=false;   boxthree.guidethree=true;}if(x==4){boxfour.guidetwo=false;   boxfour.guidethree=true;}if(x==5){boxfive.guidetwo=false;   boxfive.guidethree=true;}}
 function guide4 (x){  if (x==1){ boxone.guidethree=false;	 boxone.guidefour=true;}if (x==2){ boxtwo.guidethree=false;	 boxtwo.guidefour=true;}if (x==3){ boxthree.guidethree=false;	 boxthree.guidefour=true;}if (x==4){ boxfour.guidethree=false;	 boxfour.guidefour=true;}if (x==5){ boxfive.guidethree=false;	 boxfive.guidefour=true;}}
@@ -340,8 +340,6 @@ function apptitlereturn () {
    myApp.apptitle=false;
 myApp.apptitlereturn=true;
 }
-myApp.apptitle=true;
-myApp.apptitlereturn=false;
 
 function titlereturn (){
    myApp.apptitle=true;
@@ -376,10 +374,10 @@ function texttitlereturn (){
 	myApp2.text= true;
   myApp3.text= true;
   myApp4.text= true;
- myApp1.textproject= false;
- myApp2.textproject= false;
- myApp3.textproject= false;
- myApp4.textproject= false;
+ boxone.textproject= false;
+ boxtwo.textproject= false;
+ boxthree.textproject= false;
+ boxfour.textproject= false;
  }
 
 function clickone () {
@@ -388,7 +386,8 @@ myApp3.card3= false;
 myApp4.card4= false;
 myApp1.text=false;
 myApp.title=false;
-myApp1.textproject=true;
+boxone.textproject=true;
+boxtwo.textproject=true
 myApp1.img1=false;
 myApp1.img2=true;
 apptitlereturn();
