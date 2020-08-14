@@ -400,6 +400,7 @@ function guide5(x){
 
 function ansrguide (x) {
 myApp1.cardimg= false;
+myApp.title= true;
  if(x==1){
 boxone.answersguide= false;	
 boxone.guidefive=false;
