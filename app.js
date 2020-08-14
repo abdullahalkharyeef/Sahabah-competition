@@ -174,6 +174,33 @@ var myApp1 = new Vue({
   }
 })
 
+ var myApp2 = new Vue({
+    el: '#apptwo',
+    data: {
+      card2: false,
+      text: true,
+      textproject: false
+}
+})
+
+var myApp3 = new Vue({
+    el: '#appthree',
+    data: {
+      card3: false,
+      text:true,
+      textproject: false
+}
+})
+
+var myApp4 = new Vue({
+    el: '#appfour',
+    data: {
+      card4: false,
+      text:true,
+      textproject: false
+}
+})
+
 function guide1 (x){
   if(x==1){
 boxone.textproject=true; boxone.guideone=true;} if(x==2){boxtwo.textproject=true;boxtwo.guideone=true;}if(x==3){boxthree.textproject=true;boxthree.guideone=true;}if(x==4){boxfour.textproject=true;boxfour.guideone=true;}if(x==5){boxfive.textproject=true;boxfive.guideone=true;}}
@@ -406,36 +433,10 @@ boxfive.fiveA= "الإجابة خاطئة";}
 myApp.title=true;
 }
 
-
 }
 
 
- var myApp2 = new Vue({
-    el: '#apptwo',
-    data: {
-    card2: false,
-    text: true,
-    textproject: false
-}
-})
 
-var myApp3 = new Vue({
-    el: '#appthree',
-    data: {
-		card3: false,
-    text:true,
-		textproject: false
-}
-})
-
-var myApp4 = new Vue({
-    el: '#appfour',
-    data: {
-		card4: false,
-		text:true,
-		textproject: false
-}
-})
 
 
 
@@ -445,9 +446,9 @@ myApp.apptitlereturn=true;
 }
 
 function titlereturn (){
-   myApp.apptitle=true;
+myApp.apptitle=true;
 myApp.apptitlereturn=false;
-	 myApp1.card1= true;
+myApp1.card1= true;
 myApp1.img1=true; 
 myApp1.img2=false;
 boxone.guideone=false;
@@ -469,7 +470,7 @@ boxone.fourA= "صهيب الرومي";
 boxone.fiveA= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
 boxone.oneA= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
 boxone.twoA= "سعد بن معاذ";
-	 texttitlereturn();
+texttitlereturn();
 }
 
 function texttitlereturn (){
