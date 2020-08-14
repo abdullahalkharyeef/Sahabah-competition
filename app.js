@@ -281,6 +281,7 @@ function texttitlereturn (){
 // myApp2.text= true;
 // myApp3.text= true;
 // myApp4.text= true;
+ myApp1.cardimg= false;
  boxone.textproject= false;
  boxtwo.textproject= false;
  boxthree.textproject= false;
