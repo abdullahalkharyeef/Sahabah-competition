@@ -211,8 +211,8 @@ function titlereturn (){
 myApp.apptitle=true;
 myApp.apptitlereturn=false;
 myApp1.card1= true;
- myApp1.cardimg= false;
-myApp1.img1=true; 
+myApp1.cardimg= false;
+myApp1.img1=true;
 myApp1.img2=false;
 boxone.guideone=false;
 boxone.guidetwo=false;
