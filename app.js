@@ -211,6 +211,7 @@ function titlereturn (){
 myApp.apptitle=true;
 myApp.apptitlereturn=false;
 myApp1.card1= true;
+ myApp1.cardimg= false;
 myApp1.img1=true; 
 myApp1.img2=false;
 boxone.guideone=false;
@@ -281,7 +282,6 @@ function texttitlereturn (){
 // myApp2.text= true;
 // myApp3.text= true;
 // myApp4.text= true;
- myApp1.cardimg= false;
  boxone.textproject= false;
  boxtwo.textproject= false;
  boxthree.textproject= false;
@@ -400,8 +400,6 @@ function guide5(x){
 
 function ansrguide (x) {
 myApp1.cardimg= false;
-myApp1.img2= false;
-myApp1.img1= false;
  if(x==1){
 boxone.answersguide= false;	
 boxone.guidefive=false;
