@@ -39,13 +39,13 @@
  
 
   <div class="card_title title-white">
-<p v-if="textproject" style="font-size:13px; color:white;">اضمر الصحابي:<br>
-من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو   صاحب هذه المواقف </p> 
-	  <p v-if="img1" style="text-align:center; color: white"  onclick="clickone()">مسابقة التخمين</p><br>
+  <p v-if="img1" style="text-align:center; color: white"  onclick="clickone()">مسابقة التخمين</p><br>
 <p style="text-align:center; font-size:30px; color:white;" v-if="img1">النقاط: {{point}}</p>
 	  </div>
 	  
 	   <div id="boxone" >  <p style="text-align:center; font-size:13px; color: white" v-if="guideone">{{guide1}}</p>
+    <p v-if="textproject" style="font-size:13px; color:white;">اضمر الصحابي:<br>
+من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو   صاحب هذه المواقف </p> 
     <p style="text-align:center; font-size:13px; color: white" v-if="guidetwo">{{guide2}}</p>
   <p style="text-align:center; font-size:13px; color: white" v-if="guidethree">{{guide3}}</p>
   <p style="text-align:center; font-size:13px; color: white" v-if="guidefour">{{guide4}}</p>
@@ -90,6 +90,8 @@
 	
 	
  <div id="boxtwo" >
+<p v-if="textproject" style="font-size:13px; color:white;">اضمر الصحابي:<br>
+من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو   صاحب هذه المواقف </p> 
    <p style="text-align:center; font-size:13px; color: white" v-if="guideone">{{guide1}}</p>
     <p style="text-align:center; font-size:13px; color: white" v-if="guidetwo">{{guide2}}</p>
   <p style="text-align:center; font-size:13px; color: white" v-if="guidethree">{{guide3}}</p>
