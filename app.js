@@ -387,7 +387,6 @@ myApp4.card4= false;
 myApp1.text=false;
 myApp.title=false;
 boxone.textproject=true;
-boxtwo.textproject=true
 myApp1.img1=false;
 myApp1.img2=true;
 apptitlereturn();
@@ -404,7 +403,7 @@ function clickthree () {
 myApp1.card1= false;
 myApp2.card2= false;
 myApp4.card4= false;
-myApp3.text=false
+myApp3.text=false;
 myApp3.textproject=true;
 apptitlereturn();
 }
