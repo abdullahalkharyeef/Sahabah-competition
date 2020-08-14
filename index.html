@@ -29,13 +29,10 @@
   
 <div id="appone" v-if="card1">
 <div class="card 1">
-
-
-
- <div class="card_image">
+ <div class="card_image" v-if="cardimg">
         <img v-if="img1" onclick="clickone()" src="https://media.giphy.com/media/LwIyvaNcnzsD6/giphy.gif">
 				<img v-if="img2" src="https://i.ibb.co/8xgV9bh/New-Project.png" style="background:#3cc1fa">
-    </div>
+    </div></div>
  
 
   <div class="card_title title-white"> <br><br><br><br>
@@ -47,12 +44,12 @@
     <div id="boxone">
 
     <p  style="font-size:15px; text-align:center; color:white;" v-if="textproject">اضمر الصحابي:<br>
-من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو   صاحب هذه المواقف <br><br><br><br></p>
-    <p style="text-align:center; font-size:13px; color: white" v-if="guideone">{{guide1}}<br><br><br><br></p>
-<p style="text-align:center; font-size:13px; color: white" v-if="guidetwo">{{guide2}}<br><br><br><br></p>
-  <p style="text-align:center; font-size:13px; color: white" v-if="guidethree">{{guide3}}<br><br><br><br></p>
-  <p style="text-align:center; font-size:13px; color: white" v-if="guidefour">{{guide4}}<br><br><br><br></p>
-  <p style="text-align:center; font-size:11px; color: white" v-if="guidefive">{{guide5}}<br><br><br><br></p>
+من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو   صاحب هذه المواقف </p><br>
+    <p style="text-align:center; font-size:13px; color: white" v-if="guideone">{{guide1}}</p><br>
+<p style="text-align:center; font-size:13px; color: white" v-if="guidetwo">{{guide2}}</p><br>
+  <p style="text-align:center; font-size:13px; color: white" v-if="guidethree">{{guide3}}</p><br>
+  <p style="text-align:center; font-size:13px; color: white" v-if="guidefour">{{guide4}}</p><br>
+  <p style="text-align:center; font-size:11px; color: white" v-if="guidefive">{{guide5}}</p><br>
  <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide1(1)" v-if="textproject"> التالي</p>
 <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide2(1)" v-if="guideone"> التالي</p>
 <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide3(1)" v-if="guidetwo"> التالي</p>
