@@ -208,6 +208,7 @@ function clickone () {
 // myApp3.card3= false;
 // myApp4.card4= false;
 myApp1.text=false;
+myApp.apptitle=false;
 myApp.title=false;
 boxone.textproject=true;
 myApp1.img1=false;
@@ -312,6 +313,7 @@ function guide5(x){
 }
 
 function ansrguide (x) {
+myApp1.img2= false;
  if(x==1){
 boxone.answersguide= false;	
 boxone.guidefive=false;
