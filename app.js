@@ -165,6 +165,7 @@ data: {
 var myApp1 = new Vue({
     el: '#appone',
     data: {
+    cardimg: true,
     point:0,
     card1: true,
     img1:true,
@@ -313,7 +314,9 @@ function guide5(x){
 }
 
 function ansrguide (x) {
+myApp1.cardimg= false;
 myApp1.img2= false;
+myApp1.img1= false;
  if(x==1){
 boxone.answersguide= false;	
 boxone.guidefive=false;
