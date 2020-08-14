@@ -135,6 +135,143 @@
 	
 	
 	
+ <div id="boxtthree" >
+<p v-if="textproject" style="font-size:13px; color:white;">اضمر الصحابي:<br>
+من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو   صاحب هذه المواقف </p> 
+   <p style="text-align:center; font-size:13px; color: white" v-if="guideone">{{guide1}}</p>
+    <p style="text-align:center; font-size:13px; color: white" v-if="guidetwo">{{guide2}}</p>
+  <p style="text-align:center; font-size:13px; color: white" v-if="guidethree">{{guide3}}</p>
+  <p style="text-align:center; font-size:13px; color: white" v-if="guidefour">{{guide4}}</p>
+  <p style="text-align:center; font-size:11px; color: white" v-if="guidefive">{{guide5}}</p><br><br>
+ <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide1(3)" v-if="textproject"> التالي</p>
+<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide2(3)" v-if="guideone"> التالي</p>
+<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide3(3)" v-if="guidetwo"> التالي</p>
+  <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide4(3)" v-if="guidethree"> التالي</p>
+  <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide5(3)" v-if="guidefour"> التالي</p>
+<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="ansrguide(3)" v-if="answersguide"> التالي</p> 
+
+<div v-if="boxthree">
+<div  class="boxfull" v-if="optionA">
+	اختر الإجابة الصحيحة:
+  </div><br><br>
+
+<div class="box" id="fiveA" v-if="five" onclick="fourA(5)">
+	 {{fiveA}} 
+  </div><br>
+
+<div class="box" id="threeA" v-if="three" onclick="threeA(3)">
+{{threeA}}
+</div><br>
+
+<div class="box" id="fourA" v-if="four" onclick="fourA(4)">
+	 {{fourA}} 
+  </div><br>
+
+<div class="box" id="oneA" v-if="one" onclick="fourA(1)">
+	{{oneA}} 
+  </div><br>
+
+<div class="box" id="twoA" v-if="two" onclick="fourA(2)">
+	 {{twoA}} 
+  </div>
+
+</div></div>
+	
+	
+	
+ <div id="boxfour" >
+<p v-if="textproject" style="font-size:13px; color:white;">اضمر الصحابي:<br>
+من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو   صاحب هذه المواقف </p> 
+   <p style="text-align:center; font-size:13px; color: white" v-if="guideone">{{guide1}}</p>
+    <p style="text-align:center; font-size:13px; color: white" v-if="guidetwo">{{guide2}}</p>
+  <p style="text-align:center; font-size:13px; color: white" v-if="guidethree">{{guide3}}</p>
+  <p style="text-align:center; font-size:13px; color: white" v-if="guidefour">{{guide4}}</p>
+  <p style="text-align:center; font-size:11px; color: white" v-if="guidefive">{{guide5}}</p><br><br>
+ <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide1(4)" v-if="textproject"> التالي</p>
+<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide2(4)" v-if="guideone"> التالي</p>
+<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide3(4)" v-if="guidetwo"> التالي</p>
+  <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide4(4)" v-if="guidethree"> التالي</p>
+  <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide5(4)" v-if="guidefour"> التالي</p>
+<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="ansrguide(4)" v-if="answersguide"> التالي</p> 
+
+<div v-if="boxfour">
+<div  class="boxfull" v-if="optionA">
+	اختر الإجابة الصحيحة:
+  </div><br><br>
+
+<div class="box" id="fiveA" v-if="five" onclick="fourA(5)">
+
+	 {{fiveA}} 
+  </div><br>
+
+<div class="box" id="threeA" v-if="three" onclick="threeA(4)">
+{{threeA}}
+</div><br>
+
+<div class="box" id="fourA" v-if="four" onclick="fourA(4)">
+	 {{fourA}} 
+  </div><br>
+
+<div class="box" id="oneA" v-if="one" onclick="fourA(1)">
+	{{oneA}} 
+  </div><br>
+
+<div class="box" id="twoA" v-if="two" onclick="fourA(2)">
+	 {{twoA}} 
+  </div>
+
+</div></div>
+	
+	
+	
+ <div id="boxfive" >
+<p v-if="textproject" style="font-size:13px; color:white;">اضمر الصحابي:<br>
+من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو   صاحب هذه المواقف </p> 
+   <p style="text-align:center; font-size:13px; color: white" v-if="guideone">{{guide1}}</p>
+    <p style="text-align:center; font-size:13px; color: white" v-if="guidetwo">{{guide2}}</p>
+  <p style="text-align:center; font-size:13px; color: white" v-if="guidethree">{{guide3}}</p>
+  <p style="text-align:center; font-size:13px; color: white" v-if="guidefour">{{guide4}}</p>
+  <p style="text-align:center; font-size:11px; color: white" v-if="guidefive">{{guide5}}</p><br><br>
+ <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide1(5)" v-if="textproject"> التالي</p>
+<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide2(5)" v-if="guideone"> التالي</p>
+<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide3(5)" v-if="guidetwo"> التالي</p>
+  <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide4(5)" v-if="guidethree"> التالي</p>
+  <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide5(5)" v-if="guidefour"> التالي</p>
+<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="ansrguide(5)" v-if="answersguide"> التالي</p> 
+
+<div v-if="boxfive">
+<div  class="boxfull" v-if="optionA">
+	اختر الإجابة الصحيحة:
+  </div><br><br>
+
+<div class="box" id="fiveA" v-if="five" onclick="fourA(5)">
+	 {{fiveA}} 
+  </div><br>
+
+<div class="box" id="threeA" v-if="three" onclick="threeA(5)">
+{{threeA}}
+</div><br>
+
+<div class="box" id="fourA" v-if="four" onclick="fourA(4)">
+	 {{fourA}} 
+  </div><br>
+
+<div class="box" id="oneA" v-if="one" onclick="fourA(1)">
+	{{oneA}} 
+  </div><br>
+
+<div class="box" id="twoA" v-if="two" onclick="fourA(2)">
+	 {{twoA}} 
+  </div>
+
+</div></div>
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	
