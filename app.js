@@ -2,10 +2,10 @@ var myApp = new Vue({
     el: '#apptitle',
     data: {
     title: true,
-		apptitle:true,
-		apptitlereturn:false,
-		text: 'المسابقة',
-		text1: 'العودة'
+    apptitle:true,
+    apptitlereturn:false,
+    text: 'المسابقة',
+    text1: 'العودة'
 
 }
 })
@@ -202,14 +202,98 @@ var myApp4 = new Vue({
 }
 })
 
+function apptitlereturn () {
+   myApp.apptitle=false;
+   myApp.apptitlereturn=true;
+}
 
+function titlereturn (){
+myApp.apptitle=true;
+myApp.apptitlereturn=false;
+myApp1.card1= true;
+myApp1.img1=true; 
+myApp1.img2=false;
+boxone.guideone=false;
+boxone.guidetwo=false;
+boxone.guidethree=false;
+boxone.guidefour=false;
+boxone.guidefive=false;
+boxone.answersguide=false;
+boxone.boxone=false;
+boxone.threeA= "سلمان الفارسي";
+boxone.fourA= "صهيب الرومي";
+boxone.fiveA= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
+boxone.oneA= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
+boxone.twoA= "سعد بن معاذ";
+boxtwo.guideone=false;
+boxtwo.guidetwo=false;
+boxtwo.guidethree=false;
+boxtwo.guidefour=false;
+boxtwo.guidefive=false;
+boxtwo.answersguide=false;
+boxtwo.boxtwo=false;
+boxtwo.threeA= "سلمان الفارسي";
+boxtwo.fourA= "صهيب الرومي";
+boxtwo.fiveA= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
+boxtwo.oneA= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
+boxtwo.twoA= "سعد بن معاذ";
+boxthree.guideone=false;
+boxthree.guidetwo=false;
+boxthree.guidethree=false;
+boxthree.guidefour=false;
+boxthree.guidefive=false;
+boxthree.answersguide=false;
+boxthree.boxone=false;
+boxthree.threeA= "سلمان الفارسي";
+boxthree.fourA= "صهيب الرومي";
+boxthree.fiveA= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
+boxthree.oneA= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
+boxthree.twoA= "سعد بن معاذ";
+boxfour.guideone=false;
+boxfour.guidetwo=false;
+boxfour.guidethree=false;
+boxfour.guidefour=false;
+boxfour.guidefive=false;
+boxfour.answersguide=false;
+boxfour.boxone=false;
+boxfour.threeA= "سلمان الفارسي";
+boxfour.fourA= "صهيب الرومي";
+boxfour.fiveA= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
+boxfour.oneA= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
+boxfour.twoA= "سعد بن معاذ";
+boxfive.guideone=false;
+boxfive.guidetwo=false;
+boxfive.guidethree=false;
+boxfive.guidefour=false;
+boxfive.guidefive=false;
+boxfive.answersguide=false;
+boxfive.boxone=false;
+boxfive.threeA= "سلمان الفارسي";
+boxfive.fourA= "صهيب الرومي";
+boxfive.fiveA= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
+boxfive.oneA= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
+boxfive.twoA= "سعد بن معاذ";
+texttitlereturn();
+}
+
+function texttitlereturn (){
+// myApp1.text= true;
+// myApp2.text= true;
+// myApp3.text= true;
+// myApp4.text= true;
+ boxone.textproject= false;
+ boxtwo.textproject= false;
+ boxthree.textproject= false;
+ boxfour.textproject= false;
+ boxfive.textproject= false;
+
+ }
 
 function clickone () {
 // myApp2.card2= false;
 // myApp3.card3= false;
 // myApp4.card4= false;
 myApp1.text=false;
-myApp.apptitle=false;
 myApp.title=false;
 boxone.textproject=true;
 myApp1.img1=false;
@@ -636,97 +720,3 @@ myApp.title=true;
 }
 
 }
-
-
-
-
-
-
-function apptitlereturn () {
-   myApp.apptitle=false;
-myApp.apptitlereturn=true;
-}
-
-function titlereturn (){
-myApp.apptitle=true;
-myApp.apptitlereturn=false;
-myApp1.card1= true;
-myApp1.img1=true; 
-myApp1.img2=false;
-boxone.guideone=false;
-boxone.guidetwo=false;
-boxone.guidethree=false;
-boxone.guidefour=false;
-boxone.guidefive=false;
-boxone.answersguide=false;
-boxone.boxone=false;
-boxone.threeA= "سلمان الفارسي";
-boxone.fourA= "صهيب الرومي";
-boxone.fiveA= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
-boxone.oneA= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
-boxone.twoA= "سعد بن معاذ";
-boxtwo.guideone=false;
-boxtwo.guidetwo=false;
-boxtwo.guidethree=false;
-boxtwo.guidefour=false;
-boxtwo.guidefive=false;
-boxtwo.answersguide=false;
-boxtwo.boxtwo=false;
-boxtwo.threeA= "سلمان الفارسي";
-boxtwo.fourA= "صهيب الرومي";
-boxtwo.fiveA= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
-boxtwo.oneA= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
-boxtwo.twoA= "سعد بن معاذ";
-boxthree.guideone=false;
-boxthree.guidetwo=false;
-boxthree.guidethree=false;
-boxthree.guidefour=false;
-boxthree.guidefive=false;
-boxthree.answersguide=false;
-boxthree.boxone=false;
-boxthree.threeA= "سلمان الفارسي";
-boxthree.fourA= "صهيب الرومي";
-boxthree.fiveA= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
-boxthree.oneA= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
-boxthree.twoA= "سعد بن معاذ";
-boxfour.guideone=false;
-boxfour.guidetwo=false;
-boxfour.guidethree=false;
-boxfour.guidefour=false;
-boxfour.guidefive=false;
-boxfour.answersguide=false;
-boxfour.boxone=false;
-boxfour.threeA= "سلمان الفارسي";
-boxfour.fourA= "صهيب الرومي";
-boxfour.fiveA= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
-boxfour.oneA= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
-boxfour.twoA= "سعد بن معاذ";
-boxfive.guideone=false;
-boxfive.guidetwo=false;
-boxfive.guidethree=false;
-boxfive.guidefour=false;
-boxfive.guidefive=false;
-boxfive.answersguide=false;
-boxfive.boxone=false;
-boxfive.threeA= "سلمان الفارسي";
-boxfive.fourA= "صهيب الرومي";
-boxfive.fiveA= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
-boxfive.oneA= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
-boxfive.twoA= "سعد بن معاذ";
-texttitlereturn();
-}
-
-function texttitlereturn (){
-// myApp1.text= true;
-// myApp2.text= true;
-// myApp3.text= true;
-// myApp4.text= true;
- boxone.textproject= false;
- boxtwo.textproject= false;
- boxthree.textproject= false;
- boxfour.textproject= false;
- boxfive.textproject= false;
-
- }
-
-
