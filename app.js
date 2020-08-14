@@ -242,7 +242,7 @@ apptitlereturn();
 
 
 function guide1 (x){
-        if(x==1){boxone.textproject=true;
+        if(x==1){boxone.textproject=false;
 		 boxone.guideone=true;} 
 	if(x==2){boxtwo.textproject=true;
 		 boxtwo.guideone=true;}
