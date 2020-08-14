@@ -12,14 +12,14 @@ var myApp = new Vue({
 var boxone = new Vue({
     el: '#boxone',
     data: {	
-	boxone: false,
+    boxone: false,
     optionA: true,
-	   guideone: false,
+    guideone: false,
     guidetwo: false,
     guidethree: false,
     guidefour: false,
     guidefive: false,
-	  guide1: "انتقل بين البلدان ليصحب الرجال الصالحين من القساوسة، إلى أن وصف له أحدهم ظهور نبي في بلاد العرب محمد صلى الله عليه وسلم",
+    guide1: "انتقل بين البلدان ليصحب الرجال الصالحين من القساوسة، إلى أن وصف له أحدهم ظهور نبي في بلاد العرب محمد صلى الله عليه وسلم",
     guide2: "أعلى النبي صلى الله عليه وسلم من منزلته، فقد روى أنس بن مالك عن النبي صلى الله عليه وسلم قوله: «الجنة تشتاق إلى ثلاثة:...» وذكره منهم. /سنن الترمذي» كتاب المناقب",
     guide3: "قال عنه الخليفة علي بن أبي طالب رضي الله عنه: «أدرك العلم الأول، والعلم الآخر، بحر لا يدرك قعره، وهو منا أهل البيت». /سير أعلام النبلاء",
     guide4: "قال رضي الله عنه: «شهدت مع رسول الله صلى الله عليه وسلم الخندق، ثم لم يفتني معه مشهد». رواه الإمام أحمد في مسنده برقم ٢٣٧٣٧",
@@ -32,10 +32,10 @@ var boxone = new Vue({
     two: true,
     four: true,
     five: true,
-	  fiveA: "صهيب الرومي",
+    fiveA: "صهيب الرومي",
     fourA: "أبو أيوب خالد بن زيد بن كليب الأنصاري",
     threeA:"سلمان الفارسي",
-		twoA: "سعد بن معاذ",
+    twoA: "سعد بن معاذ",
     oneA: "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ"
 }
 })
@@ -202,47 +202,204 @@ var myApp4 = new Vue({
 })
 
 function guide1 (x){
-  if(x==1){
-boxone.textproject=true; boxone.guideone=true;} if(x==2){boxtwo.textproject=true;boxtwo.guideone=true;}if(x==3){boxthree.textproject=true;boxthree.guideone=true;}if(x==4){boxfour.textproject=true;boxfour.guideone=true;}if(x==5){boxfive.textproject=true;boxfive.guideone=true;}}
+        if(x==1){boxone.textproject=true;
+		 boxone.guideone=true;} 
+	if(x==2){boxtwo.textproject=true;
+		 boxtwo.guideone=true;}
+	if(x==3){boxthree.textproject=true;
+		 boxthree.guideone=true;}
+	if(x==4){boxfour.textproject=true;
+		 boxfour.guideone=true;}
+	if(x==5){boxfive.textproject=true;
+		 boxfive.guideone=true;}
+}
 
 function guide2 (x){
-  if(x==1){
-boxone.guideone=false;  boxone.guidetwo=true;}if(x==2){boxtwo.guideone=false;  boxtwo.guidetwo=true;}if(x==3){boxthree.guideone=false;  boxthree.guidetwo=true;}if(x==4){boxfour.guideone=false;  boxfour.guidetwo=true;}if(x==5){boxfive.guideone=false;  boxfive.guidetwo=true;}}
+        if(x==1){boxone.guideone=false;  
+		 boxone.guidetwo=true;}
+	if(x==2){boxtwo.guideone=false;  
+		 boxtwo.guidetwo=true;}
+	if(x==3){boxthree.guideone=false;  
+		 boxthree.guidetwo=true;}
+	if(x==4){boxfour.guideone=false;  
+		 boxfour.guidetwo=true;}
+	if(x==5){boxfive.guideone=false;  
+		 boxfive.guidetwo=true;}
+}
 
 function guide3 (x){
-   if(x==1){
-boxone.guidetwo=false;   boxone.guidethree=true;}if(x==2){boxtwo.guidetwo=false;   boxtwo.guidethree=true;}if(x==3){boxthree.guidetwo=false;   boxthree.guidethree=true;}if(x==4){boxfour.guidetwo=false;   boxfour.guidethree=true;}if(x==5){boxfive.guidetwo=false;   boxfive.guidethree=true;}}
+        if(x==1){boxone.guidetwo=false;   
+		 boxone.guidethree=true;}
+	if(x==2){boxtwo.guidetwo=false;   
+		 boxtwo.guidethree=true;}
+	if(x==3){boxthree.guidetwo=false;   
+		 boxthree.guidethree=true;}
+	if(x==4){boxfour.guidetwo=false;   
+		 boxfour.guidethree=true;}
+	if(x==5){boxfive.guidetwo=false;   
+		 boxfive.guidethree=true;}
+}
 
 function guide4 (x){
-  if (x==1){ boxone.guidethree=false;	 boxone.guidefour=true;}if (x==2){ boxtwo.guidethree=false;	 boxtwo.guidefour=true;}if (x==3){ boxthree.guidethree=false;	 boxthree.guidefour=true;}if (x==4){ boxfour.guidethree=false;	 boxfour.guidefour=true;}if (x==5){ boxfive.guidethree=false;	 boxfive.guidefour=true;}}
+        if (x==1){ boxone.guidethree=false;	 
+		  boxone.guidefour=true;}
+	if (x==2){ boxtwo.guidethree=false;	 
+		  boxtwo.guidefour=true;}
+	if (x==3){ boxthree.guidethree=false;	 
+		  boxthree.guidefour=true;}
+	if (x==4){ boxfour.guidethree=false;	 
+		  boxfour.guidefour=true;}
+	if (x==5){ boxfive.guidethree=false;	 
+		  boxfive.guidefour=true;}
+}
 
 function guide5(x){
-  if (x==1){
-boxone.guidefour=false;boxone.answersguide=true; boxone.guidefive=true;} if (x==2){boxtwo.guidefour=false;boxtwo.answersguide=true; boxtwo.guidefive=true;} if (x==3){boxthree.guidefour=false;boxthree.answersguide=true; boxthree.guidefive=true;} if (x==4){boxfour.guidefour=false;boxfour.answersguide=true; boxfour.guidefive=true;} if (x==5){boxfive.guidefour=false;boxfive.answersguide=true; boxfive.guidefive=true;}}
+        if (x==1){boxone.guidefour=false;
+		  boxone.answersguide=true; 
+		  boxone.guidefive=true;} 
+	if (x==2){boxtwo.guidefour=false;
+		  boxtwo.answersguide=true; 
+		  boxtwo.guidefive=true;} 
+	if (x==3){boxthree.guidefour=false;
+		  boxthree.answersguide=true; 
+		  boxthree.guidefive=true;} 
+	if (x==4){boxfour.guidefour=false;
+		  boxfour.answersguide=true; 
+		  boxfour.guidefive=true;} 
+	if (x==5){boxfive.guidefour=false;
+		  boxfive.answersguide=true; 
+		  boxfive.guidefive=true;}
+}
 
 function ansrguide (x) {
  if(x==1){
-boxone.answersguide= false;	boxone.guidefive=false;myApp1.card1= false;boxone.optionA=true;boxone.boxone= true;boxone.one= true;boxone.two= true;boxone.three= true;boxone.four= true;boxone.five= true;} if(x==2){boxtwo.answersguide= false;	boxtwo.guidefive=false;myApp1.card1= false;boxtwo.optionA=true;boxtwo.boxtwo= true;boxtwo.one= true;boxtwo.two= true;boxtwo.three= true;boxtwo.four= true;boxtwo.five= true;} if(x==3){boxthree.answersguide= false;	boxthree.guidefive=false;myApp1.card1= false;boxthree.optionA=true;boxthree.boxthree= true;boxthree.one= true;boxthree.two= true;boxthree.three= true;boxthree.four= true;boxthree.five= true;} if(x==4){boxfour.answersguide= false;	boxfour.guidefive=false;myApp1.card1= false;boxfour.optionA=true;boxfour.boxfour= true;boxfour.one= true;boxfour.two= true;boxfour.three= true;boxfour.four= true;boxfour.five= true;} if(x==5){boxfive.answersguide= false;	boxfive.guidefive=false;myApp1.card1= false;boxfive.optionA=true;boxfive.boxfive= true;boxfive.one= true;boxfive.two= true;boxfive.three= true;boxfive.four= true;boxfive.five= true;}}
+boxone.answersguide= false;	
+boxone.guidefive=false;
+myApp1.card1= false;
+boxone.optionA=true;
+boxone.boxone= true;
+boxone.one= true;
+boxone.two= true;
+boxone.three= true;
+boxone.four= true;
+boxone.five= true;
+} 
+ if(x==2){
+boxtwo.answersguide= false;	
+boxtwo.guidefive=false;
+myApp1.card1= false;
+boxtwo.optionA=true;
+boxtwo.boxtwo= true;
+boxtwo.one= true;
+boxtwo.two= true;
+boxtwo.three= true;
+boxtwo.four= true;
+boxtwo.five= true;
+}
+ if(x==3){
+boxthree.answersguide= false;	
+boxthree.guidefive=false;
+myApp1.card1= false;
+boxthree.optionA=true;
+boxthree.boxthree= true;
+boxthree.one= true;
+boxthree.two= true;
+boxthree.three= true;
+boxthree.four= true;
+boxthree.five= true;
+} 
+ if(x==4){
+boxfour.answersguide= false;	
+boxfour.guidefive=false;
+myApp1.card1= false;
+boxfour.optionA=true;
+boxfour.boxfour= true;
+boxfour.one= true;
+boxfour.two= true;
+boxfour.three= true;
+boxfour.four= true;
+boxfour.five= true;
+} 
+ if(x==5){
+boxfive.answersguide= false;	
+boxfive.guidefive=false;
+myApp1.card1= false;
+boxfive.optionA=true;
+boxfive.boxfive= true;
+boxfive.one= true;
+boxfive.two= true;
+boxfive.three= true;
+boxfive.four= true;
+boxfive.five= true;}
+}
 
 function threeA (x) {
 if(boxone.boxone==true){
-if (boxone.optionA==true) {myApp1.point=myApp1.point+1;}
-boxone.optionA= false;boxone.one= false;boxone.two= false;boxone.four= false;boxone.five= false;boxone.threeA= "الإجابة صحيحة";myApp.title=true;}
+if (boxone.optionA==true) {
+myApp1.point=myApp1.point+1;
+}
+boxone.optionA= false;
+boxone.one= false;
+boxone.two= false;
+boxone.four= false;
+boxone.five= false;
+boxone.threeA= "الإجابة صحيحة";
+myApp.title=true;
+}
 
-if(boxtwo.boxtwo==true){if (boxtwo.optionA==true) {myApp1.point=myApp1.point+1;}
-boxtwo.optionA= false;boxtwo.one= false;boxtwo.two= false;boxtwo.four= false;boxtwo.five= false;boxtwo.threeA= "الإجابة صحيحة";myApp.title=true;}
+if(boxtwo.boxtwo==true){
+ if (boxtwo.optionA==true) {
+myApp1.point=myApp1.point+1;
+}
+boxtwo.optionA= false;
+boxtwo.one= false;
+boxtwo.two= false;
+boxtwo.four= false;
+boxtwo.five= false;
+boxtwo.threeA= "الإجابة صحيحة";
+myApp.title=true;
+}
 
-if(boxthree.boxthree==true){if (boxthree.optionA==true) {myApp1.point=myApp1.point+1;}
-boxthree.optionA= false;boxthree.one= false;boxthree.two= false;boxthree.four= false;boxthree.five= false;boxthree.threeA= "الإجابة صحيحة";myApp.title=true;}
+if(boxthree.boxthree==true){
+ if (boxthree.optionA==true) {
+myApp1.point=myApp1.point+1;
+}
+boxthree.optionA= false;
+boxthree.one= false;
+boxthree.two= false;
+boxthree.four= false;
+boxthree.five= false;
+boxthree.threeA= "الإجابة صحيحة";
+myApp.title=true;
+}
 
-if(boxfour.boxfour==true){if (boxfour.optionA==true) {myApp1.point=myApp1.point+1;}
-boxfour.optionA= false;boxfour.one= false;boxfour.two= false;boxfour.four= false;boxfour.five= false;boxfour.threeA= "الإجابة صحيحة";myApp.title=true;}
+if(boxfour.boxfour==true){
+ if (boxfour.optionA==true) {
+myApp1.point=myApp1.point+1;
+}
+boxfour.optionA= false;
+boxfour.one= false;
+boxfour.two= false;
+boxfour.four= false;
+boxfour.five= false;
+boxfour.threeA= "الإجابة صحيحة";
+myApp.title=true;
+}
 
-if(boxfive.boxfive==true){if (boxfive.optionA==true) {myApp1.point=myApp1.point+1;}
-boxfive.optionA= false;boxfive.one= false;boxfive.two= false;boxfive.four= false;boxfive.five= false;boxfive.threeA= "الإجابة صحيحة";myApp.title=true;}
+if(boxfive.boxfive==true){
+ if (boxfive.optionA==true) {
+myApp1.point=myApp1.point+1;
+}
+boxfive.optionA= false;
+boxfive.one= false;
+boxfive.two= false;
+boxfive.four= false;
+boxfive.five= false;
+boxfive.threeA= "الإجابة صحيحة";
+myApp.title=true;
+}
 
 myApp.title=true;
-
 }
 
 
@@ -458,6 +615,11 @@ boxone.guidefour=false;
 boxone.guidefive=false;
 boxone.answersguide=false;
 boxone.boxone=false;
+boxone.threeA= "سلمان الفارسي";
+boxone.fourA= "صهيب الرومي";
+boxone.fiveA= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
+boxone.oneA= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
+boxone.twoA= "سعد بن معاذ";
 boxtwo.guideone=false;
 boxtwo.guidetwo=false;
 boxtwo.guidethree=false;
@@ -465,29 +627,67 @@ boxtwo.guidefour=false;
 boxtwo.guidefive=false;
 boxtwo.answersguide=false;
 boxtwo.boxtwo=false;
-boxone.threeA= "سلمان الفارسي";
-boxone.fourA= "صهيب الرومي";
-boxone.fiveA= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
-boxone.oneA= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
-boxone.twoA= "سعد بن معاذ";
+boxtwo.threeA= "سلمان الفارسي";
+boxtwo.fourA= "صهيب الرومي";
+boxtwo.fiveA= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
+boxtwo.oneA= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
+boxtwo.twoA= "سعد بن معاذ";
+boxthree.guideone=false;
+boxthree.guidetwo=false;
+boxthree.guidethree=false;
+boxthree.guidefour=false;
+boxthree.guidefive=false;
+boxthree.answersguide=false;
+boxthree.boxone=false;
+boxthree.threeA= "سلمان الفارسي";
+boxthree.fourA= "صهيب الرومي";
+boxthree.fiveA= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
+boxthree.oneA= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
+boxthree.twoA= "سعد بن معاذ";
+boxfour.guideone=false;
+boxfour.guidetwo=false;
+boxfour.guidethree=false;
+boxfour.guidefour=false;
+boxfour.guidefive=false;
+boxfour.answersguide=false;
+boxfour.boxone=false;
+boxfour.threeA= "سلمان الفارسي";
+boxfour.fourA= "صهيب الرومي";
+boxfour.fiveA= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
+boxfour.oneA= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
+boxfour.twoA= "سعد بن معاذ";
+boxfive.guideone=false;
+boxfive.guidetwo=false;
+boxfive.guidethree=false;
+boxfive.guidefour=false;
+boxfive.guidefive=false;
+boxfive.answersguide=false;
+boxfive.boxone=false;
+boxfive.threeA= "سلمان الفارسي";
+boxfive.fourA= "صهيب الرومي";
+boxfive.fiveA= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
+boxfive.oneA= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
+boxfive.twoA= "سعد بن معاذ";
 texttitlereturn();
 }
 
 function texttitlereturn (){
-  myApp1.text= true;
-	myApp2.text= true;
-  myApp3.text= true;
-  myApp4.text= true;
+// myApp1.text= true;
+// myApp2.text= true;
+// myApp3.text= true;
+// myApp4.text= true;
  boxone.textproject= false;
  boxtwo.textproject= false;
  boxthree.textproject= false;
  boxfour.textproject= false;
+ boxfive.textproject= false;
+
  }
 
 function clickone () {
-myApp2.card2= false;
-myApp3.card3= false;
-myApp4.card4= false;
+// myApp2.card2= false;
+// myApp3.card3= false;
+// myApp4.card4= false;
 myApp1.text=false;
 myApp.title=false;
 boxone.textproject=true;
@@ -495,27 +695,27 @@ myApp1.img1=false;
 myApp1.img2=true;
 apptitlereturn();
 }
-function clicktwo () {
-myApp1.card1= false;
-myApp3.card3= false;
-myApp4.card4= false;
-myApp2.text=false;
-myApp2.textproject=true;
-apptitlereturn();
-}
-function clickthree () {
-myApp1.card1= false;
-myApp2.card2= false;
-myApp4.card4= false;
-myApp3.text=false;
-myApp3.textproject=true;
-apptitlereturn();
-}
-function clickfour () {
-myApp1.card1= false;
-myApp2.card2= false;
-myApp3.card3= false;
-myApp4.text=false;
-myApp4.textproject=true;
-apptitlereturn();
-}
+// function clicktwo () {
+// myApp1.card1= false;
+// myApp3.card3= false;
+// myApp4.card4= false;
+// myApp2.text=false;
+// myApp2.textproject=true;
+// apptitlereturn();
+// }
+// function clickthree () {
+// myApp1.card1= false;
+// myApp2.card2= false;
+// myApp4.card4= false;
+// myApp3.text=false;
+// myApp3.textproject=true;
+// apptitlereturn();
+// }
+// function clickfour () {
+// myApp1.card1= false;
+// myApp2.card2= false;
+// myApp3.card3= false;
+// myApp4.text=false;
+// myApp4.textproject=true;
+// apptitlereturn();
+// }
