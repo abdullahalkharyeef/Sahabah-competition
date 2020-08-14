@@ -60,15 +60,15 @@ var boxtwo = new Vue({
 
 var boxthree = new Vue({
     el: '#boxthree',
-    data: {                     boxthree: false,         optionA: true,      three: true,        one: true,        two: true,        four: true,        five: true, fiveA: "" , fourA: "" ,    threeA: "" ,  twoA: "" ,    oneA: ""} })
+    data: {                textproject: false,     boxthree: false,         optionA: true,      three: true,        one: true,        two: true,        four: true,        five: true, fiveA: "" , fourA: "" ,    threeA: "" ,  twoA: "" ,    oneA: ""} })
 
 var boxfour = new Vue({
      el: '#boxfour',     
-data: { boxfour: false,          optionA: true,         three: true,         one: true,         two: true,         four: true,         five: true, fiveA: "" , fourA: "" ,    threeA: "" ,  twoA: "" ,    oneA: "" } }) 
+data: { boxfour: false,    textproject:false,      optionA: true,         three: true,         one: true,         two: true,         four: true,         five: true, fiveA: "" , fourA: "" ,    threeA: "" ,  twoA: "" ,    oneA: "" } }) 
 
 var boxfive = new Vue({
      el: '#boxfive',     
-data: { boxfive: false,          optionA: true,         three: true,         one: true,         two: true,         four: true,         five: true,  fiveA: "" , fourA: "" , threeA: "" ,  twoA: "" ,    oneA: "" } }) 
+data: { boxfive: false,   textproject:false,       optionA: true,         three: true,         one: true,         two: true,         four: true,         five: true,  fiveA: "" , fourA: "" , threeA: "" ,  twoA: "" ,    oneA: "" } }) 
 
 
 
