@@ -28,7 +28,7 @@ var boxone = new Vue({
     optionansr: false,
     three: true,
     one: true,
-    textproject:true,
+    textproject: false,
     two: true,
     four: true,
     five: true,
