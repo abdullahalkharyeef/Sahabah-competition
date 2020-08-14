@@ -169,7 +169,8 @@ var myApp1 = new Vue({
     card1: true,
     img1:true,
     img2:false,
-    text: true
+    text: true,
+    textproject: false
   }
 })
 
