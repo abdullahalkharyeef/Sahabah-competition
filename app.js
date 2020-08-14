@@ -201,6 +201,46 @@ var myApp4 = new Vue({
 }
 })
 
+
+
+function clickone () {
+// myApp2.card2= false;
+// myApp3.card3= false;
+// myApp4.card4= false;
+myApp1.text=false;
+myApp.title=false;
+boxone.textproject=true;
+myApp1.img1=false;
+myApp1.img2=true;
+apptitlereturn();
+}
+// function clicktwo () {
+// myApp1.card1= false;
+// myApp3.card3= false;
+// myApp4.card4= false;
+// myApp2.text=false;
+// myApp2.textproject=true;
+// apptitlereturn();
+// }
+// function clickthree () {
+// myApp1.card1= false;
+// myApp2.card2= false;
+// myApp4.card4= false;
+// myApp3.text=false;
+// myApp3.textproject=true;
+// apptitlereturn();
+// }
+// function clickfour () {
+// myApp1.card1= false;
+// myApp2.card2= false;
+// myApp3.card3= false;
+// myApp4.text=false;
+// myApp4.textproject=true;
+// apptitlereturn();
+// }
+
+
+
 function guide1 (x){
         if(x==1){boxone.textproject=true;
 		 boxone.guideone=true;} 
@@ -684,38 +724,4 @@ function texttitlereturn (){
 
  }
 
-function clickone () {
-// myApp2.card2= false;
-// myApp3.card3= false;
-// myApp4.card4= false;
-myApp1.text=false;
-myApp.title=false;
-boxone.textproject=true;
-myApp1.img1=false;
-myApp1.img2=true;
-apptitlereturn();
-}
-// function clicktwo () {
-// myApp1.card1= false;
-// myApp3.card3= false;
-// myApp4.card4= false;
-// myApp2.text=false;
-// myApp2.textproject=true;
-// apptitlereturn();
-// }
-// function clickthree () {
-// myApp1.card1= false;
-// myApp2.card2= false;
-// myApp4.card4= false;
-// myApp3.text=false;
-// myApp3.textproject=true;
-// apptitlereturn();
-// }
-// function clickfour () {
-// myApp1.card1= false;
-// myApp2.card2= false;
-// myApp3.card3= false;
-// myApp4.text=false;
-// myApp4.textproject=true;
-// apptitlereturn();
-// }
+
