@@ -1,16 +1,14 @@
 <!doctype html>
 
 <html lang="ar" dir="rtl">
-  <head>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@900&display=swap" rel="stylesheet">  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1.0">
-  </head>
-
-<body>
+   
+<head>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@900&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
 
 
-  <div id="apptitle" v-if="title">
+<div id="apptitle" v-if="title">
 <div class="cardme">
   <div class="card_imageme"> <img onclick="titlereturn()" src="https://www.hdwallpaper.nu/wp-content/uploads/2015/02/chicago-illinois-world-hd-wallpaper-1920x1080-10189.jpg" /> </div>
   <div class="card_titleme title-whiteme">
@@ -57,7 +55,8 @@
   <p class="nextbtn" onclick="guideone5()" v-if="guidefour">التالي</p>
 <p class="nextbtn" onclick="ansrguide1()" v-if="answersguide1">التالي</p>
  
-</div>
+
+</div></div></div>
 
 <div id="boxone" v-if="boxone">
 <div  class="boxfull" v-if="optionA">
@@ -126,7 +125,7 @@
 
   </div>
 
-</body>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.18/vue.min.js"></script>
 <script src="app.js"></script>
   </html>
