@@ -9,227 +9,95 @@
 
 <body>
 
-<div id="apptitle" v-if="title">
+
+  <div id="apptitle" v-if="title">
 <div class="cardme">
-  <div class="card_imageme"> 
-  <img onclick="titlereturn()" src="https://www.hdwallpaper.nu/wp-content/uploads/2015/02/chicago-illinois-world-hd-wallpaper-1920x1080-10189.jpg"> 
-  </div>
+  <div class="card_imageme"> <img onclick="titlereturn()" src="https://www.hdwallpaper.nu/wp-content/uploads/2015/02/chicago-illinois-world-hd-wallpaper-1920x1080-10189.jpg" /> </div>
   <div class="card_titleme title-whiteme">
-  <p v-if="apptitle">{{text}}</p>
-  <p v-if="apptitlereturn" onclick="titlereturn()">{{text1}}</p>
+<p v-if="apptitle">{{text}}</p>
+    <p v-if="apptitlereturn" onclick="titlereturn()">{{text1}}</p>
+
   </div>
- </div>
- </div>
+</div></div>
+
+
+
+
+
 
  
 <div class="cards-list">
   
 <div id="appone" v-if="card1">
-<div class="card 1"  v-if="cardimg">
+<div class="card 1">
+
+
+
  <div class="card_image">
         <img v-if="img1" onclick="clickone()" src="https://media.giphy.com/media/LwIyvaNcnzsD6/giphy.gif">
 				<img v-if="img2" src="https://i.ibb.co/8xgV9bh/New-Project.png" style="background:#3cc1fa">
     </div>
+ 
 
-  <div class="card_title title-white"><br><br><br>
-  <p v-if="img1" style="text-align:center; color: white"  onclick="clickone()">مسابقة التخمين</p><br>
-<p style="text-align:center; font-size:30px; color:white;" v-if="img1">النقاط: {{point}}</p>
-	  </div></div>  
-
-    <div id="boxone">
-
-    <p  style="font-size:15px; text-align:center; color:white;" v-if="textproject">اضمر الصحابي:<br>
-من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو   صاحب هذه المواقف </p>
-    <p style="text-align:center; font-size:13px; color: white" v-if="guideone">{{guide1}}</p>
-<p style="text-align:center; font-size:13px; color: white" v-if="guidetwo">{{guide2}}</p>
-  <p style="text-align:center; font-size:13px; color: white" v-if="guidethree">{{guide3}}</p>
-  <p style="text-align:center; font-size:13px; color: white" v-if="guidefour">{{guide4}}</p>
-  <p style="text-align:center; font-size:11px; color: white" v-if="guidefive">{{guide5}}</p>
- <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide1(1)" v-if="textproject"> التالي</p>
-<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide2(1)" v-if="guideone"> التالي</p>
-<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide3(1)" v-if="guidetwo"> التالي</p>
-  <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide4(1)" v-if="guidethree"> التالي</p>
-  <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide5(1)" v-if="guidefour"> التالي</p>
-<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="ansrguide(1)" v-if="answersguide"> التالي</p> 
-<div v-if="boxone">
-<div  class="boxfull" v-if="optionA">
-	اختر الإجابة الصحيحة:
-  </div>
-<div class="box" id="fiveA" v-if="five" onclick="fourA(5)">
-	 {{fiveA}} 
-  </div>
-<div class="box" id="fourA" v-if="four" onclick="fourA(4)">
-	 {{fourA}} 
-  </div>
-<div class="box" id="oneA" v-if="one" onclick="fourA(1)">
-	{{oneA}} 
-  </div>
-<div class="box" id="twoA" v-if="two" onclick="fourA(2)">
-	 {{twoA}} 
-  </div>
-<div class="box" id="threeA" v-if="three" onclick="threeA(1)">
-{{threeA}}
-</div></div>
-</div>
-
-	
-	
-	
- <div id="boxtwo" >
+  <div class="card_title title-white">
+<p v-if="img1" style="color: white"  onclick="clickone()"><br><br>مسابقة التخمين</p>
+<p v-if="img1" style="text-align:center; font-size:30px; color:white;"><br>النقاط: {{point}}</p> 
 <p v-if="textproject" style="font-size:13px; color:white;">اضمر الصحابي:<br>
 من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو   صاحب هذه المواقف </p> 
-   <p style="text-align:center; font-size:13px; color: white" v-if="guideone">{{guide1}}</p>
-    <p style="text-align:center; font-size:13px; color: white" v-if="guidetwo">{{guide2}}</p>
-  <p style="text-align:center; font-size:13px; color: white" v-if="guidethree">{{guide3}}</p>
-  <p style="text-align:center; font-size:13px; color: white" v-if="guidefour">{{guide4}}</p>
-  <p style="text-align:center; font-size:11px; color: white" v-if="guidefive">{{guide5}}</p><br><br>
- <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide1(2)" v-if="textproject"> التالي</p>
-<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide2(2)" v-if="guideone"> التالي</p>
-<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide3(2)" v-if="guidetwo"> التالي</p>
-  <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide4(2)" v-if="guidethree"> التالي</p>
-  <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide5(2)" v-if="guidefour"> التالي</p>
-<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="ansrguide(2)" v-if="answersguide"> التالي</p> 
-<div v-if="boxtwo">
+ <p v-if="guideone" class="guidesize">{{guide11}}</p>
+    <p v-if="guidetwo" class="guidesize">{{guide12}}</p>
+  <p v-if="guidethree" class="guidesize">{{guide13}}</p>
+  <p v-if="guidefour" class="guidesize">{{guide14}}</p>	
+    <p v-if="guidefive" class="guidesize">{{guide15}}</p><br><br>
+
+<p class="nextbtn" onclick="guideone1()" v-if="textproject">التالي</p>
+<p class="nextbtn" onclick="guideone2()" v-if="guideone">التالي</p>
+<p class="nextbtn" onclick="guideone3()" v-if="guidetwo">التالي</p>
+  <p class="nextbtn" onclick="guideone4()" v-if="guidethree">التالي</p>
+  <p class="nextbtn" onclick="guideone5()" v-if="guidefour">التالي</p>
+<p class="nextbtn" onclick="ansrguide1()" v-if="answersguide1">التالي</p>
+ 
+
+</div></div></div>
+
+<div id="boxone" v-if="boxone">
 <div  class="boxfull" v-if="optionA">
 	اختر الإجابة الصحيحة:
-  </div>
-<div class="box" id="fiveA" v-if="five" onclick="fourA(5)">
+  </div><br><br>
+
+<div class="box" id="fiveA" v-if="five" onclick="fouroneA(5)">
 	 {{fiveA}} 
-  </div>
-<div class="box" id="threeA" v-if="three" onclick="threeA(2)">
-{{threeA}}
-</div>
-<div class="box" id="fourA" v-if="four" onclick="fourA(4)">
+  </div><br>
+
+<div class="box" id="fourA" v-if="four" onclick="fouroneA(4)">
 	 {{fourA}} 
-  </div>
-<div class="box" id="oneA" v-if="one" onclick="fourA(1)">
+  </div><br>
+
+<div class="box" id="oneA" v-if="one" onclick="fouroneA(1)">
 	{{oneA}} 
+  </div><br>
+
+<div class="box" id="twoA" v-if="two" onclick="fouroneA(2)">
+	 {{twoA}} 
+  </div><br>
+
+
+<div class="box" id="threeA" v-if="three" onclick="fouoneA()">
+	 {{threeA}}
   </div>
 
-<div class="box" id="twoA" v-if="two" onclick="fourA(2)">
-	 {{twoA}} 
-  </div>
-</div></div>
-	
-	
-	
- <div id="boxtthree" >
-<p v-if="textproject" style="font-size:13px; color:white;">اضمر الصحابي:<br>
-من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو   صاحب هذه المواقف </p> 
-   <p style="text-align:center; font-size:13px; color: white" v-if="guideone">{{guide1}}</p>
-    <p style="text-align:center; font-size:13px; color: white" v-if="guidetwo">{{guide2}}</p>
-  <p style="text-align:center; font-size:13px; color: white" v-if="guidethree">{{guide3}}</p>
-  <p style="text-align:center; font-size:13px; color: white" v-if="guidefour">{{guide4}}</p>
-  <p style="text-align:center; font-size:11px; color: white" v-if="guidefive">{{guide5}}</p><br><br>
- <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide1(3)" v-if="textproject"> التالي</p>
-<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide2(3)" v-if="guideone"> التالي</p>
-<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide3(3)" v-if="guidetwo"> التالي</p>
-  <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide4(3)" v-if="guidethree"> التالي</p>
-  <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide5(3)" v-if="guidefour"> التالي</p>
-<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="ansrguide(3)" v-if="answersguide"> التالي</p> 
-<div v-if="boxthree">
-<div  class="boxfull" v-if="optionA">
-	اختر الإجابة الصحيحة:
-  </div>
-<div class="box" id="fiveA" v-if="five" onclick="fourA(5)">
-	 {{fiveA}} 
-  </div>
-<div class="box" id="threeA" v-if="three" onclick="threeA(3)">
-{{threeA}}
 </div>
-<div class="box" id="fourA" v-if="four" onclick="fourA(4)">
-	 {{fourA}} 
-  </div>
-<div class="box" id="oneA" v-if="one" onclick="fourA(1)">
-	{{oneA}} 
-  </div>
-<div class="box" id="twoA" v-if="two" onclick="fourA(2)">
-	 {{twoA}} 
-  </div>
-</div></div>
-	
-	
-	
- <div id="boxfour" >
-<p v-if="textproject" style="font-size:13px; color:white;">اضمر الصحابي:<br>
-من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو   صاحب هذه المواقف </p> 
-   <p style="text-align:center; font-size:13px; color: white" v-if="guideone">{{guide1}}</p>
-    <p style="text-align:center; font-size:13px; color: white" v-if="guidetwo">{{guide2}}</p>
-  <p style="text-align:center; font-size:13px; color: white" v-if="guidethree">{{guide3}}</p>
-  <p style="text-align:center; font-size:13px; color: white" v-if="guidefour">{{guide4}}</p>
-  <p style="text-align:center; font-size:11px; color: white" v-if="guidefive">{{guide5}}</p><br><br>
- <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide1(4)" v-if="textproject"> التالي</p>
-<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide2(4)" v-if="guideone"> التالي</p>
-<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide3(4)" v-if="guidetwo"> التالي</p>
-  <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide4(4)" v-if="guidethree"> التالي</p>
-  <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide5(4)" v-if="guidefour"> التالي</p>
-<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="ansrguide(4)" v-if="answersguide"> التالي</p> 
-<div v-if="boxfour">
-<div  class="boxfull" v-if="optionA">
-	اختر الإجابة الصحيحة:
-  </div>
-<div class="box" id="fiveA" v-if="five" onclick="fourA(5)">
-	 {{fiveA}} 
-  </div>
-<div class="box" id="threeA" v-if="three" onclick="threeA(4)">
-{{threeA}}
-</div>
-<div class="box" id="fourA" v-if="four" onclick="fourA(4)">
-	 {{fourA}} 
-  </div>
-<div class="box" id="oneA" v-if="one" onclick="fourA(1)">
-	{{oneA}} 
-  </div>
-<div class="box" id="twoA" v-if="two" onclick="fourA(2)">
-	 {{twoA}} 
-  </div>
-</div></div>
-	
-	
-	
- <div id="boxfive" >
-<p v-if="textproject" style="font-size:13px; color:white;">اضمر الصحابي:<br>
-من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو   صاحب هذه المواقف </p> 
-   <p style="text-align:center; font-size:13px; color: white" v-if="guideone">{{guide1}}</p>
-    <p style="text-align:center; font-size:13px; color: white" v-if="guidetwo">{{guide2}}</p>
-  <p style="text-align:center; font-size:13px; color: white" v-if="guidethree">{{guide3}}</p>
-  <p style="text-align:center; font-size:13px; color: white" v-if="guidefour">{{guide4}}</p>
-  <p style="text-align:center; font-size:11px; color: white" v-if="guidefive">{{guide5}}</p><br><br>
- <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide1(5)" v-if="textproject"> التالي</p>
-<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide2(5)" v-if="guideone"> التالي</p>
-<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide3(5)" v-if="guidetwo"> التالي</p>
-  <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide4(5)" v-if="guidethree"> التالي</p>
-  <p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="guide5(5)" v-if="guidefour"> التالي</p>
-<p style="text-align:center; font-size:20px; color: white" class="nextbtn" onclick="ansrguide(5)" v-if="answersguide"> التالي</p> 
-<div v-if="boxfive">
-<div  class="boxfull" v-if="optionA">
-	اختر الإجابة الصحيحة:
-  </div>
-<div class="box" id="fiveA" v-if="five" onclick="fourA(5)">
-	 {{fiveA}} 
-  </div>
-<div class="box" id="threeA" v-if="three" onclick="threeA(5)">
-{{threeA}}
-</div>
-<div class="box" id="fourA" v-if="four" onclick="fourA(4)">
-	 {{fourA}} 
-  </div>
-<div class="box" id="oneA" v-if="one" onclick="fourA(1)">
-	{{oneA}} 
-  </div>
-<div class="box" id="twoA" v-if="two" onclick="fourA(2)">
-	 {{twoA}} 
-  </div>
-</div></div>
-	
-	
-	
-	
-	
-	
-	
 
-  <div id="apptwo" v-if="card2"><div class="card 2"      style="display:block" onclick="clicktwo()">
+
+
+
+
+
+
+
+
+
+  <div id="apptwo" v-if="card2"><div class="card 2" onclick="clicktwo()">
   <div class="card_image">
     <img src="http://selfrecruiter.com/wp-content/uploads/2015/07/automne-1920-1080.jpg" />
     </div>
@@ -238,7 +106,7 @@
   </div>
 </div></div>
 
-<div id="appthree" v-if="card3"><div class="card 3" style="display:block" onclick="clickthree()">
+<div id="appthree" v-if="card3"><div class="card 3" onclick="clickthree()">
   <div class="card_image">
     <img src="https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif" />
   </div>
@@ -247,14 +115,14 @@
   </div>
 </div></div>
   
-  <div id="appfour" v-if="card4"><div class="card 4" style="display:block" onclick="clickfour()" >
+  <div id="appfour" v-if="card4"><div class="card 4" onclick="clickfour()" >
   <div class="card_image">
     <img src="https://media.giphy.com/media/LwIyvaNcnzsD6/giphy.gif" />
     </div>
   <div class="card_title title-black">
 <p v-if="text">المسابقة الرابعة</p> <p v-if="textproject">فكرة المسابقة الرابعة</p>
   </div>
-  </div></div>
+  </div>
 
 
   </div>
