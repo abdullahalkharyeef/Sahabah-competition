@@ -26,7 +26,7 @@ var boxone = new Vue({
     oneA: "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ"
 }
 })
-boxone.boxone=false;
+
 var myApp1 = new Vue({
     el: '#appone',
     data: {
@@ -85,24 +85,19 @@ boxone.four= true;
 boxone.five= true;
 }
 function fouoneA () { 
-
 if (boxone.optionA==true) {
 myApp1.point=myApp1.point+1;
 }
-if (boxone.boxone==true){
 boxone.optionA= false;
 boxone.one= false;
 boxone.two= false;
 boxone.four= false;
 boxone.five= false;
 boxone.threeA= "الإجابة صحيحة";
-}
-
 myApp.title=true;
 }
-function fouroneA (x) {
 
-if (boxone.boxone==true){
+function fouroneA (x) {
 boxone.optionA= false;
 if (x=1){
 boxone.one= true;
@@ -110,16 +105,16 @@ boxone.two= false;
 boxone.three= false;
 boxone.four= false;
 boxone.five= false;
-boxone.oneA= "الإجابة خاطئة";}
-
+boxone.oneA= "الإجابة خاطئة";
+}
 if (x=2){
 boxone.one= false;
 boxone.two= true;
 boxone.three= false;
 boxone.four= false;
 boxone.five= false;
-boxone.twoA= "الإجابة خاطئة";}  
-
+boxone.twoA= "الإجابة خاطئة";
+}
 if (x=4){
 boxone.one= false;
 boxone.two= false;
@@ -127,8 +122,7 @@ boxone.three= false;
 boxone.four= true;
 boxone.five= false;
 boxone.threeA="الإجابة خاطئة";
-} 
-
+}
 if (x=5){
 boxone.one= false;
 boxone.two= false;
@@ -137,8 +131,6 @@ boxone.four= false;
 boxone.five= true;
 boxone.fiveA= "الإجابة خاطئة";
 }
-}
-
 myApp.title=true;
 }
 
