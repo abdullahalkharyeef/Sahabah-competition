@@ -182,11 +182,11 @@ myApp1.guidefour=false;
 myApp1.guidefive=false;
 myApp1.answersguide1=false;
 boxone.boxone=false;
-boxone.threeA= "الإجابة الصحيحة";
-boxone.fourA= "الإجابة الخاطئة";
-boxone.fiveA= "الإجابة الخاطئة";
-boxone.oneA= "الإجابة الخاطئة";
-boxone.twoA= "الإجابة الخاطئة";
+boxone.fiveA= "صهيب الرومي";
+boxone.fourA= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
+boxone.threeA= "سلمان الفارسي";
+boxone.twoA= "سعد بن معاذ";
+boxone.oneA= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
 texttitlereturn();
 }
 
