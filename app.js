@@ -26,23 +26,7 @@ var boxone = new Vue({
     oneA: "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ"
 }
 })
-var boxtwo = new Vue({
-    el: '#boxtwo',
-    data: {
-		boxtwo: false,
-    optionA: false,
-    three: true,
-    one: true,
-    two: true,
-    four: true,
-    five: true,
-	  fiveA: "الإجابة الخاطئة",
-    fourA: "الإجابة الخاطئة",
-    threeA:"الإجابة الصحيحة",
-		twoA: "الإجابة الخاطئة",
-    oneA: "الإجابة الخاطئة"
-}
-})
+
 var myApp1 = new Vue({
     el: '#appone',
     data: {
@@ -63,12 +47,6 @@ var myApp1 = new Vue({
         guide14: "قال رضي الله عنه: «شهدت مع رسول الله صلى الله عليه وسلم الخندق، ثم لم يفتني معه مشهد». رواه الإمام أحمد في مسنده برقم ٢٣٧٣٧",
         guide15: "روى الإمام أحمد في مسنده من حديث الحسن قال: لما احتضر (...) بكى، وقال: إن رسول الله صلى الله عليه وسلم عهد إلينا عهدًا، فتركنا ما عهد إلينا، أن يكون بلغة أحدنا من الدنيا كزاد الراكب، قال: ثم نظرنا فيما ترك، فإذا قيمة ما ترك بضعة وعشرون درهمًا، أو بضعة وثلاثون درهمًا. توفي سنة خمس وثلاثين من هجرة الرسول صلى الله عليه وسلم آخر خلافة عثمان رضي الله عنه",
     answersguide1: false,
-    guide21: "التلميحة الأولى",
-    guide22: "التلميحة الثانية",
-    guide23: "التلميحة الثالثة",
-    guide24: "التلميحة الرابعة",
-    guide25: "التلميحة الخامسة",
-    answersguide2: false,
     optionansr: false
 }
 })
@@ -76,7 +54,6 @@ var myApp1 = new Vue({
 function guideone1 (){
    myApp1.textproject=false;
    myApp1.guideone=true;
-   myApp.boxone= true;
 }
 function guideone2 (){
    myApp1.guideone=false;
@@ -101,29 +78,15 @@ myApp1.guidefive= false;
 myApp1.card1= false;
 boxone.optionA=true;
 boxone.boxone= true;
-boxtwo.boxtwo= true;
 boxone.one= true;
 boxone.two= true;
 boxone.three= true;
 boxone.four= true;
 boxone.five= true;
-boxtwo.boxtwo= true
-}
-function ansrguide2 () {
-myApp1.answersguide2= false;
-myApp1.guidefive= false;
-myApp1.card1= false;
-boxtwo.optionA=true
-boxtwo.boxone= true;
-boxtwo.one= true;
-boxtwo.two= true;
-boxtwo.three= true;
-boxtwo.four= true;
-boxtwo.five= true;
 }
 function fouoneA () { 
 
-if (boxone.optionA==true||boxtwo.optionA==true) {
+if (boxone.optionA==true) {
 myApp1.point=myApp1.point+1;
 }
 if (boxone.boxone==true){
@@ -134,55 +97,10 @@ boxone.four= false;
 boxone.five= false;
 boxone.threeA= "الإجابة صحيحة";
 }
-if (boxtwo.boxtwo==true){
-boxtwo.optionA= false;
-boxtwo.one= false;
-boxtwo.two= false;
-boxtwo.four= false;
-boxtwo.five= false;
-boxtwo.threeA= "الإجابة صحيحة";
-}
+
 myApp.title=true;
 }
 function fouroneA (x) {
-myApp1.boxtwo=true;
-myApp1.boxone=false;
-if (boxone.boxone==true){
-boxone.optionA= false;
-if (x=1){
-boxone.one= true;
-boxone.two= false;
-boxone.three= false;
-boxone.four= false;
-boxone.five= false;
-boxone.oneA= "الإجابة خاطئة";}
-
-if (x=2){
-boxone.one= false;
-boxone.two= true;
-boxone.three= false;
-boxone.four= false;
-boxone.five= false;
-boxone.twoA= "الإجابة خاطئة";}  
-
-if (x=4){
-boxone.one= false;
-boxone.two= false;
-boxone.three= false;
-boxone.four= true;
-boxone.five= false;
-boxone.threeA="الإجابة خاطئة";
-} 
-
-if (x=5){
-boxone.one= false;
-boxone.two= false;
-boxone.three= false;
-boxone.four= false;
-boxone.five= true;
-boxone.fiveA= "الإجابة خاطئة";
-}
-}
 
 if (boxone.boxone==true){
 boxone.optionA= false;
@@ -220,44 +138,6 @@ boxone.five= true;
 boxone.fiveA= "الإجابة خاطئة";
 }
 }
-
-if (boxtwo.boxtwo==true){
-boxtwo.optionA= false;
-if (x=1){
-boxtwo.one= true;
-boxtwo.two= false;
-boxtwo.three= false;
-boxtwo.four= false;
-boxtwo.five= false;
-boxtwo.oneA= "الإجابة خاطئة";}
-
-if (x=2){
-boxtwo.one= false;
-boxtwo.two= true;
-boxtwo.three= false;
-boxtwo.four= false;
-boxtwo.five= false;
-boxtwo.twoA= "الإجابة خاطئة";}  
-
-if (x=4){
-boxtwo.one= false;
-boxtwo.two= false;
-boxtwo.three= false;
-boxtwo.four= true;
-boxtwo.five= false;
-boxtwo.threeA="الإجابة خاطئة";
-} 
-
-if (x=5){
-boxtwo.one= false;
-boxtwo.two= false;
-boxtwo.three= false;
-boxtwo.four= false;
-boxtwo.five= true;
-boxtwo.fiveA= "الإجابة خاطئة";
-}
-}
-
 
 myApp.title=true;
 }
@@ -308,7 +188,7 @@ myApp1.guidetwo=false;
 myApp1.guidethree=false;
 myApp1.guidefour=false;
 myApp1.guidefive=false;
-myApp1.answersguideone=false;
+myApp1.answersguide1=false;
 boxone.boxone=false;
 boxone.threeA= "الإجابة الصحيحة";
 boxone.fourA= "الإجابة الخاطئة";
@@ -335,7 +215,6 @@ myApp3.card3= false;
 myApp4.card4= false;
 myApp1.text=false;
 myApp.title=false;
-myApp1.boxone= true;
 myApp1.textproject=true;
 myApp1.img1=false;
 myApp1.img2=true;
