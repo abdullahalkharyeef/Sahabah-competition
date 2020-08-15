@@ -26,7 +26,7 @@ var boxone = new Vue({
     oneA: "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ"
 }
 })
-boxone.optionA=false;
+boxone.boxone=false;
 var myApp1 = new Vue({
     el: '#appone',
     data: {
