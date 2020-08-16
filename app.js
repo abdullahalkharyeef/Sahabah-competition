@@ -99,7 +99,7 @@ myApp.title=true;
 
 function fouroneA (x) {
 boxone.optionA= false;
-if (x=1){
+if (x==1){
 boxone.one= true;
 boxone.two= false;
 boxone.three= false;
@@ -107,7 +107,7 @@ boxone.four= false;
 boxone.five= false;
 boxone.oneA= "الإجابة خاطئة";
 }
-if (x=2){
+if (x==2){
 boxone.one= false;
 boxone.two= true;
 boxone.three= false;
@@ -115,7 +115,7 @@ boxone.four= false;
 boxone.five= false;
 boxone.twoA= "الإجابة خاطئة";
 }
-if (x=4){
+if (x==4){
 boxone.one= false;
 boxone.two= false;
 boxone.three= false;
@@ -123,7 +123,7 @@ boxone.four= true;
 boxone.five= false;
 boxone.threeA="الإجابة خاطئة";
 }
-if (x=5){
+if (x==5){
 boxone.one= false;
 boxone.two= false;
 boxone.three= false;
