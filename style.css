@@ -51,14 +51,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   margin-top: -275px;
   height: 40px;
 }
-#scrollcard {
-margin-left: 20px;
-  margin-right: 20px;
-}
-#scrollansr {
-overflow-x:scroll; 
-height:430px;
-}
+
 .card:hover {
   transform: scale(0.9, 0.9);
   box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
@@ -68,10 +61,18 @@ height:430px;
 .title-white {
   color: white;
 }
-
 .title-black {
   color: black;
 }
+#scrollcard {
+margin-left: 20px;
+margin-right: 20px;
+}
+#scrollansr {
+overflow-x:scroll; 
+height:430px;
+}
+
 
 .card {
   margin: 30px auto;
@@ -87,11 +88,11 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 }
 
 
-@media all and (max-width: 300px){  
+/*@media all and (max-width: 300px){  
 .card-list {
  flex-direction: column;
   }
-}
+}*/
 
 /*$border: 5px;
 $border-delta: 80%;
