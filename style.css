@@ -94,11 +94,10 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 $border-delta: 80%;
 */
 .box {
-	font-family: 'Cairo', sans-serif;
-  font-size: 10px;
+  font-family: 'Cairo', sans-serif;
+  font-size: 20px;
   box-sizing: border-box;
   padding: 15px 30px;
-  text-transform: uppercase;
   text-align: center;
   position: relative;
   color: white;
@@ -106,7 +105,6 @@ $border-delta: 80%;
   background-clip: padding-box;
   border: solid 5px transparent;
   border-radius: 10px;
-  cursor: pointer;
 }
   .border {
     position: absolute;
@@ -114,7 +112,6 @@ $border-delta: 80%;
     border-radius: inherit;
     z-index: -1;
     background: white;
-    transition: all 4s;
 }
 
  
@@ -161,9 +158,8 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   text-align: center;
   border-radius: 0px 0px 40px 40px;
   font-family: sans-serif;
-  font-weight: bold;
   font-size: 25px;
-  margin-top: -100px;
+  margin-top: -90px;
   height: 40px;
 }
 
@@ -202,11 +198,10 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
 
 .boxfull {
-	font-family: 'Cairo', sans-serif;
-  font-size: 20px;
+  font-family: 'Cairo', sans-serif;
+  font-size: 25px;
   box-sizing: border-box;
   padding: 15px 30px;
-  text-transform: uppercase;
   text-align: center;
   position: relative;
   color: white;
@@ -223,5 +218,4 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
     border-radius: inherit;
     z-index: -1;
     background: white;
-    transition: all 8s;
 }
