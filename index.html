@@ -42,6 +42,7 @@
   <div class="card_title title-white">
 <p v-if="img1" style="color: white"  onclick="clickone()"><br><br><br><br>مسابقة التخمين</p>
 <p v-if="img1" style="text-align:center; font-size:30px; color:white;">النقاط: {{point}}</p> 
+
 <div id="scrollcard" style="overflow-x:scroll; height:225px;">
 <p v-if="textproject" style="font-size:20px; color:white;">اضمر الصحابي:<br>
 من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو   صاحب هذه المواقف </p> 
@@ -50,7 +51,7 @@
   <p v-if="guidethree" class="guidesize">{{guide13}}</p>
   <p v-if="guidefour" class="guidesize">{{guide14}}</p>	
     <p v-if="guidefive" class="guidesize">{{guide15}}</p><br><br>
-</div><br>
+</div><br><br>
 <p class="nextbtn" onclick="guideone1()" v-if="textproject">التالي</p>
 <p class="nextbtn" onclick="guideone2()" v-if="guideone">التالي</p>
 <p class="nextbtn" onclick="guideone3()" v-if="guidetwo">التالي</p>
