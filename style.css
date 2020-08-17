@@ -18,7 +18,7 @@ font-size:20px;
  border: 4px solid white; 
  border-radius: 50px;
 color:white;
-background: #14045e;
+background: #1D4B99;
 }
 .card {
   font-family: 'Cairo', sans-serif;
@@ -99,7 +99,7 @@ $border-delta: 80%;
   text-align: center;
   position: relative;
   color: white;
-  background: #14045e;
+  background: #1D4B99;
   background-clip: padding-box;
   border: solid 5px transparent;
   border-radius: 10px;
@@ -207,7 +207,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   text-align: center;
   position: relative;
   color: white;
-  background: #14045e;
+  background: #1D4B99;
   background-clip: padding-box;
   border: solid 3px transparent;
   border-radius: 10px;
