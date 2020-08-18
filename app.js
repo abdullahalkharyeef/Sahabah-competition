@@ -100,7 +100,7 @@ function ansrguide1 () {
 myApp1.answersguide1= false;
 myApp1.guidefive1= false;
 myApp1.card1= false;
-myApp1.img2= false;
+// myApp1.img2= false;
 boxone.optionansr1= true;
 boxone.optionA=true;
 boxone.boxone= true;
@@ -114,6 +114,7 @@ function fouoneA () {
 if (boxone.optionA==true) {
 myApp1.point=myApp1.point+1;
 }
+myApp1.card1= true;
 boxone.guideone2=true;
 boxone.optionA= false;
 boxone.one1= false;
