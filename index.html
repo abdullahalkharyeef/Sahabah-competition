@@ -34,7 +34,6 @@
 <div class="card 1">
 
 
-
  <div class="card_image">
         <img v-if="img1" onclick="clickone()" src="https://media.giphy.com/media/LwIyvaNcnzsD6/giphy.gif">
 	<img v-if="img2" src="https://i.ibb.co/8xgV9bh/New-Project.png" style="background: #4962EB">
@@ -42,7 +41,7 @@
  
 
   <div class="card_title title-white">
-<p v-if="img1" style="color: white"  onclick="clickone()"><br><br><br><br>مسابقة التخمين</p>
+<p v-if="img1" style="color: white"  onclick="clickone()"><br><br><br><br><br>مسابقة التخمين</p>
 <p v-if="img1" style="text-align:center; font-size:30px; color:white;">النقاط: {{point}}</p> 
 <div id="scrollcard" style="overflow-x:scroll; height:225px;">
 <p v-if="textproject" style="font-size:20px; color:white;">اضمر الصحابي:<br>
@@ -56,8 +55,9 @@
  <p v-if="guidetwo2" class="guidesize">{{guide22}}</p>
  <p v-if="guidethree2" class="guidesize">{{guide23}}</p>
  <p v-if="guidefour2" class="guidesize">{{guide24}}</p>	
- <p v-if="guidefive2" class="guidesize">{{guide25}}</p></div></div><br>
-<div style="font-size: 20px; text-align: center;"> <p class="nextbtn" onclick="guideone11()" v-if="textproject">التالي</p>
+ <p v-if="guidefive2" class="guidesize">{{guide25}}</p></div></div></div><br>
+<!-- next btn underline -->
+<p class="nextbtn" onclick="guideone11()" v-if="textproject">التالي</p>
 <p class="nextbtn" onclick="guideone12()" v-if="guideone1">التالي</p>
 <p class="nextbtn" onclick="guideone13()" v-if="guidetwo1">التالي</p>
 <p class="nextbtn" onclick="guideone14()" v-if="guidethree1">التالي</p>
@@ -69,7 +69,7 @@
 <p class="nextbtn" onclick="guideone23()" v-if="guidethree2">التالي</p>
 <p class="nextbtn" onclick="guideone24()" v-if="guidefour2">التالي</p>
 <p class="nextbtn" onclick="ansrguide2()" v-if="answersguide2">التالي</p>
- </div> <!-- div style nextbtn -->
+ 
 
 </div> <!-- div v-if card1 -->
 
