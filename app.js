@@ -101,6 +101,7 @@ myApp1.answersguide1= false;
 myApp1.guidefive1= false;
 myApp1.card1= false;
 myApp1.img2= false;
+boxone.guideone2=true;
 boxone.optionansr1= true;
 boxone.optionA=true;
 boxone.boxone= true;
