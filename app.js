@@ -124,7 +124,7 @@ boxone.threeA1= "الإجابة صحيحة";
 }
 
 function fouroneA (x) {
-boxone.optionA= false;
+boxone.optionA1= false;
 if (x==1){
 boxone.one1= true;
 boxone.two1= false;
