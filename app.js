@@ -12,7 +12,8 @@ var myApp = new Vue({
 var boxone = new Vue({
     el: '#boxone',
     data: {
-		boxone: false,
+    boxone: false,
+    optionansr1: false,
     optionA: false,
     three: false,
     one: false,
@@ -24,6 +25,7 @@ var boxone = new Vue({
     threeA:"سلمان الفارسي",
     twoA: "سعد بن معاذ",
     oneA: "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ",
+    optionansr2: false,
     optionA2: false,
     three2: false,
     one2: false,
@@ -58,7 +60,6 @@ var myApp1 = new Vue({
     guide14: "قال رضي الله عنه: «شهدت مع رسول الله صلى الله عليه وسلم الخندق، ثم لم يفتني معه مشهد». رواه الإمام أحمد في مسنده برقم ٢٣٧٣٧",
     guide15: "روى الإمام أحمد في مسنده من حديث الحسن قال: لما احتضر (...) بكى، وقال: إن رسول الله صلى الله عليه وسلم عهد إلينا عهدًا، فتركنا ما عهد إلينا، أن يكون بلغة أحدنا من الدنيا كزاد الراكب، قال: ثم نظرنا فيما ترك، فإذا قيمة ما ترك بضعة وعشرون درهمًا، أو بضعة وثلاثون درهمًا. توفي سنة خمس وثلاثين من هجرة الرسول صلى الله عليه وسلم آخر خلافة عثمان رضي الله عنه",
     answersguide1: false,
-    optionansr1: false,
     guideone2: false,
     guidetwo2: false,
     guidethree2: false,
@@ -70,7 +71,6 @@ var myApp1 = new Vue({
     guide24: "بعد وفاة النبي محمد، شارك عمار في حروب الردة، واستبسل يوم اليمامة لما اشتدّ القتال، ورأى تأزّم الموقف في القتال، فاعتلى صخرة، وصاح: «يا معشر المسلمين، أمن الجنة تفرون؟ أنا عمار بن ياسر، هلموا إلي»الطبقات الكبرى لابن سعد.، وقد قطعت أذنه يومئذ٫ الإصابة في تمييز الصحابة.، فكانت تتذبذب، وهو يقاتل أشد القتال٫ سير أعلام النبلاء",
     guide25: "انحاز (...) إلى جانب علي بن أبي طالب في حربه مع معاوية بن أبي سفيان بعد مقتل عثمان بن عفان، فشهد موقعة الجمل، ثم وقعة صفين. قُتل (...) في وقعة صفين في صفر سنة 37 هـ، وعمره 93 سنة، وهو يقاتل في صفوف جيش علي بن أبي طالب وهو شيخ طاعن في السن في يده حربة ترعد. الطبقات الكبرى لابن سعد",
     answersguide2: false,
-    optionansr2: false
 }
 })
 
@@ -100,7 +100,7 @@ myApp1.answersguide1= false;
 myApp1.guidefive= false;
 myApp1.card1= false;
 myApp1.img2= false;
-myApp1.optionansr1= true;
+boxone.optionansr1= true;
 boxone.optionA=true;
 boxone.boxone= true;
 boxone.one= true;
@@ -201,7 +201,7 @@ myApp.apptitle=true;
 myApp.apptitlereturn=false;
 myApp1.card1= true;
 myApp1.img1=true; 
-myApp1.optionansr1=false;
+boxone.optionansr1=false;
 boxone.optionA= false
 boxone.three= false;
 boxone.one= false;
