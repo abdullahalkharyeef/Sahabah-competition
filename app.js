@@ -102,7 +102,7 @@ myApp1.guidefive1= false;
 myApp1.card1= false;
 myApp1.img2= false;
 boxone.optionansr1= true;
-boxone.optionA=true;
+boxone.optionA1=true;
 boxone.boxone= true;
 boxone.one1= true;
 boxone.two1= true;
@@ -111,7 +111,7 @@ boxone.four1= true;
 boxone.five1= true;
 }
 function fouoneA () { 
-if (boxone.optionA==true) {
+if (boxone.optionA1==true) {
 myApp1.point=myApp1.point+1;
 }
 myApp1.guide2=true;
