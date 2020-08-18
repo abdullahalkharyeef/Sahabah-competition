@@ -15,7 +15,7 @@ var boxone = new Vue({
     boxone: false,
     optionansr1: false,
     optionA: false,
-    three: false,
+    three1: false,
     one1: false,
     two1: false,
     four1: false,
@@ -120,7 +120,6 @@ boxone.two1= false;
 boxone.four1= false;
 boxone.five1= false;
 boxone.threeA= "الإجابة صحيحة";
-
 }
 
 function fouroneA (x) {
