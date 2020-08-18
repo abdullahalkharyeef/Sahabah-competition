@@ -67,31 +67,31 @@ var myApp1 = new Vue({
     guidefour2: false,
     guidefive2: false,
     guide21: "صحابي كان من موالي بني مخزوم، ومن السابقين إلى الإسلام، ومن المستضعفين الذين عُذّبوا ليتركوا دين الإسلام",
-    guide22: "كان بنو مخزوم لا يتركون عمار حتى ينال من النبي محمد، ويذكر آلهتهم بخير، فلما أتى عمار النبي محمد، سأله النبي: «ما وراءك؟»، قال عمار: «شر يا رسول الله. والله ما تُرِكْتُ حتى نلت منك، وذكرت آلهتهم بخير»، فقال النبي: «فكيف تجد قلبك؟»، قال: «مطمئن بالإيمان»، فقال النبي: «فإن عادوا فعد»، سير أعلام النبلاء",
-    guide23: "كان لعمار مكانته الرفيعة عند النبي محمد، فقد روى أنس بن مالك عن النبي محمد قوله: «ثلاثة تشتاق إليهم الجنة: علي وسلمان وعمار»المستدرك على الصحيحين، وروى علي بن أبي طالب أن (...) استأذن على النبي محمد، فقال: «من هذا؟»، قال: «...»، قال: «مرحبًا بالطَيّبِ المُطَيَّبِ»،",
-    guide24: "بعد وفاة النبي محمد، شارك عمار في حروب الردة، واستبسل يوم اليمامة لما اشتدّ القتال، ورأى تأزّم الموقف في القتال، فاعتلى صخرة، وصاح: «يا معشر المسلمين، أمن الجنة تفرون؟ أنا عمار بن ياسر، هلموا إلي»الطبقات الكبرى لابن سعد.، وقد قطعت أذنه يومئذ٫ الإصابة في تمييز الصحابة.، فكانت تتذبذب، وهو يقاتل أشد القتال٫ سير أعلام النبلاء",
+    guide22: "كان بنو مخزوم لا يتركون (...) حتى ينال من النبي صلى الله عليه وسلم، ويذكر آلهتهم بخير، فلما أتى النبي، سأله النبي: «ما وراءك؟»، قال: «شر يا رسول الله. والله ما تُرِكْتُ حتى نلت منك، وذكرت آلهتهم بخير»، فقال النبي: «فكيف تجد قلبك؟»، قال: «مطمئن بالإيمان»، فقال النبي: «فإن عادوا فعد»، سير أعلام النبلاء",
+    guide23: "كان لعمار مكانته الرفيعة عند النبي محمد، فقد روى أنس بن مالك عن النبي محمد قوله: «ثلاثة تشتاق إليهم الجنة: علي وسلمان و(...)»المستدرك على الصحيحين، وروى علي بن أبي طالب أن (...) استأذن على النبي محمد، فقال: «من هذا؟»، قال: «...»، قال: «مرحبًا بالطَيّبِ المُطَيَّبِ»،",
+    guide24: "بعد وفاة النبي محمد، شارك عمار في حروب الردة، واستبسل يوم اليمامة لما اشتدّ القتال، ورأى تأزّم الموقف في القتال، فاعتلى صخرة، وصاح: «يا معشر المسلمين، أمن الجنة تفرون؟ أنا (...)، هلموا إلي»الطبقات الكبرى لابن سعد.، وقد قطعت أذنه يومئذ٫ الإصابة في تمييز الصحابة.، فكانت تتذبذب، وهو يقاتل أشد القتال٫ سير أعلام النبلاء",
     guide25: "انحاز (...) إلى جانب علي بن أبي طالب في حربه مع معاوية بن أبي سفيان بعد مقتل عثمان بن عفان، فشهد موقعة الجمل، ثم وقعة صفين. قُتل (...) في وقعة صفين في صفر سنة 37 هـ، وعمره 93 سنة، وهو يقاتل في صفوف جيش علي بن أبي طالب وهو شيخ طاعن في السن في يده حربة ترعد. الطبقات الكبرى لابن سعد",
-    answersguide2: false,
+    answersguide2: false
 }
 })
 
-function guideone1 (){
+function guideone11 (){
    myApp1.textproject=false;
    myApp1.guideone=true;
 }
-function guideone2 (){
+function guideone12 (){
    myApp1.guideone=false;
    myApp1.guidetwo=true;
 }
-function guideone3 (){
+function guideone13 (){
    myApp1.guidetwo=false;
    myApp1.guidethree=true;
 }
-function guideone4 (){
+function guideone14 (){
    myApp1.guidethree=false;
 	 myApp1.guidefour=true;
 }
-function guideone5 (){
+function guideone15 (){
    myApp1.guidefour=false;
  myApp1.answersguide1=true;
    myApp1.guidefive=true;
@@ -161,6 +161,91 @@ myApp.title=true;
 }
 
 
+
+function guideone21 (){
+   myApp1.nexttextquestion=false;
+   myApp1.guideone2=true;
+}
+function guideone22 (){
+   myApp1.guideone2=false;
+   myApp1.guidetwo2=true;
+}
+function guideone23 (){
+   myApp1.guidetwo2=false;
+   myApp1.guidethree2=true;
+}
+function guideone24 (){
+   myApp1.guidethree2=false;
+	 myApp1.guidefour2=true;
+}
+function guideone25 (){
+   myApp1.guidefour2=false;
+ myApp1.answersguide2=true;
+   myApp1.guidefive2=true;
+}
+function ansrguide2 () {
+myApp1.answersguide2= false;
+myApp1.guidefive2= false;
+myApp1.card1= false;
+myApp1.img2= false;
+boxone.optionansr2= true;
+boxone.optionA2=true;
+boxone.boxone2= true;
+boxone.one2= true;
+boxone.two2= true;
+boxone.three2= true;
+boxone.four2= true;
+boxone.five2= true;
+}
+function fouoneA2 () { 
+if (boxone.optionA2==true) {
+myApp1.point=myApp1.point+1;
+}
+boxone.optionA2= false;
+boxone.one2= false;
+boxone.two2= false;
+boxone.four2= false;
+boxone.five2= false;
+boxone.threeA2= "الإجابة صحيحة";
+
+}
+
+function fouroneA2 (x) {
+boxone.optionA2= false;
+if (x==1){
+boxone.one2= true;
+boxone.two2= false;
+boxone.three2= false;
+boxone.four2= false;
+boxone.five2= false;
+boxone.oneA2= "الإجابة خاطئة";
+}
+if (x==2){
+boxone.one2= false;
+boxone.two2= true;
+boxone.three2= false;
+boxone.four2= false;
+boxone.five2= false;
+boxone.twoA2= "الإجابة خاطئة";
+}
+if (x==4){
+boxone.one2= false;
+boxone.two2= false;
+boxone.three2= false;
+boxone.four2= true;
+boxone.five2= false;
+boxone.fourA2="الإجابة خاطئة";
+}
+if (x==5){
+boxone.one2= false;
+boxone.two2= false;
+boxone.three2= false;
+boxone.four2= false;
+boxone.five2= true;
+boxone.fiveA2= "الإجابة خاطئة";
+}
+myApp.title=true;
+}
 
 
  var myApp2 = new Vue({
