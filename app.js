@@ -49,6 +49,7 @@ var myApp1 = new Vue({
     img2:false,
     text: true,
     textproject: false,
+    textnextQ2: false,
     guideone: false,
     guidetwo: false,
     guidethree: false,
