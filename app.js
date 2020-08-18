@@ -55,6 +55,7 @@ var myApp1 = new Vue({
     guidefour1: false,
     guidefive1: false,
     answersguide1: false,
+    guide2:false,
     guideone2: false,
     guidetwo2: false,
     guidethree2: false,
@@ -113,9 +114,7 @@ function fouoneA () {
 if (boxone.optionA==true) {
 myApp1.point=myApp1.point+1;
 }
-myApp1.card1= true;
-myApp1.img2= false;
-myApp1.guideone2=true;
+myApp1.guide2=true;
 boxone.optionA= false;
 boxone.one1= false;
 boxone.two1= false;
@@ -163,6 +162,8 @@ myApp.title=true;
 function guideone20 (){
    boxone.optionansr1= false;
    boxone.three1= false;
+   myApp1.card1= true;
+   myApp1.img2= true;
    myApp1.guideone2=true;
 }
 function guideone21 (){
