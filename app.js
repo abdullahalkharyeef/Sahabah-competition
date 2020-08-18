@@ -209,7 +209,7 @@ boxone.two2= false;
 boxone.four2= false;
 boxone.five2= false;
 boxone.threeA2= "الإجابة صحيحة";
-
+myApp.title=true
 }
 
 function fouroneA2 (x) {
