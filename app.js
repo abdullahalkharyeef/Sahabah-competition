@@ -32,11 +32,11 @@ var boxone = new Vue({
     two2: false,
     four2: false,
     five2: false,
-    fiveA2: "",
-    fourA2: "",
+    fiveA2: "صهيب الرومي",
+    fourA2: "زيد بن حارثة",
     threeA2:"عمار بن ياسر",
-    twoA2: "",
-    oneA2: ""
+    twoA2: "أبو ذر جندب بن جنادة الغفاري",
+    oneA2: "الزبير بن العوام"
 }
 })
 
@@ -93,7 +93,7 @@ function guideone14 (){
 }
 function guideone15 (){
    myApp1.guidefour1=false;
- myApp1.answersguide1=true;
+   myApp1.answersguide1=true;
    myApp1.guidefive1=true;
 }
 function ansrguide1 () {
