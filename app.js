@@ -160,25 +160,19 @@ boxone.fiveA= "الإجابة خاطئة";
 myApp.title=true;
 }
 
-
-
 function guideone21 (){
-   myApp1.nexttextQ2=false;
-   myApp1.guideone2=true;
-}
-function guideone22 (){
    myApp1.guideone2=false;
    myApp1.guidetwo2=true;
 }
-function guideone23 (){
+function guideone22 (){
    myApp1.guidetwo2=false;
    myApp1.guidethree2=true;
 }
-function guideone24 (){
+function guideone23 (){
    myApp1.guidethree2=false;
 	 myApp1.guidefour2=true;
 }
-function guideone25 (){
+function guideone24 (){
    myApp1.guidefour2=false;
  myApp1.answersguide2=true;
    myApp1.guidefive2=true;
