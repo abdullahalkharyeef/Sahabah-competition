@@ -122,7 +122,7 @@ boxone.two= false;
 boxone.three= false;
 boxone.four= true;
 boxone.five= false;
-boxone.threeA="الإجابة خاطئة";
+boxone.fourA="الإجابة خاطئة";
 }
 if (x==5){
 boxone.one= false;
@@ -148,25 +148,25 @@ myApp.title=true;
 var myApp3 = new Vue({
     el: '#appthree',
     data: {
-		card3: false,
+    card3: false,
     text:true,
-		textproject: false
+    textproject: false
 }
 })
 
 var myApp4 = new Vue({
     el: '#appfour',
     data: {
-		card4: false,
-		text:true,
-		textproject: false
+	card4: false,
+	text:true,
+	textproject: false
 }
 })
 
 
 
 function apptitlereturn () {
-   myApp.apptitle=false;
+myApp.apptitle=false;
 myApp.apptitlereturn=true;
 }
 
