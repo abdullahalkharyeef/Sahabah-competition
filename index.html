@@ -49,13 +49,23 @@
  <p v-if="guidetwo" class="guidesize">{{guide12}}</p>
  <p v-if="guidethree" class="guidesize">{{guide13}}</p>
  <p v-if="guidefour" class="guidesize">{{guide14}}</p>	
- <p v-if="guidefive" class="guidesize">{{guide15}}</p></div></div></div><br>
+ <p v-if="guidefive" class="guidesize">{{guide15}}</p>
+ <p v-if="guideone2" class="guidesize">{{guide21}}</p>
+ <p v-if="guidetwo2" class="guidesize">{{guide22}}</p>
+ <p v-if="guidethree2" class="guidesize">{{guide23}}</p>
+ <p v-if="guidefour2" class="guidesize">{{guide24}}</p>	
+ <p v-if="guidefive2" class="guidesize">{{guide25}}</p></div></div></div><br>
 <div style="font-size: 20px; text-align: center;"> <p class="nextbtn" onclick="guideone1()" v-if="textproject">التالي</p>
-<p class="nextbtn" onclick="guideone2()" v-if="guideone">التالي</p>
-<p class="nextbtn" onclick="guideone3()" v-if="guidetwo">التالي</p>
-<p class="nextbtn" onclick="guideone4()" v-if="guidethree">التالي</p>
-<p class="nextbtn" onclick="guideone5()" v-if="guidefour">التالي</p>
+<p class="nextbtn" onclick="guideone11()" v-if="guideone">التالي</p>
+<p class="nextbtn" onclick="guideone12()" v-if="guidetwo">التالي</p>
+<p class="nextbtn" onclick="guideone13()" v-if="guidethree">التالي</p>
+<p class="nextbtn" onclick="guideone14()" v-if="guidefour">التالي</p>
 <p class="nextbtn" onclick="ansrguide1()" v-if="answersguide1">التالي</p>
+<p class="nextbtn" onclick="guideone21()" v-if="guideone2">التالي</p>
+<p class="nextbtn" onclick="guideone22()" v-if="guidetwo2">التالي</p>
+<p class="nextbtn" onclick="guideone23()" v-if="guidethree2">التالي</p>
+<p class="nextbtn" onclick="guideone24()" v-if="guidefour2">التالي</p>
+<p class="nextbtn" onclick="ansrguide2()" v-if="answersguide2">التالي</p>
  </div> <!-- div style nextbtn -->
 
 </div> <!-- div v-if card1 -->
@@ -86,6 +96,30 @@
   </div>
 </div> <!-- div scrollansr -->
 </div> <!-- div v-if optionansr1 -->
+<div v-if="optionansr2">
+<div  class="boxfull" v-if="optionA2">
+	اختر الإجابة الصحيحة:
+  </div><br>
+<div id="scrollansr">
+<div class="box" id="fiveA" v-if="five2" onclick="fouroneA2(5)">
+	 {{fiveA2}} 
+  </div><br>
+<div class="box" id="fourA" v-if="four2" onclick="fouroneA2(4)">
+	 {{fourA2}} 
+  </div><br>
+<div class="box" id="oneA" v-if="one2" onclick="fouroneA2(1)">
+	{{oneA2}} 
+  </div><br>
+<div class="box" id="twoA" v-if="two2" onclick="fouroneA2(2)">
+	 {{twoA2}} 
+  </div><br>
+
+<div class="box" id="threeA" v-if="three2" onclick="fouoneA2()">
+	 {{threeA2}}
+  </div>
+</div> <!-- div scrollansr -->
+</div> <!-- div v-if optionansr2 -->
+
 </div> <!-- div v-if boxone -->
 </div> <!-- div complete appone -->
 
