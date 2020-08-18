@@ -119,7 +119,7 @@ boxone.one1= false;
 boxone.two1= false;
 boxone.four1= false;
 boxone.five1= false;
-boxone.threeA1= "الإجابة صحيحة";
+boxone.threeA= "الإجابة صحيحة";
 
 }
 
@@ -131,7 +131,7 @@ boxone.two1= false;
 boxone.three1= false;
 boxone.four1= false;
 boxone.five1= false;
-boxone.oneA1= "الإجابة خاطئة";
+boxone.oneA= "الإجابة خاطئة";
 }
 if (x==2){
 boxone.one1= false;
