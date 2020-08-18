@@ -50,11 +50,11 @@ var myApp1 = new Vue({
     text: true,
     textproject: false,
     textnextQ2: false,
-    guideone: false,
-    guidetwo: false,
-    guidethree: false,
-    guidefour: false,
-    guidefive: false,
+    guideone1: false,
+    guidetwo1: false,
+    guidethree1: false,
+    guidefour1: false,
+    guidefive1: false,
     guide11: "انتقل بين البلدان ليصحب الرجال الصالحين من القساوسة، إلى أن وصف له أحدهم ظهور نبي في بلاد العرب محمد صلى الله عليه وسلم",
     guide12: "أعلى النبي صلى الله عليه وسلم من منزلته، فقد روى أنس بن مالك عن النبي صلى الله عليه وسلم قوله: «الجنة تشتاق إلى ثلاثة:...» وذكره منهم. /سنن الترمذي» كتاب المناقب",
     guide13: "قال عنه الخليفة علي بن أبي طالب رضي الله عنه: «أدرك العلم الأول، والعلم الآخر، بحر لا يدرك قعره، وهو منا أهل البيت». /سير أعلام النبلاء",
@@ -77,84 +77,84 @@ var myApp1 = new Vue({
 
 function guideone11 (){
    myApp1.textproject=false;
-   myApp1.guideone=true;
+   myApp1.guideone1=true;
 }
 function guideone12 (){
-   myApp1.guideone=false;
-   myApp1.guidetwo=true;
+   myApp1.guideone1=false;
+   myApp1.guidetwo1=true;
 }
 function guideone13 (){
-   myApp1.guidetwo=false;
-   myApp1.guidethree=true;
+   myApp1.guidetwo1=false;
+   myApp1.guidethree1=true;
 }
 function guideone14 (){
-   myApp1.guidethree=false;
-	 myApp1.guidefour=true;
+   myApp1.guidethree1=false;
+	 myApp1.guidefour1=true;
 }
 function guideone15 (){
-   myApp1.guidefour=false;
+   myApp1.guidefour1=false;
  myApp1.answersguide1=true;
-   myApp1.guidefive=true;
+   myApp1.guidefive1=true;
 }
 function ansrguide1 () {
 myApp1.answersguide1= false;
-myApp1.guidefive= false;
+myApp1.guidefive1= false;
 myApp1.card1= false;
 myApp1.img2= false;
 boxone.optionansr1= true;
 boxone.optionA=true;
 boxone.boxone= true;
-boxone.one= true;
-boxone.two= true;
-boxone.three= true;
-boxone.four= true;
-boxone.five= true;
+boxone.one1= true;
+boxone.two1= true;
+boxone.three1= true;
+boxone.four1= true;
+boxone.five1= true;
 }
 function fouoneA () { 
 if (boxone.optionA==true) {
 myApp1.point=myApp1.point+1;
 }
 boxone.optionA= false;
-boxone.one= false;
-boxone.two= false;
-boxone.four= false;
-boxone.five= false;
-boxone.threeA= "الإجابة صحيحة";
+boxone.one1= false;
+boxone.two1= false;
+boxone.four1= false;
+boxone.five1= false;
+boxone.threeA1= "الإجابة صحيحة";
 
 }
 
 function fouroneA (x) {
 boxone.optionA= false;
 if (x==1){
-boxone.one= true;
-boxone.two= false;
-boxone.three= false;
-boxone.four= false;
-boxone.five= false;
-boxone.oneA= "الإجابة خاطئة";
+boxone.one1= true;
+boxone.two1= false;
+boxone.three1= false;
+boxone.four1= false;
+boxone.five1= false;
+boxone.oneA1= "الإجابة خاطئة";
 }
 if (x==2){
-boxone.one= false;
-boxone.two= true;
-boxone.three= false;
-boxone.four= false;
-boxone.five= false;
+boxone.one1= false;
+boxone.two1= true;
+boxone.three1= false;
+boxone.four1= false;
+boxone.five1= false;
 boxone.twoA= "الإجابة خاطئة";
 }
 if (x==4){
-boxone.one= false;
-boxone.two= false;
-boxone.three= false;
-boxone.four= true;
-boxone.five= false;
+boxone.one1= false;
+boxone.two1= false;
+boxone.three1= false;
+boxone.four1= true;
+boxone.five1= false;
 boxone.fourA="الإجابة خاطئة";
 }
 if (x==5){
-boxone.one= false;
-boxone.two= false;
-boxone.three= false;
-boxone.four= false;
-boxone.five= true;
+boxone.one1= false;
+boxone.two1= false;
+boxone.three1= false;
+boxone.four1= false;
+boxone.five1= true;
 boxone.fiveA= "الإجابة خاطئة";
 }
 myApp.title=true;
@@ -163,7 +163,7 @@ myApp.title=true;
 
 
 function guideone21 (){
-   myApp1.nexttextquestion=false;
+   myApp1.nexttextQ2=false;
    myApp1.guideone2=true;
 }
 function guideone22 (){
