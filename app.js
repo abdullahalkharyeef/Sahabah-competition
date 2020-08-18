@@ -119,7 +119,7 @@ boxone.two= false;
 boxone.four= false;
 boxone.five= false;
 boxone.threeA= "الإجابة صحيحة";
-myApp.title=true;
+
 }
 
 function fouroneA (x) {
