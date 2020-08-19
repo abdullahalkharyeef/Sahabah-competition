@@ -337,7 +337,7 @@ boxone.two3= false;
 boxone.four3= false;
 boxone.five3= false;
 boxone.threeA3= "الإجابة صحيحة";
-myApp.title=true
+myApp.title=true;
 }
 
 function fouroneA3 (x) {
