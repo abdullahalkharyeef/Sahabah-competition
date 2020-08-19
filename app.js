@@ -57,7 +57,6 @@ var boxone = new Vue({
 var myApp1 = new Vue({
     el: '#appone',
     data: {
-    Audio: true,
     point:0,
     card1: true,
     img1:true,
