@@ -247,7 +247,6 @@ boxone.two2= false;
 boxone.four2= false;
 boxone.five2= false;
 boxone.threeA2= "الإجابة صحيحة";
-myApp.title=true
 }
 
 function fouroneA2 (x) {
@@ -331,6 +330,7 @@ function fouoneA3 () {
 if (boxone.optionA3==true) {
 myApp1.point=myApp1.point+1;
 }
+myApp1.guide3 = true;
 boxone.optionA3= false;
 boxone.one3= false;
 boxone.two3= false;
