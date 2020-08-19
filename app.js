@@ -8,7 +8,7 @@ var audio = new Vue({
 var srartapp = new Vue({
     el: '#startapp',
     data: {
-    goo: false,
+    go: false,
 }
 })
 
