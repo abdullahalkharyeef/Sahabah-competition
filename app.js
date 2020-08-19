@@ -79,7 +79,7 @@ var myApp1 = new Vue({
 var App = new Vue({
     el: '#app',
     data: {
-    audio: true,
+    Audio: true,
     go: false,
    }
 })
