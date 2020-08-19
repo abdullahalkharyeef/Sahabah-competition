@@ -62,6 +62,13 @@ var myApp1 = new Vue({
     guidefour2: false,
     guidefive2: false,
     answersguide2: false,
+    guide3: false,
+    guideone3: false,
+    guidetwo3: false,
+    guidethree3: false,
+    guidefour3: false,
+    guidefive3: false,
+    answersguide3: false,
     guide11: "انتقل بين البلدان ليصحب الرجال الصالحين من القساوسة، إلى أن وصف له أحدهم ظهور نبي في بلاد العرب محمد صلى الله عليه وسلم",
     guide12: "أعلى النبي صلى الله عليه وسلم من منزلته، فقد روى أنس بن مالك عن النبي صلى الله عليه وسلم قوله: «الجنة تشتاق إلى ثلاثة:...» وذكره منهم. /سنن الترمذي» كتاب المناقب",
     guide13: "قال عنه الخليفة علي بن أبي طالب رضي الله عنه: «أدرك العلم الأول، والعلم الآخر، بحر لا يدرك قعره، وهو منا أهل البيت». /سير أعلام النبلاء",
@@ -71,7 +78,13 @@ var myApp1 = new Vue({
     guide22: "كان بنو مخزوم لا يتركون (...) حتى ينال من النبي صلى الله عليه وسلم، ويذكر آلهتهم بخير، فلما أتى النبي، سأله النبي: «ما وراءك؟»، قال: «شر يا رسول الله. والله ما تُرِكْتُ حتى نلت منك، وذكرت آلهتهم بخير»، فقال النبي: «فكيف تجد قلبك؟»، قال: «مطمئن بالإيمان»، فقال النبي: «فإن عادوا فعد»، سير أعلام النبلاء",
     guide23: "كان لـ(...) مكانته الرفيعة عند النبي محمد، فقد روى أنس بن مالك عن النبي محمد قوله: «ثلاثة تشتاق إليهم الجنة: علي وسلمان و(...)»المستدرك على الصحيحين، وروى علي بن أبي طالب أن (...) استأذن على النبي محمد، فقال: «من هذا؟»، قال: «...»، قال: «مرحبًا بالطَيّبِ المُطَيَّبِ»،",
     guide24: "بعد وفاة النبي محمد، شارك في حروب الردة، واستبسل يوم اليمامة لما اشتدّ القتال، ورأى تأزّم الموقف في القتال، فاعتلى صخرة، وصاح: «يا معشر المسلمين، أمن الجنة تفرون؟ أنا (...)، هلموا إلي»الطبقات الكبرى لابن سعد.، وقد قطعت أذنه يومئذ٫ الإصابة في تمييز الصحابة.، فكانت تتذبذب، وهو يقاتل أشد القتال٫ سير أعلام النبلاء",
-    guide25: "كان رضي الله عنه مع علي بن أبي طالب رضي الله عنه في حربه مع معاوية بن أبي سفيان رضي الله عنه بعد مقتل عثمان بن عفان، فشهد موقعة الجمل، ثم وقعة صفين. قُتل في وقعة صفين في صفر سنة 37 هـ، وعمره 93 سنة، وهو يقاتل في صفوف جيش علي بن أبي طالب وهو شيخ طاعن في السن في يده حربة ترعد. الطبقات الكبرى لابن سعد"
+    guide25: "كان رضي الله عنه مع علي بن أبي طالب رضي الله عنه في حربه مع معاوية بن أبي سفيان رضي الله عنه بعد مقتل عثمان بن عفان، فشهد موقعة الجمل، ثم وقعة صفين. قُتل في وقعة صفين في صفر سنة 37 هـ، وعمره 93 سنة، وهو يقاتل في صفوف جيش علي بن أبي طالب وهو شيخ طاعن في السن في يده حربة ترعد. الطبقات الكبرى لابن سعد",
+    guide31: "صحابي اعتنق الدين الإسلامي بعد صلح الحديبية، شارك في حملات مختلفة في عهد الرسول، أهمها غزوة مؤتة وفتح مكة",
+    guide32: "قص رضي الله عنه على أبي بكر الصديق رضي الله عنه رؤيا رآها في نومه أنه كان في بلاد ضيقة مجدبة، فخرج إلى بلاد خضراء واسعة، فقال له: "مخرجك الذي هداك الله للإسلام، والضيق الذي كنت فيه من الشرك. البداية والنهاية لابن كثير رحمه الله",
+    guide33: "كان رضي الله عنه طويلاً بائن الطول، عظيم الجسم والهامة، يميل إلى البياض، كث اللحية، شديد الشبه بعمر بن الخطاب، حتى أن ضعاف النظر كانوا يخلطون بينهما",
+    guide34: "قال له أبو بكر الصدّيق -رضي الله عنه- عندما سلّمه لواء الجيش لقتال المُرتدّين: (إنّي سمعت رسول الله -صلّى الله عليه وسلّم- يقول: نِعْمَ عبد الله وأخو العشيرة (...)، سيف من سيوف الله، سلَّه الله على الكُفّار والمُنافِقين) مسند الإمام أحمد",
+    guide35: "توفي رضي الله عنه عام واحد وعشرون من هجرة الرسول صلى الله عليه وسلم بعمر يناهز خمسين سنـة"
+}
 }
 })
 var App = new Vue({
@@ -261,6 +274,97 @@ boxone.fiveA2= "الإجابة خاطئة";
 }
 myApp.title=true;
 }
+
+
+function guideone30 (){
+   boxone.optionansr2= false;
+   boxone.three2= false;
+   myApp1.guide3= false;
+   myApp1.card1= true;
+   myApp1.img2= true;
+   myApp1.guideone3=true;
+}
+function guideone31 (){
+   myApp1.guideone3=false;
+   myApp1.guidetwo3=true;
+}
+function guideone32 (){
+   myApp1.guidetwo=false;
+   myApp1.guidethree3=true;
+}
+function guideone33 (){
+   myApp1.guidethree3=false;
+   myApp1.guidefour3=true;
+}
+function guideone34 (){
+   myApp1.guidefour3=false;
+   myApp1.answersguide3=true;
+   myApp1.guidefive3=true;
+}
+function ansrguide3 () {
+myApp1.answersguide3= false;
+myApp1.guidefive3= false;
+myApp1.card1= false;
+myApp1.img2= false;
+boxone.optionansr3= true;
+boxone.optionA3=true;
+boxone.boxone= true;
+boxone.one3= true;
+boxone.two3= true;
+boxone.three3= true;
+boxone.four3= true;
+boxone.five3= true;
+}
+function fouoneA3 () { 
+if (boxone.optionA3==true) {
+myApp1.point=myApp1.point+1;
+}
+boxone.optionA3= false;
+boxone.one3= false;
+boxone.two3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.threeA3= "الإجابة صحيحة";
+myApp.title=true
+}
+
+function fouroneA3 (x) {
+boxone.optionA3= false;
+if (x==1){
+boxone.one3= true;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.oneA3= "الإجابة خاطئة";
+}
+if (x==2){
+boxone.one3= false;
+boxone.two3= true;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.twoA3= "الإجابة خاطئة";
+}
+if (x==4){
+boxone.one3= false;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= true;
+boxone.five3= false;
+boxone.fourA3="الإجابة خاطئة";
+}
+if (x==5){
+boxone.one3= false;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= true;
+boxone.fiveA3= "الإجابة خاطئة";
+}
+myApp.title=true;
+}
+
 
 
  var myApp2 = new Vue({
