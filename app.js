@@ -101,15 +101,16 @@ var myApp1 = new Vue({
 var App = new Vue({
     el: '#app',
     data: {
-    Audio: true,
+    Audio: true
    }
 })
+
 function play() {
   App.Audio=false;
   myApp1.card1= true;
   myApp.title= true;
-  // var audio = new Audio('https://storage.googleapis.com/moises-mixer/getmix/15977959205551597795925630.mp3?GoogleAccessId=firebase-adminsdk-rveqc%40spleeter.iam.gserviceaccount.com&Expires=16447017600&Signature=EiTeN0%2B7RTCyB1AwTHQwf80YdrLxZ8NAudwoA2%2BVB1d6pp9cLcRuEP0NpINyt3%2FJp%2B%2FzftBANqNyAXHkPNkaIZRUyix2wKJyTZ3gNn64bM%2BRjuXTwKKY2CLaDaHYfBS%2BwpPgrJDR4gKzrJcIH%2FMyyh6nO5XEZcIEYmWK22NzN5ELNHB4hS2zD%2F094gkBnlF0m9P3wc6tv3xqQcFNdK1QH01lgGpzP7qypmoOSP4WBwurG4ca0gfj8HFyISmaUQOj2nnfZALHZyQCFI5B3WC3lOQPcaGQaBi5tG4MZFZM7BF3JLB1UF5Zm4kGvSTaNwPXu7GBfdVeRJ%2BvvM%2B2nJzP3A%3D%3D');
-  // audio.play();
+  var audio = new Audio('https://storage.googleapis.com/moises-mixer/getmix/15977959205551597795925630.mp3?GoogleAccessId=firebase-adminsdk-rveqc%40spleeter.iam.gserviceaccount.com&Expires=16447017600&Signature=EiTeN0%2B7RTCyB1AwTHQwf80YdrLxZ8NAudwoA2%2BVB1d6pp9cLcRuEP0NpINyt3%2FJp%2B%2FzftBANqNyAXHkPNkaIZRUyix2wKJyTZ3gNn64bM%2BRjuXTwKKY2CLaDaHYfBS%2BwpPgrJDR4gKzrJcIH%2FMyyh6nO5XEZcIEYmWK22NzN5ELNHB4hS2zD%2F094gkBnlF0m9P3wc6tv3xqQcFNdK1QH01lgGpzP7qypmoOSP4WBwurG4ca0gfj8HFyISmaUQOj2nnfZALHZyQCFI5B3WC3lOQPcaGQaBi5tG4MZFZM7BF3JLB1UF5Zm4kGvSTaNwPXu7GBfdVeRJ%2BvvM%2B2nJzP3A%3D%3D');
+  audio.play();
 }
 
 function guideone11 (){
@@ -126,7 +127,7 @@ function guideone13 (){
 }
 function guideone14 (){
    myApp1.guidethree1=false;
-	 myApp1.guidefour1=true;
+   myApp1.guidefour1=true;
 }
 function guideone15 (){
    myApp1.guidefour1=false;
