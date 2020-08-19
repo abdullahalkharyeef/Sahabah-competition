@@ -240,7 +240,7 @@ function fouoneA2 () {
 if (boxone.optionA2==true) {
 myApp1.point=myApp1.point+1;
 }
-guide3
+myApp1.guide3 = true;
 boxone.optionA2= false;
 boxone.one2= false;
 boxone.two2= false;
