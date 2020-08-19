@@ -1,14 +1,14 @@
 var audi = new Vue({
-    el: '#audio',
+    el: '#aubio',
     data: {
-    Audio: true,
+    aodio: true,
 }
 })
 
 var srartapp = new Vue({
     el: '#startapp',
     data: {
-    go: false,
+    goo: false,
 }
 })
 
@@ -92,8 +92,8 @@ var myApp1 = new Vue({
 function play() {
   var audio = new Audio('https://storage.googleapis.com/moises-mixer/getmix/15977959205551597795925630.mp3?GoogleAccessId=firebase-adminsdk-rveqc%40spleeter.iam.gserviceaccount.com&Expires=16447017600&Signature=EiTeN0%2B7RTCyB1AwTHQwf80YdrLxZ8NAudwoA2%2BVB1d6pp9cLcRuEP0NpINyt3%2FJp%2B%2FzftBANqNyAXHkPNkaIZRUyix2wKJyTZ3gNn64bM%2BRjuXTwKKY2CLaDaHYfBS%2BwpPgrJDR4gKzrJcIH%2FMyyh6nO5XEZcIEYmWK22NzN5ELNHB4hS2zD%2F094gkBnlF0m9P3wc6tv3xqQcFNdK1QH01lgGpzP7qypmoOSP4WBwurG4ca0gfj8HFyISmaUQOj2nnfZALHZyQCFI5B3WC3lOQPcaGQaBi5tG4MZFZM7BF3JLB1UF5Zm4kGvSTaNwPXu7GBfdVeRJ%2BvvM%2B2nJzP3A%3D%3D');
   audio.play();
-  audi.Audio=false;
-  startapp.go= true;
+  audi.aodio=false;
+  startapp.goo= true;
 }
 
 function guideone11 (){
