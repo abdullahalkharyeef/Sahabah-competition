@@ -15,8 +15,10 @@ var boxone = new Vue({
     boxone: false,
     optionansr1: false,
     optionansr2: false,
+    optionansr3: false,
     optionA1: false,
     optionA2: false,
+    optionA3: false,
     three1: false,
     one1: false,
     two1: false,
@@ -27,6 +29,11 @@ var boxone = new Vue({
     two2: false,
     four2: false,
     five2: false,
+    three3: false,
+    one3: false,
+    two3: false,
+    four3: false,
+    five3: false,
     fiveA1: "صهيب الرومي",
     fourA1: "أبو أيوب خالد بن زيد بن كليب الأنصاري",
     threeA1:"سلمان الفارسي",
@@ -36,7 +43,12 @@ var boxone = new Vue({
     fourA2: "زيد بن حارثة",
     threeA2:"عمار بن ياسر",
     twoA2: "أبو ذر جندب بن جنادة الغفاري",
-    oneA2: "الزبير بن العوام"
+    oneA3: "عكرمة بن أبي جهل",
+    fiveA3: "أبو سفيان صخر بن حرب بن أمية",
+    fourA3: "عمرو بن العاص",
+    threeA3:"خالد بن الوليد",
+    twoA3: "ضرار بن الأزور الأسدي",
+    oneA3: "أبو سفيان"
 }
 })
 
@@ -406,6 +418,7 @@ myApp.apptitle=true;
 myApp.apptitlereturn=false;
 myApp1.card1= true;
 myApp1.img1=true; 
+myApp1.img2=false;
 boxone.optionansr1=false;
 boxone.optionA1= false
 boxone.three1= false;
@@ -419,7 +432,12 @@ boxone.one2= false;
 boxone.two2= false;
 boxone.four2= false;
 boxone.five2= false;
-myApp1.img2=false;
+boxone.optionA3= false
+boxone.three3= false;
+boxone.one3= false;
+boxone.two3= false;
+boxone.four3= false;
+boxone.five3= false;
 myApp1.guideone1=false;
 myApp1.guidetwo1=false;
 myApp1.guidethree1=false;
@@ -432,6 +450,12 @@ myApp1.guidethree2=false;
 myApp1.guidefour2=false;
 myApp1.guidefive2=false;
 myApp1.answersguide2=false;
+myApp1.guideone3=false;
+myApp1.guidetwo3=false;
+myApp1.guidethree3=false;
+myApp1.guidefour3=false;
+myApp1.guidefive3=false;
+myApp1.answersguide3=false;
 boxone.boxone=false;
 boxone.fiveA1= "صهيب الرومي";
 boxone.fourA1= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
@@ -443,6 +467,12 @@ boxone.fourA2= "زيد بن حارثة",
 boxone.threeA2="عمار بن ياسر",
 boxone.twoA2= "أبو ذر جندب بن جنادة الغفاري",
 boxone.oneA2= "الزبير بن العوام"
+boxone.oneA3= "عكرمة بن أبي جهل",
+boxone.fiveA3= "أبو سفيان صخر بن حرب بن أمية",
+boxone.fourA3= "عمرو بن العاص",
+boxone.threeA3= "خالد بن الوليد",
+boxone.twoA3= "ضرار بن الأزور الأسدي",
+boxone.oneA3= "أبو سفيان"
 texttitlereturn();
 }
 
