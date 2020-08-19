@@ -16,7 +16,7 @@
 <div class="card 1">
  <div class="card_image" onclick="play()"><img src="https://i.ibb.co/8xgV9bh/New-Project.png" style="background: #4962EB"></div>
   <div class="card_title title-white">
-  <p style="color:white; font-size:60px;">ابدأ</p>
+  <p style="color:white; font-size:60px;" onclick="play()">ابدأ</p>
 </div>
 </div>
 </div> <!-- div v-if audio -->
@@ -56,7 +56,7 @@
  
 
   <div class="card_title title-white">
-<p v-if="img1" style="color: white"  onclick="clickone()"><br><br><br><br><br>مسابقة التخمين</p>
+<p v-if="img1" style="color: white"  onclick="clickone()"><br><br><br><br>مسابقة التخمين</p>
 <p v-if="img1" style="text-align:center; font-size:30px; color:white;">النقاط: {{point}}</p> 
 <div id="scrollcard" style="overflow-x:scroll; height:225px;">
 <p v-if="textproject" style="font-size:20px; color:white;">اضمر الصحابي:<br>
