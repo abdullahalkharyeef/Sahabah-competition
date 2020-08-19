@@ -1,4 +1,4 @@
-var var myApp = new Vue({
+var myApp = new Vue({
     el: '#apptitle',
     data: {
     title: true,
