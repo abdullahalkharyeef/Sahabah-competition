@@ -300,7 +300,7 @@ function guideone31 (){
    myApp1.guidetwo3=true;
 }
 function guideone32 (){
-   myApp1.guidetwo=false;
+   myApp1.guidetwo3=false;
    myApp1.guidethree3=true;
 }
 function guideone33 (){
