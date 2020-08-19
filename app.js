@@ -152,7 +152,6 @@ function fouoneA () {
 if (boxone.optionA1==true) {
 myApp1.point=myApp1.point+1;
 }
-
 myApp1.guide2 = true;
 boxone.optionA1= false;
 boxone.one1= false;
@@ -420,19 +419,21 @@ myApp1.card1= true;
 myApp1.img1=true; 
 myApp1.img2=false;
 boxone.optionansr1=false;
+boxone.optionansr2=false;
+boxone.optionansr3=false;
 boxone.optionA1= false
 boxone.three1= false;
 boxone.one1= false;
 boxone.two1= false;
 boxone.four1= false;
 boxone.five1= false;
-boxone.optionA2= false
+boxone.optionA2= false;
 boxone.three2= false;
 boxone.one2= false;
 boxone.two2= false;
 boxone.four2= false;
 boxone.five2= false;
-boxone.optionA3= false
+boxone.optionA3= false;
 boxone.three3= false;
 boxone.one3= false;
 boxone.two3= false;
@@ -462,17 +463,17 @@ boxone.fourA1= "أبو أيوب خالد بن زيد بن كليب الأنصا�
 boxone.threeA1= "سلمان الفارسي";
 boxone.twoA1= "سعد بن معاذ";
 boxone.oneA1= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
-boxone.fiveA2= "صهيب الرومي",
-boxone.fourA2= "زيد بن حارثة",
-boxone.threeA2="عمار بن ياسر",
-boxone.twoA2= "أبو ذر جندب بن جنادة الغفاري",
-boxone.oneA2= "الزبير بن العوام"
-boxone.oneA3= "عكرمة بن أبي جهل",
-boxone.fiveA3= "أبو سفيان صخر بن حرب بن أمية",
-boxone.fourA3= "عمرو بن العاص",
-boxone.threeA3= "خالد بن الوليد",
-boxone.twoA3= "ضرار بن الأزور الأسدي",
-boxone.oneA3= "أبو سفيان"
+boxone.fiveA2= "صهيب الرومي";
+boxone.fourA2= "زيد بن حارثة";
+boxone.threeA2="عمار بن ياسر";
+boxone.twoA2= "أبو ذر جندب بن جنادة الغفاري";
+boxone.oneA2= "الزبير بن العوام";
+boxone.oneA3= "عكرمة بن أبي جهل";
+boxone.fiveA3= "أبو سفيان صخر بن حرب بن أمية";
+boxone.fourA3= "عمرو بن العاص";
+boxone.threeA3= "خالد بن الوليد";
+boxone.twoA3= "ضرار بن الأزور الأسدي";
+boxone.oneA3= "أبو سفيان";
 texttitlereturn();
 }
 
