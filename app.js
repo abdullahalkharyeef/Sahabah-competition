@@ -80,7 +80,7 @@ var App = new Vue({
     el: '#app',
     data: {
     Audio: true,
-    go: false,
+    go: false
    }
 })
 function play() {
