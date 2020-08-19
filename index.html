@@ -10,8 +10,21 @@
 </head>
 
 <body>
-<div id="audio" >
-<button  style="width: 700px; height: 1000px;" v-if="Audio" onclick="play()"></button></div>
+<div id="audio">
+<div class="card 1" v-if="Audio">
+ <div class="card_image">
+        <img v-if="img1" onclick="play()" src="https://i.ibb.co/8xgV9bh/New-Project.png" style="background: #4962EB;">
+    </div>
+  <div class="card_title title-white">
+<p style="color: white; font-size: 30px;"  onclick="play()"><br><br>ابدأ</p>
+</div>
+</div>
+</div>
+
+
+<div id="startapp">
+<div v-if="go">
+
 
 
 <div id="apptitle">
@@ -166,8 +179,10 @@
   </div>
   </div> -->
 
+</div> 
 
-  </div>
+   </div> <!-- v-if go div -->
+  </div> <!-- startapp div -->
 </body>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.18/vue.min.js"></script>
