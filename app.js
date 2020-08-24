@@ -16,9 +16,23 @@ var boxone = new Vue({
     optionansr1: false,
     optionansr2: false,
     optionansr3: false,
+    optionansr4: false,
+    optionansr5: false,
+    optionansr6: false,
+    optionansr7: false,
+    optionansr8: false,
+    optionansr9: false,
+    optionansr10: false,
     optionA1: false,
     optionA2: false,
     optionA3: false,
+    optionA4: false,
+    optionA5: false,
+    optionA6: false,
+    optionA7: false,
+    optionA8: false,
+    optionA9: false,
+    optionA10: false,
     three1: false,
     one1: false,
     two1: false,
@@ -34,6 +48,41 @@ var boxone = new Vue({
     two3: false,
     four3: false,
     five3: false,
+    three4: false,
+    one4: false,
+    two4: false,
+    four4: false,
+    five4: false,
+    three5: false,
+    one5: false,
+    two5: false,
+    four5: false,
+    five5: false,
+    three6: false,
+    one6: false,
+    two6: false,
+    four6: false,
+    five6: false,
+    three7: false,
+    one7: false,
+    two7: false,
+    four7: false,
+    five7: false,
+    three8: false,
+    one8: false,
+    two8: false,
+    four8: false,
+    five8: false,
+    three9: false,
+    one9: false,
+    two9: false,
+    four9: false,
+    five9: false,
+    three10: false,
+    one10: false,
+    two10: false,
+    four10: false,
+    five10: false,
     fiveA1: "صهيب الرومي",
     fourA1: "أبو أيوب خالد بن زيد بن كليب الأنصاري",
     threeA1:"سلمان الفارسي",
@@ -48,7 +97,42 @@ var boxone = new Vue({
     fourA3: "عمرو بن العاص",
     threeA3:"خالد بن الوليد",
     twoA3: "ضرار بن الأزور الأسدي",
-    oneA3: "أبو سفيان"
+    oneA3: "أبو سفيان",
+    fiveA4: "",
+    fourA4: "",
+    threeA4:"أبي ذر جندب بن جنادة الغفاري",
+    twoA4: "",
+    oneA4: "",
+    fiveA5: "",
+    fourA5: "",
+    threeA5:"",
+    twoA5: "",
+    oneA5: "",
+    fiveA6: "",
+    fourA6: "",
+    threeA6:"",
+    twoA6: "",
+    oneA6: "",
+    fiveA7: "",
+    fourA7: "",
+    threeA7:"",
+    twoA7: "",
+    oneA7: "",
+    fiveA8: "",
+    fourA8: "",
+    threeA8:"",
+    twoA8: "",
+    oneA8: "",
+    fiveA9: "",
+    fourA9: "",
+    threeA9:"",
+    twoA9: "",
+    oneA9: "",
+    fiveA10: "",
+    fourA10: "",
+    threeA10:"",
+    twoA10: "",
+    oneA10: ""
 }
 })
 
@@ -81,6 +165,55 @@ var myApp1 = new Vue({
     guidefour3: false,
     guidefive3: false,
     answersguide3: false,
+    guide4: false,
+    guideone4: false,
+    guidetwo4: false,
+    guidethree4: false,
+    guidefour4: false,
+    guidefive4: false,
+    answersguide4: false,
+    guide5: false,
+    guideone5: false,
+    guidetwo5: false,
+    guidethree5: false,
+    guidefour5: false,
+    guidefive5: false,
+    answersguide5: false,
+    guide6: false,
+    guideone6: false,
+    guidetwo6: false,
+    guidethree6: false,
+    guidefour6: false,
+    guidefive6: false,
+    answersguide6: false,
+    guide7: false,
+    guideone7: false,
+    guidetwo7: false,
+    guidethree7: false,
+    guidefour7: false,
+    guidefive7: false,
+    answersguide7: false,
+    guide8: false,
+    guideone8: false,
+    guidetwo8: false,
+    guidethree8: false,
+    guidefour8: false,
+    guidefive8: false,
+    answersguide8: false,
+    guide9: false,
+    guideone9: false,
+    guidetwo9: false,
+    guidethree9: false,
+    guidefour9: false,
+    guidefive9: false,
+    answersguide9: false,
+    guide10: false,
+    guideone10: false,
+    guidetwo10: false,
+    guidethree10: false,
+    guidefour10: false,
+    guidefive10: false,
+    answersguide10: false,
     guide11: "انتقل بين البلدان ليصحب الرجال الصالحين من القساوسة، إلى أن وصف له أحدهم ظهور نبي في بلاد العرب محمد صلى الله عليه وسلم",
     guide12: "أعلى النبي صلى الله عليه وسلم من منزلته، فقد روى أنس بن مالك عن النبي صلى الله عليه وسلم قوله: «الجنة تشتاق إلى ثلاثة:...» وذكره منهم. /سنن الترمذي» كتاب المناقب",
     guide13: "قال عنه الخليفة علي بن أبي طالب رضي الله عنه: «أدرك العلم الأول، والعلم الآخر، بحر لا يدرك قعره، وهو منا أهل البيت». /سير أعلام النبلاء",
@@ -96,6 +229,42 @@ var myApp1 = new Vue({
     guide33: "كان رضي الله عنه طويلاً بائن الطول، عظيم الجسم والهامة، يميل إلى البياض، كث اللحية، شديد الشبه بعمر بن الخطاب، حتى أن ضعاف النظر كانوا يخلطون بينهما",
     guide34: "قال له أبو بكر الصدّيق -رضي الله عنه- عندما سلّمه لواء الجيش لقتال المُرتدّين: (إنّي سمعت رسول الله -صلّى الله عليه وسلّم- يقول: نِعْمَ عبد الله وأخو العشيرة (...)، سيف من سيوف الله، سلَّه الله على الكُفّار والمُنافِقين) مسند الإمام أحمد",
     guide35: "توفي رضي الله عنه عام واحد وعشرون من هجرة الرسول صلى الله عليه وسلم بعمر يناهز خمسين سنـة"
+    guide41: "من السابقين إلى الإسلام، قيل رابع أو خامس من دخل في الإسلام، وأحد الذين جهروا بالإسلام في مكة قبل الهجرة النبوية. قال عنه الذهبي في ترجمته له في كتابه «سير أعلام النبلاء»: «كان رأسًا في الزُهد، والصدق، والعلم والعمل، قوّالاً بالحق، لا تأخذه في الله لومة لائم، على حِدّةٍ فيه»",
+    guide42: "",
+    guide43: "",
+    guide44: "",
+    guide45: "",
+    guide51: "",
+    guide52: "",
+    guide53: "",
+    guide54: "",
+    guide55: "",
+    guide61: "",
+    guide62: "",
+    guide63: "",
+    guide64: "",
+    guide65: "",
+    guide71: "",
+    guide72: "",
+    guide73: "",
+    guide74: "",
+    guide75: "",
+    guide81: "",
+    guide82: "",
+    guide83: "",
+    guide84: "",
+    guide85: "",
+    guide91: "",
+    guide92: "",
+    guide93: "",
+    guide94: "",
+    guide95: "",
+    guide101: "",
+    guide102: "",
+    guide103: "",
+    guide104: "",
+    guide105: ""
+
 }
 })
 var App = new Vue({
@@ -288,6 +457,636 @@ myApp.title=true;
 }
 
 
+function guideone30 (){
+   boxone.optionansr2= false;
+   boxone.three2= false;
+   myApp1.guide3= false;
+   myApp1.card1= true;
+   myApp1.img2= true;
+   myApp1.guideone3=true;
+}
+function guideone31 (){
+   myApp1.guideone3=false;
+   myApp1.guidetwo3=true;
+}
+function guideone32 (){
+   myApp1.guidetwo3=false;
+   myApp1.guidethree3=true;
+}
+function guideone33 (){
+   myApp1.guidethree3=false;
+   myApp1.guidefour3=true;
+}
+function guideone34 (){
+   myApp1.guidefour3=false;
+   myApp1.answersguide3=true;
+   myApp1.guidefive3=true;
+}
+function ansrguide3 () {
+myApp1.answersguide3= false;
+myApp1.guidefive3= false;
+myApp1.card1= false;
+myApp1.img2= false;
+boxone.optionansr3= true;
+boxone.optionA3=true;
+boxone.boxone= true;
+boxone.one3= true;
+boxone.two3= true;
+boxone.three3= true;
+boxone.four3= true;
+boxone.five3= true;
+}
+function fouoneA3 () { 
+if (boxone.optionA3==true) {
+myApp1.point=myApp1.point+1;
+}
+boxone.optionA3= false;
+boxone.one3= false;
+boxone.two3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.threeA3= "الإجابة صحيحة";
+}
+
+function fouroneA3 (x) {
+boxone.optionA3= false;
+if (x==1){
+boxone.one3= true;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.oneA3= "الإجابة خاطئة";
+}
+if (x==2){
+boxone.one3= false;
+boxone.two3= true;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.twoA3= "الإجابة خاطئة";
+}
+if (x==4){
+boxone.one3= false;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= true;
+boxone.five3= false;
+boxone.fourA3="الإجابة خاطئة";
+}
+if (x==5){
+boxone.one3= false;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= true;
+boxone.fiveA3= "الإجابة خاطئة";
+}
+myApp.title=true;
+}
+
+
+
+// Q4
+function guideone30 (){
+   boxone.optionansr2= false;
+   boxone.three2= false;
+   myApp1.guide3= false;
+   myApp1.card1= true;
+   myApp1.img2= true;
+   myApp1.guideone3=true;
+}
+function guideone31 (){
+   myApp1.guideone3=false;
+   myApp1.guidetwo3=true;
+}
+function guideone32 (){
+   myApp1.guidetwo3=false;
+   myApp1.guidethree3=true;
+}
+function guideone33 (){
+   myApp1.guidethree3=false;
+   myApp1.guidefour3=true;
+}
+function guideone34 (){
+   myApp1.guidefour3=false;
+   myApp1.answersguide3=true;
+   myApp1.guidefive3=true;
+}
+function ansrguide3 () {
+myApp1.answersguide3= false;
+myApp1.guidefive3= false;
+myApp1.card1= false;
+myApp1.img2= false;
+boxone.optionansr3= true;
+boxone.optionA3=true;
+boxone.boxone= true;
+boxone.one3= true;
+boxone.two3= true;
+boxone.three3= true;
+boxone.four3= true;
+boxone.five3= true;
+}
+function fouoneA3 () { 
+if (boxone.optionA3==true) {
+myApp1.point=myApp1.point+1;
+}
+boxone.optionA3= false;
+boxone.one3= false;
+boxone.two3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.threeA3= "الإجابة صحيحة";
+}
+
+function fouroneA3 (x) {
+boxone.optionA3= false;
+if (x==1){
+boxone.one3= true;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.oneA3= "الإجابة خاطئة";
+}
+if (x==2){
+boxone.one3= false;
+boxone.two3= true;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.twoA3= "الإجابة خاطئة";
+}
+if (x==4){
+boxone.one3= false;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= true;
+boxone.five3= false;
+boxone.fourA3="الإجابة خاطئة";
+}
+if (x==5){
+boxone.one3= false;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= true;
+boxone.fiveA3= "الإجابة خاطئة";
+}
+myApp.title=true;
+}
+
+
+// Q5
+function guideone30 (){
+   boxone.optionansr2= false;
+   boxone.three2= false;
+   myApp1.guide3= false;
+   myApp1.card1= true;
+   myApp1.img2= true;
+   myApp1.guideone3=true;
+}
+function guideone31 (){
+   myApp1.guideone3=false;
+   myApp1.guidetwo3=true;
+}
+function guideone32 (){
+   myApp1.guidetwo3=false;
+   myApp1.guidethree3=true;
+}
+function guideone33 (){
+   myApp1.guidethree3=false;
+   myApp1.guidefour3=true;
+}
+function guideone34 (){
+   myApp1.guidefour3=false;
+   myApp1.answersguide3=true;
+   myApp1.guidefive3=true;
+}
+function ansrguide3 () {
+myApp1.answersguide3= false;
+myApp1.guidefive3= false;
+myApp1.card1= false;
+myApp1.img2= false;
+boxone.optionansr3= true;
+boxone.optionA3=true;
+boxone.boxone= true;
+boxone.one3= true;
+boxone.two3= true;
+boxone.three3= true;
+boxone.four3= true;
+boxone.five3= true;
+}
+function fouoneA3 () { 
+if (boxone.optionA3==true) {
+myApp1.point=myApp1.point+1;
+}
+boxone.optionA3= false;
+boxone.one3= false;
+boxone.two3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.threeA3= "الإجابة صحيحة";
+}
+
+function fouroneA3 (x) {
+boxone.optionA3= false;
+if (x==1){
+boxone.one3= true;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.oneA3= "الإجابة خاطئة";
+}
+if (x==2){
+boxone.one3= false;
+boxone.two3= true;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.twoA3= "الإجابة خاطئة";
+}
+if (x==4){
+boxone.one3= false;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= true;
+boxone.five3= false;
+boxone.fourA3="الإجابة خاطئة";
+}
+if (x==5){
+boxone.one3= false;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= true;
+boxone.fiveA3= "الإجابة خاطئة";
+}
+myApp.title=true;
+}
+
+
+// Q6
+function guideone30 (){
+   boxone.optionansr2= false;
+   boxone.three2= false;
+   myApp1.guide3= false;
+   myApp1.card1= true;
+   myApp1.img2= true;
+   myApp1.guideone3=true;
+}
+function guideone31 (){
+   myApp1.guideone3=false;
+   myApp1.guidetwo3=true;
+}
+function guideone32 (){
+   myApp1.guidetwo3=false;
+   myApp1.guidethree3=true;
+}
+function guideone33 (){
+   myApp1.guidethree3=false;
+   myApp1.guidefour3=true;
+}
+function guideone34 (){
+   myApp1.guidefour3=false;
+   myApp1.answersguide3=true;
+   myApp1.guidefive3=true;
+}
+function ansrguide3 () {
+myApp1.answersguide3= false;
+myApp1.guidefive3= false;
+myApp1.card1= false;
+myApp1.img2= false;
+boxone.optionansr3= true;
+boxone.optionA3=true;
+boxone.boxone= true;
+boxone.one3= true;
+boxone.two3= true;
+boxone.three3= true;
+boxone.four3= true;
+boxone.five3= true;
+}
+function fouoneA3 () { 
+if (boxone.optionA3==true) {
+myApp1.point=myApp1.point+1;
+}
+boxone.optionA3= false;
+boxone.one3= false;
+boxone.two3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.threeA3= "الإجابة صحيحة";
+}
+
+function fouroneA3 (x) {
+boxone.optionA3= false;
+if (x==1){
+boxone.one3= true;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.oneA3= "الإجابة خاطئة";
+}
+if (x==2){
+boxone.one3= false;
+boxone.two3= true;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.twoA3= "الإجابة خاطئة";
+}
+if (x==4){
+boxone.one3= false;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= true;
+boxone.five3= false;
+boxone.fourA3="الإجابة خاطئة";
+}
+if (x==5){
+boxone.one3= false;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= true;
+boxone.fiveA3= "الإجابة خاطئة";
+}
+myApp.title=true;
+}
+
+/ Q7
+function guideone30 (){
+   boxone.optionansr2= false;
+   boxone.three2= false;
+   myApp1.guide3= false;
+   myApp1.card1= true;
+   myApp1.img2= true;
+   myApp1.guideone3=true;
+}
+function guideone31 (){
+   myApp1.guideone3=false;
+   myApp1.guidetwo3=true;
+}
+function guideone32 (){
+   myApp1.guidetwo3=false;
+   myApp1.guidethree3=true;
+}
+function guideone33 (){
+   myApp1.guidethree3=false;
+   myApp1.guidefour3=true;
+}
+function guideone34 (){
+   myApp1.guidefour3=false;
+   myApp1.answersguide3=true;
+   myApp1.guidefive3=true;
+}
+function ansrguide3 () {
+myApp1.answersguide3= false;
+myApp1.guidefive3= false;
+myApp1.card1= false;
+myApp1.img2= false;
+boxone.optionansr3= true;
+boxone.optionA3=true;
+boxone.boxone= true;
+boxone.one3= true;
+boxone.two3= true;
+boxone.three3= true;
+boxone.four3= true;
+boxone.five3= true;
+}
+function fouoneA3 () { 
+if (boxone.optionA3==true) {
+myApp1.point=myApp1.point+1;
+}
+boxone.optionA3= false;
+boxone.one3= false;
+boxone.two3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.threeA3= "الإجابة صحيحة";
+}
+
+function fouroneA3 (x) {
+boxone.optionA3= false;
+if (x==1){
+boxone.one3= true;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.oneA3= "الإجابة خاطئة";
+}
+if (x==2){
+boxone.one3= false;
+boxone.two3= true;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.twoA3= "الإجابة خاطئة";
+}
+if (x==4){
+boxone.one3= false;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= true;
+boxone.five3= false;
+boxone.fourA3="الإجابة خاطئة";
+}
+if (x==5){
+boxone.one3= false;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= true;
+boxone.fiveA3= "الإجابة خاطئة";
+}
+myApp.title=true;
+}
+
+
+// Q8 
+function guideone30 (){
+   boxone.optionansr2= false;
+   boxone.three2= false;
+   myApp1.guide3= false;
+   myApp1.card1= true;
+   myApp1.img2= true;
+   myApp1.guideone3=true;
+}
+function guideone31 (){
+   myApp1.guideone3=false;
+   myApp1.guidetwo3=true;
+}
+function guideone32 (){
+   myApp1.guidetwo3=false;
+   myApp1.guidethree3=true;
+}
+function guideone33 (){
+   myApp1.guidethree3=false;
+   myApp1.guidefour3=true;
+}
+function guideone34 (){
+   myApp1.guidefour3=false;
+   myApp1.answersguide3=true;
+   myApp1.guidefive3=true;
+}
+function ansrguide3 () {
+myApp1.answersguide3= false;
+myApp1.guidefive3= false;
+myApp1.card1= false;
+myApp1.img2= false;
+boxone.optionansr3= true;
+boxone.optionA3=true;
+boxone.boxone= true;
+boxone.one3= true;
+boxone.two3= true;
+boxone.three3= true;
+boxone.four3= true;
+boxone.five3= true;
+}
+function fouoneA3 () { 
+if (boxone.optionA3==true) {
+myApp1.point=myApp1.point+1;
+}
+boxone.optionA3= false;
+boxone.one3= false;
+boxone.two3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.threeA3= "الإجابة صحيحة";
+}
+
+function fouroneA3 (x) {
+boxone.optionA3= false;
+if (x==1){
+boxone.one3= true;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.oneA3= "الإجابة خاطئة";
+}
+if (x==2){
+boxone.one3= false;
+boxone.two3= true;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.twoA3= "الإجابة خاطئة";
+}
+if (x==4){
+boxone.one3= false;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= true;
+boxone.five3= false;
+boxone.fourA3="الإجابة خاطئة";
+}
+if (x==5){
+boxone.one3= false;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= true;
+boxone.fiveA3= "الإجابة خاطئة";
+}
+myApp.title=true;
+}
+
+
+// Q9
+function guideone30 (){
+   boxone.optionansr2= false;
+   boxone.three2= false;
+   myApp1.guide3= false;
+   myApp1.card1= true;
+   myApp1.img2= true;
+   myApp1.guideone3=true;
+}
+function guideone31 (){
+   myApp1.guideone3=false;
+   myApp1.guidetwo3=true;
+}
+function guideone32 (){
+   myApp1.guidetwo3=false;
+   myApp1.guidethree3=true;
+}
+function guideone33 (){
+   myApp1.guidethree3=false;
+   myApp1.guidefour3=true;
+}
+function guideone34 (){
+   myApp1.guidefour3=false;
+   myApp1.answersguide3=true;
+   myApp1.guidefive3=true;
+}
+function ansrguide3 () {
+myApp1.answersguide3= false;
+myApp1.guidefive3= false;
+myApp1.card1= false;
+myApp1.img2= false;
+boxone.optionansr3= true;
+boxone.optionA3=true;
+boxone.boxone= true;
+boxone.one3= true;
+boxone.two3= true;
+boxone.three3= true;
+boxone.four3= true;
+boxone.five3= true;
+}
+function fouoneA3 () { 
+if (boxone.optionA3==true) {
+myApp1.point=myApp1.point+1;
+}
+boxone.optionA3= false;
+boxone.one3= false;
+boxone.two3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.threeA3= "الإجابة صحيحة";
+}
+
+function fouroneA3 (x) {
+boxone.optionA3= false;
+if (x==1){
+boxone.one3= true;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.oneA3= "الإجابة خاطئة";
+}
+if (x==2){
+boxone.one3= false;
+boxone.two3= true;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= false;
+boxone.twoA3= "الإجابة خاطئة";
+}
+if (x==4){
+boxone.one3= false;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= true;
+boxone.five3= false;
+boxone.fourA3="الإجابة خاطئة";
+}
+if (x==5){
+boxone.one3= false;
+boxone.two3= false;
+boxone.three3= false;
+boxone.four3= false;
+boxone.five3= true;
+boxone.fiveA3= "الإجابة خاطئة";
+}
+myApp.title=true;
+}
+
+
+// Q10
 function guideone30 (){
    boxone.optionansr2= false;
    boxone.three2= false;
