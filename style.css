@@ -7,11 +7,22 @@
 { 
 	display: none; 
 }
-html {
-width: 100%;
-background-image: url("https://i.pinimg.com/originals/fe/e5/ea/fee5eab30a698c169dc4fd5752359c2c.jpg");
-background-repeat: no-repeat, repeat;
-background-position: center;
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.background {
+  /* The image used */
+  background-image: url("https://i.pinimg.com/originals/fe/e5/ea/fee5eab30a698c169dc4fd5752359c2c.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .guidesize {
 font-size:20px;
