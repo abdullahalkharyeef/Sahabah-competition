@@ -7,9 +7,11 @@
 { 
 	display: none; 
 }
-body, html {
+html {
   height: 100%;
   margin: 0;
+}
+html .body {
   /* The image used */
   background-image: url("https://i.pinimg.com/originals/fe/e5/ea/fee5eab30a698c169dc4fd5752359c2c.jpg");
 
