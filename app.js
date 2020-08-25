@@ -283,6 +283,7 @@ function play() {
   myApp.title= true;
 }
 
+// Q1
 function guideone11 (){
    myApp1.textproject=false;
    myApp1.guideone1=true;
@@ -367,6 +368,8 @@ boxone.fiveA1= "الإجابة خاطئة";
 }
 myApp.title=true;
 }
+
+// Q2
 function guideone20 (){
    boxone.optionansr1= false;
    boxone.three1= false;
@@ -457,6 +460,7 @@ myApp.title=true;
 }
 
 
+// Q3
 function guideone30 (){
    boxone.optionansr2= false;
    boxone.three2= false;
@@ -544,7 +548,6 @@ boxone.fiveA3= "الإجابة خاطئة";
 }
 myApp.title=true;
 }
-
 
 
 // Q4
@@ -638,185 +641,185 @@ myApp.title=true;
 
 
 // Q5
-function guideone30 (){
-   boxone.optionansr2= false;
-   boxone.three2= false;
-   myApp1.guide3= false;
+function guideone50 (){
+   boxone.optionansr5= false;
+   boxone.three5= false;
+   myApp1.guide5= false;
    myApp1.card1= true;
    myApp1.img2= true;
-   myApp1.guideone3=true;
+   myApp1.guideone5=true;
 }
-function guideone31 (){
-   myApp1.guideone3=false;
-   myApp1.guidetwo3=true;
+function guideone51 (){
+   myApp1.guideone5=false;
+   myApp1.guidetwo5=true;
 }
-function guideone32 (){
-   myApp1.guidetwo3=false;
-   myApp1.guidethree3=true;
+function guideone52 (){
+   myApp1.guidetwo5=false;
+   myApp1.guidethree5=true;
 }
-function guideone33 (){
-   myApp1.guidethree3=false;
-   myApp1.guidefour3=true;
+function guideone53 (){
+   myApp1.guidethree5=false;
+   myApp1.guidefour5=true;
 }
-function guideone34 (){
-   myApp1.guidefour3=false;
-   myApp1.answersguide3=true;
-   myApp1.guidefive3=true;
+function guideone54 (){
+   myApp1.guidefour5=false;
+   myApp1.answersguide5=true;
+   myApp1.guidefive5=true;
 }
-function ansrguide3 () {
-myApp1.answersguide3= false;
-myApp1.guidefive3= false;
+function ansrguide5 () {
+myApp1.answersguide5= false;
+myApp1.guidefive5= false;
 myApp1.card1= false;
 myApp1.img2= false;
-boxone.optionansr3= true;
-boxone.optionA3=true;
+boxone.optionansr5= true;
+boxone.optionA5=true;
 boxone.boxone= true;
-boxone.one3= true;
-boxone.two3= true;
-boxone.three3= true;
-boxone.four3= true;
-boxone.five3= true;
+boxone.one5= true;
+boxone.two5= true;
+boxone.three5= true;
+boxone.four5= true;
+boxone.five5= true;
 }
-function fouoneA3 () { 
-if (boxone.optionA3==true) {
+function fouoneA5 () { 
+if (boxone.optionA5==true) {
 myApp1.point=myApp1.point+1;
 }
-boxone.optionA3= false;
-boxone.one3= false;
-boxone.two3= false;
-boxone.four3= false;
-boxone.five3= false;
-boxone.threeA3= "الإجابة صحيحة";
+boxone.optionA5= false;
+boxone.one5= false;
+boxone.two5= false;
+boxone.four5= false;
+boxone.five5= false;
+boxone.threeA5= "الإجابة صحيحة";
 }
 
-function fouroneA3 (x) {
-boxone.optionA3= false;
+function fouroneA5 (x) {
+boxone.optionA5= false;
 if (x==1){
-boxone.one3= true;
-boxone.two3= false;
-boxone.three3= false;
-boxone.four3= false;
-boxone.five3= false;
-boxone.oneA3= "الإجابة خاطئة";
+boxone.one5= true;
+boxone.two5= false;
+boxone.three5= false;
+boxone.four5= false;
+boxone.five5= false;
+boxone.oneA5= "الإجابة خاطئة";
 }
 if (x==2){
-boxone.one3= false;
-boxone.two3= true;
-boxone.three3= false;
-boxone.four3= false;
-boxone.five3= false;
-boxone.twoA3= "الإجابة خاطئة";
+boxone.one5= false;
+boxone.two5= true;
+boxone.three5= false;
+boxone.four5= false;
+boxone.five5= false;
+boxone.twoA5= "الإجابة خاطئة";
 }
 if (x==4){
-boxone.one3= false;
-boxone.two3= false;
-boxone.three3= false;
-boxone.four3= true;
-boxone.five3= false;
-boxone.fourA3="الإجابة خاطئة";
+boxone.one5= false;
+boxone.two5= false;
+boxone.three5= false;
+boxone.four5= true;
+boxone.five5= false;
+boxone.fourA5="الإجابة خاطئة";
 }
 if (x==5){
-boxone.one3= false;
-boxone.two3= false;
-boxone.three3= false;
-boxone.four3= false;
-boxone.five3= true;
-boxone.fiveA3= "الإجابة خاطئة";
+boxone.one5= false;
+boxone.two5= false;
+boxone.three5= false;
+boxone.four5= false;
+boxone.five5= true;
+boxone.fiveA5= "الإجابة خاطئة";
 }
 myApp.title=true;
 }
 
 
 // Q6
-function guideone30 (){
-   boxone.optionansr2= false;
-   boxone.three2= false;
-   myApp1.guide3= false;
+function guideone60 (){
+   boxone.optionansr5= false;
+   boxone.three5= false;
+   myApp1.guide6= false;
    myApp1.card1= true;
    myApp1.img2= true;
-   myApp1.guideone3=true;
+   myApp1.guideone6=true;
 }
-function guideone31 (){
-   myApp1.guideone3=false;
-   myApp1.guidetwo3=true;
+function guideone61 (){
+   myApp1.guideone6=false;
+   myApp1.guidetwo6=true;
 }
-function guideone32 (){
-   myApp1.guidetwo3=false;
-   myApp1.guidethree3=true;
+function guideone62 (){
+   myApp1.guidetwo6=false;
+   myApp1.guidethree6=true;
 }
-function guideone33 (){
-   myApp1.guidethree3=false;
-   myApp1.guidefour3=true;
+function guideone63 (){
+   myApp1.guidethree6=false;
+   myApp1.guidefour6=true;
 }
-function guideone34 (){
-   myApp1.guidefour3=false;
-   myApp1.answersguide3=true;
-   myApp1.guidefive3=true;
+function guideone64 (){
+   myApp1.guidefour6=false;
+   myApp1.answersguide6=true;
+   myApp1.guidefive6=true;
 }
-function ansrguide3 () {
-myApp1.answersguide3= false;
-myApp1.guidefive3= false;
+function ansrguide6 () {
+myApp1.answersguide6= false;
+myApp1.guidefive6= false;
 myApp1.card1= false;
 myApp1.img2= false;
-boxone.optionansr3= true;
-boxone.optionA3=true;
+boxone.optionansr6= true;
+boxone.optionA6=true;
 boxone.boxone= true;
-boxone.one3= true;
-boxone.two3= true;
-boxone.three3= true;
-boxone.four3= true;
-boxone.five3= true;
+boxone.one6= true;
+boxone.two6= true;
+boxone.three6= true;
+boxone.four6= true;
+boxone.five6= true;
 }
-function fouoneA3 () { 
-if (boxone.optionA3==true) {
+function fouoneA6 () { 
+if (boxone.optionA6==true) {
 myApp1.point=myApp1.point+1;
 }
-boxone.optionA3= false;
-boxone.one3= false;
-boxone.two3= false;
-boxone.four3= false;
-boxone.five3= false;
-boxone.threeA3= "الإجابة صحيحة";
+boxone.optionA6= false;
+boxone.one6= false;
+boxone.two6= false;
+boxone.four6= false;
+boxone.five6= false;
+boxone.threeA6= "الإجابة صحيحة";
 }
 
-function fouroneA3 (x) {
-boxone.optionA3= false;
+function fouroneA6 (x) {
+boxone.optionA6= false;
 if (x==1){
-boxone.one3= true;
-boxone.two3= false;
-boxone.three3= false;
-boxone.four3= false;
-boxone.five3= false;
-boxone.oneA3= "الإجابة خاطئة";
+boxone.one6= true;
+boxone.two6= false;
+boxone.three6= false;
+boxone.four6= false;
+boxone.five6= false;
+boxone.oneA6= "الإجابة خاطئة";
 }
 if (x==2){
-boxone.one3= false;
-boxone.two3= true;
-boxone.three3= false;
-boxone.four3= false;
-boxone.five3= false;
-boxone.twoA3= "الإجابة خاطئة";
+boxone.one6= false;
+boxone.two6= true;
+boxone.three6= false;
+boxone.four6= false;
+boxone.five6= false;
+boxone.twoA6= "الإجابة خاطئة";
 }
 if (x==4){
-boxone.one3= false;
-boxone.two3= false;
-boxone.three3= false;
-boxone.four3= true;
-boxone.five3= false;
-boxone.fourA3="الإجابة خاطئة";
+boxone.one6= false;
+boxone.two6= false;
+boxone.three6= false;
+boxone.four6= true;
+boxone.five6= false;
+boxone.fourA6="الإجابة خاطئة";
 }
 if (x==5){
-boxone.one3= false;
-boxone.two3= false;
-boxone.three3= false;
-boxone.four3= false;
-boxone.five3= true;
-boxone.fiveA3= "الإجابة خاطئة";
+boxone.one6= false;
+boxone.two6= false;
+boxone.three6= false;
+boxone.four6= false;
+boxone.five6= true;
+boxone.fiveA6= "الإجابة خاطئة";
 }
 myApp.title=true;
 }
 
-/ Q7
+// Q7
 function guideone70 (){
    boxone.optionansr6= false;
    boxone.three6= false;
