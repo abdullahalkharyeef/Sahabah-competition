@@ -504,6 +504,7 @@ function fouoneA3 () {
 if (boxone.optionA3==true) {
 myApp1.point=myApp1.point+1;
 }
+myApp1.guide4 = true;
 boxone.optionA3= false;
 boxone.one3= false;
 boxone.two3= false;
@@ -594,6 +595,7 @@ function fouoneA4 () {
 if (boxone.optionA4==true) {
 myApp1.point=myApp1.point+1;
 }
+myApp1.guide5 = true;
 boxone.optionA4= false;
 boxone.one4= false;
 boxone.two4= false;
@@ -684,6 +686,7 @@ function fouoneA5 () {
 if (boxone.optionA5==true) {
 myApp1.point=myApp1.point+1;
 }
+myApp1.guide6 = true;
 boxone.optionA5= false;
 boxone.one5= false;
 boxone.two5= false;
@@ -774,6 +777,7 @@ function fouoneA6 () {
 if (boxone.optionA6==true) {
 myApp1.point=myApp1.point+1;
 }
+myApp1.guide7 = true;
 boxone.optionA6= false;
 boxone.one6= false;
 boxone.two6= false;
@@ -863,6 +867,7 @@ function fouoneA7 () {
 if (boxone.optionA7==true) {
 myApp1.point=myApp1.point+1;
 }
+myApp1.guide8 = true;
 boxone.optionA7= false;
 boxone.one7= false;
 boxone.two7= false;
@@ -953,6 +958,7 @@ function fouoneA8 () {
 if (boxone.optionA8==true) {
 myApp1.point=myApp1.point+1;
 }
+myApp1.guide9 = true;
 boxone.optionA8= false;
 boxone.one8= false;
 boxone.two8= false;
@@ -1043,6 +1049,7 @@ function fouoneA9 () {
 if (boxone.optionA9==true) {
 myApp1.point=myApp1.point+1;
 }
+myApp1.guide10 = true;
 boxone.optionA9= false;
 boxone.one9= false;
 boxone.two9= false;
