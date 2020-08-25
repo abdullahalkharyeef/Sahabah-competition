@@ -504,7 +504,7 @@ function fouoneA3 () {
 if (boxone.optionA3==true) {
 myApp1.point=myApp1.point+1;
 }
-myApp1.guide4 = true;
+myApp1.guide4= true;
 boxone.optionA3= false;
 boxone.one3= false;
 boxone.two3= false;
