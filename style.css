@@ -30,7 +30,7 @@ font-size:20px;
   font-family: 'Cairo', sans-serif;
   z-index: 0;
   width: auto;
-  display: flex;
+  display: block;
   justify-content: space-around;
   flex-wrap: wrap;
 }
