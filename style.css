@@ -39,6 +39,7 @@ font-size:20px;
  border-radius: 50px;
  font-size: 20px; 
  text-align: center;
+ width: 300px;
  color:white;
  background: #4962EB;
 }
@@ -117,6 +118,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 }
 
 .box {
+  width: 300px;
   font-family: 'Cairo', sans-serif;
   font-size: 20px;
   box-sizing: border-box;
@@ -219,6 +221,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 
 
 .boxfull {
+  width: 300px;
   font-family: 'Cairo', sans-serif;
   font-size: 25px;
   box-sizing: border-box;
