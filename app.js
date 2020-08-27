@@ -104,11 +104,12 @@ var boxone = new Vue({
     twoA4: "زيد بن حارثة",
     oneA4: "عمرو بن العاص",
         
-    fiveA5: "",
-    fourA5: "",
-    threeA5:"",
-    twoA5: "",
-    oneA5: "",
+    fiveA5: "سعد بن أبي وقاص",
+    fourA5: "أبي موسى الأشعري",
+    threeA5:"سعد بن معاذ",
+    twoA5: "عبدالرحمن بن صخر الدوسي",
+    oneA5: "معاذ بن جبل",
+
         
     fiveA6: "",
     fourA6: "",
