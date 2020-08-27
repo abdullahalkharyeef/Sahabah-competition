@@ -648,8 +648,8 @@ myApp.title=true;
 
 // Q5
 function guideone50 (){
-   boxone.optionansr5= false;
-   boxone.three5= false;
+   boxone.optionansr4= false;
+   boxone.three4= false;
    myApp1.guide5= false;
    myApp1.card1= true;
    myApp1.img2= true;
@@ -1379,16 +1379,16 @@ boxone.fourA3= "عمرو بن العاص";
 boxone.threeA3= "خالد بن الوليد";
 boxone.twoA3= "ضرار بن الأزور الأسدي";
 boxone.oneA3= "عكرمة بن أبي جهل";
-boxone.fiveA4= "";
-boxone.fourA4= "";
+boxone.fiveA4= "صهيب الرومي";
+boxone.fourA4= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
 boxone.threeA4= "أبي ذر جندب بن جنادة الغفاري";
-boxone.twoA4= "";
-boxone.oneA4= "";
-boxone.fiveA5= "";
-boxone.fourA5= "";
-boxone.threeA5= "";
-boxone.twoA5= "";
-boxone.oneA5= "";
+boxone.twoA4= "زيد بن حارثة";
+boxone.oneA4= "عمرو بن العاص";
+boxone.fiveA5= "سعد بن أبي وقاص";
+boxone.fourA5= "ابي موسى الأشعري";
+boxone.threeA5= "سعد بن معاذ";
+boxone.twoA5= "عبدالرحمن بن صخر الدوسي";
+boxone.oneA5= "معاذ بن جبل";
 boxone.fiveA6= "";
 boxone.fourA6= "";
 boxone.threeA6= "";
