@@ -690,7 +690,8 @@ function fouoneA5 () {
 if (boxone.optionA5==true) {
 myApp1.point=myApp1.point+1;
 }
-myApp1.guide6 = true;
+// myApp1.guide6 = true;
+myApp.title=true
 boxone.optionA5= false;
 boxone.one5= false;
 boxone.two5= false;
