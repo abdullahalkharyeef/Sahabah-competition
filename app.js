@@ -1386,7 +1386,7 @@ function titlereturn (){
     myApp1.guidefour10=false;
     myApp1.guidefive10=false;
     myApp1.answersguide10=false;
-    boxone.boxone=false;
+//    boxone.boxone=false;
     boxone.fiveA1= "صهيب الرومي";
     boxone.fourA1= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
     boxone.threeA1= "سلمان الفارسي";
