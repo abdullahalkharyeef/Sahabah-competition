@@ -300,6 +300,143 @@ function answer1 (x) {
         boxone.inputansr1=false;
     }
     }
+
+
+function answer2 (x) {
+    if(document.getElementById("answerA2").value===boxone.threeA2 || document.getElementById("answerA2").value==="بن ياسر"){
+        boxone.point=boxone.point+5;
+        boxone.inputansr2= false;
+        myApp1.guide3 = true;
+    } else {
+        boxone.inputansr2= false;
+        myApp1.guide3 = true;
+    }
+    if (x===1){
+        boxone.optionansr2=true;
+        boxone.inputansr2=false;
+    }
+}
+
+function answer3 (x) {
+    if(document.getElementById("answerA3").value===boxone.threeA3){
+        boxone.point=boxone.point+5;
+        boxone.inputansr3= false;
+        myApp1.guide4 = true;
+    } else {
+        boxone.inputansr3= false;
+        myApp1.guide4 = true;
+    }
+    if (x===1){
+        boxone.optionansr3=true;
+        boxone.inputansr3=false;
+    }
+}
+
+function answer4 (x) {
+    if(document.getElementById("answerA4").value===boxone.threeA4 || document.getElementById("answerA4").value==="أبي ذر الغفاري" || document.getElementById("answerA4").value==="أبي ذر" || document.getElementById("answerA4").value==="ابي ذر الغفاري" || document.getElementById("answerA4").value==="ابي ذر"){
+        boxone.point=boxone.point+5;
+        boxone.inputansr4= false;
+        myApp1.guide5 = true;
+    } else {
+        boxone.inputansr4= false;
+        myApp1.guide5 = true;
+    }
+    if (x===1){
+        boxone.optionansr4=true;
+        boxone.inputansr4=false;
+    }
+}
+
+function answer5 (x) {
+    if(document.getElementById("answerA5").value===boxone.threeA5){
+        boxone.point=boxone.point+5;
+        boxone.inputansr5= false;
+        myApp1.guide6 = true;
+    } else {
+        boxone.inputansr5= false;
+        myApp1.guide6 = true;
+    }
+    if (x===1){
+        boxone.optionansr5=true;
+        boxone.inputansr5=false;
+    }
+}
+
+function answer6 (x) {
+    if(document.getElementById("answerA6").value===boxone.threeA6 || document.getElementById("answerA6").value==="معاذ"){
+        boxone.point=boxone.point+5;
+        boxone.inputansr6= false;
+        myApp1.guide7 = true;
+    } else {
+        boxone.inputansr6= false;
+        myApp1.guide7 = true;
+    }
+    if (x===1){
+        boxone.optionansr6=true;
+        boxone.inputansr6=false;
+    }
+}
+
+function answer7 (x) {
+    if(document.getElementById("answerA7").value===boxone.threeA7 || document.getElementById("answerA7").value==="أبو سفيان" || document.getElementById("answerA7").value==="ابو سفيان" || document.getElementById("answerA7").value==="صخر بن حرب" || document.getElementById("answerA7").value==="صخر بن حرب أبو سفيان"){
+        boxone.point=boxone.point+5;
+        boxone.inputansr7= false;
+        myApp1.guide8 = true;
+    } else {
+        boxone.inputansr7= false;
+        myApp1.guide8 = true;
+    }
+    if (x===1){
+        boxone.optionansr7=true;
+        boxone.inputansr7=false;
+    }
+}
+
+function answer8 (x) {
+    if(document.getElementById("answerA8").value===boxone.threeA1){
+        boxone.point=boxone.point+5;
+        boxone.inputansr8= false;
+        myApp1.guide9 = true;
+    } else {
+        boxone.inputansr8= false;
+        myApp1.guide9 = true;
+    }
+    if (x===1){
+        boxone.optionansr8=true;
+        boxone.inputansr8=false;
+    }
+}
+
+function answer9 (x) {
+    if(document.getElementById("answerA9").value===boxone.threeA9){
+        boxone.point=boxone.point+5;
+        boxone.inputansr9= false;
+        myApp1.guide10 = true;
+    } else {
+        boxone.inputansr9= false;
+        myApp1.guide10 = true;
+    }
+    if (x===1){
+        boxone.optionansr9=true;
+        boxone.inputansr9=false;
+    }
+}
+
+function answer10 (x) {
+    if(document.getElementById("answerA10").value===boxone.threeA10){
+        boxone.point=boxone.point+5;
+        boxone.inputansr10= false;
+//        myApp1.guide2 = true;
+    } else {
+        boxone.inputansr10= false;
+//        myApp1.guide2 = true;
+    }
+    if (x===1){
+        boxone.optionansr10=true;
+        boxone.inputansr10=false;
+    }
+}
+
     
     function play () {
         App.Audio=false;
@@ -425,7 +562,8 @@ function answer1 (x) {
         myApp1.guidefive2= false;
         myApp1.card1= false;
         myApp1.img2= false;
-        boxone.optionansr2= true;
+//        boxone.optionansr2= true;
+        boxone.inputansr2= true;
         boxone.optionA2=true;
         boxone.boxone= true;
         boxone.one2= true;
@@ -516,7 +654,8 @@ function answer1 (x) {
         myApp1.guidefive3= false;
         myApp1.card1= false;
         myApp1.img2= false;
-        boxone.optionansr3= true;
+//        boxone.optionansr3= true;
+        boxone.inputansr2= true;
         boxone.optionA3=true;
         boxone.boxone= true;
         boxone.one3= true;
@@ -607,7 +746,8 @@ function answer1 (x) {
         myApp1.guidefive4= false;
         myApp1.card1= false;
         myApp1.img2= false;
-        boxone.optionansr4= true;
+//        boxone.optionansr4= true;
+        boxone.inputansr4= true;
         boxone.optionA4=true;
         boxone.boxone= true;
         boxone.one4= true;
@@ -699,7 +839,8 @@ function answer1 (x) {
         myApp1.guidefive5= false;
         myApp1.card1= false;
         myApp1.img2= false;
-        boxone.optionansr5= true;
+//        boxone.optionansr5= true;
+        boxone.inputansr5= true;
         boxone.optionA5=true;
         boxone.boxone= true;
         boxone.one5= true;
@@ -790,7 +931,8 @@ function answer1 (x) {
         myApp1.guidefive6= false;
         myApp1.card1= false;
         myApp1.img2= false;
-        boxone.optionansr6= true;
+//        boxone.optionansr6= true;
+        boxone.inputansr6= true;
         boxone.optionA6=true;
         boxone.boxone= true;
         boxone.one6= true;
@@ -880,7 +1022,8 @@ function answer1 (x) {
         myApp1.guidefive7= false;
         myApp1.card1= false;
         myApp1.img2= false;
-        boxone.optionansr7= true;
+//        boxone.optionansr7= true;
+        boxone.inputansr7= true;
         boxone.optionA7=true;
         boxone.boxone= true;
         boxone.one7= true;
@@ -971,7 +1114,8 @@ function answer1 (x) {
         myApp1.guidefive8= false;
         myApp1.card1= false;
         myApp1.img2= false;
-        boxone.optionansr8= true;
+//        boxone.optionansr8= true;
+        boxone.inputansr8= true;
         boxone.optionA8=true;
         boxone.boxone= true;
         boxone.one8= true;
@@ -1062,7 +1206,8 @@ function answer1 (x) {
         myApp1.guidefive9= false;
         myApp1.card1= false;
         myApp1.img2= false;
-        boxone.optionansr9= true;
+//        boxone.optionansr9= true;
+        boxone.inputansr9= true;
         boxone.optionA9=true;
         boxone.boxone= true;
         boxone.one9= true;
@@ -1153,7 +1298,8 @@ function answer1 (x) {
         myApp1.guidefive10= false;
         myApp1.card1= false;
         myApp1.img2= false;
-        boxone.optionansr10= true;
+//        boxone.optionansr10= true;
+        boxone.inputansr10= true;
         boxone.optionA10=true;
         boxone.boxone= true;
         boxone.one10= true;
