@@ -275,7 +275,7 @@ var App = new Vue({
 })
 
 function answer1 (){
-if(document.getElementById("answerA1").value==boxone.threeA1 || document.getElementById("answerA1").value=="الفارسي" ||){
+if(document.getElementById("answerA1").value==boxone.threeA1 || document.getElementById("answerA1").value=="الفارسي"){
     myApp1.point=myApp1.point+5;
     boxone.optionansr1= false;
 }
