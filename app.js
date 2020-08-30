@@ -125,7 +125,7 @@ var boxone = new Vue({
         fourA6: "أبو عبيده بن الجراح",
         threeA6:"معاذ بن جبل",
         twoA6: "زيد بن ثابت بن الضحّاك الأنصاري",
-        oneA6: "أبو سعيد سعد بن مالك بن سنان الخدري",        
+        oneA6: "أبو سعيد سعد بن مالك بن سنان الخدري",
         fiveA7: "عثمان بن أبي العاص",
         fourA7: "العباس بن عبد المطلب",
         threeA7:"أبو سفيان صخر بن حرب",
@@ -287,1202 +287,1204 @@ var App = new Vue({
 })
 
 function answer1 (x) {
-if(document.getElementById("answerA1").value===boxone.threeA1 || document.getElementById("answerA1").value==="الفارسي"){
-    boxone.point=boxone.point+5;
-    boxone.inputansr1= false;
-    myApp1.guide2 = true;
-} else {
-    boxone.inputansr1= false;
-    myApp1.guide2 = true;
-}
-if (x===1){
-    boxone.optionansr1=true; 
-    boxone.inputansr1=false;
-}
-function play () {
-    App.Audio=false;
-    myApp1.card1= true;
-    myApp.title= true;
-}
-
-// Q1
-function guideone11 (){
-    myApp1.textproject=false;
-    myApp1.guideone1=true;
-}
-function guideone12 (){
-    myApp1.guideone1=false;
-    myApp1.guidetwo1=true;
-}
-function guideone13 (){
-    myApp1.guidetwo1=false;
-    myApp1.guidethree1=true;
-}
-function guideone14 (){
-    myApp1.guidethree1=false;
-    myApp1.guidefour1=true;
-}
-function guideone15 (){
-    myApp1.guidefour1=false;
-    myApp1.answersguide1=true;
-    myApp1.guidefive1=true;
-}
-function ansrguide1 () {
-    myApp1.answersguide1= false;
-    myApp1.guidefive1= false;
-    myApp1.card1= false;
-    myApp1.img2= false;
-//    boxone.optionansr1= true;
-    boxone.inputansr1= true;
-    boxone.optionA1=true;
-    boxone.boxone= true;
-    boxone.one1= true;
-    boxone.two1= true;
-    boxone.three1= true;
-    boxone.four1= true;
-    boxone.five1= true;
-}
-function fouoneA () {
-    if (boxone.optionA1==true) {
-        boxone.point=boxone.point+1;
+    if(document.getElementById("answerA1").value===boxone.threeA1 || document.getElementById("answerA1").value==="الفارسي"){
+        boxone.point=boxone.point+5;
+        boxone.inputansr1= false;
+        myApp1.guide2 = true;
+    } else {
+        boxone.inputansr1= false;
+        myApp1.guide2 = true;
     }
-    myApp1.guide2 = true;
-    boxone.optionA1= false;
-    boxone.one1= false;
-    boxone.two1= false;
-    boxone.four1= false;
-    boxone.five1= false;
-    boxone.threeA1= "الإجابة صحيحة";
-}
-
-function fouroneA (x) {
-    boxone.optionA1= false;
-    if (x==1){
-        boxone.one1= true;
-        boxone.two1= false;
-        boxone.three1= false;
-        boxone.four1= false;
-        boxone.five1= false;
-        boxone.oneA1= "الإجابة خاطئة";
+    if (x===1){
+        boxone.optionansr1=true;
+        boxone.inputansr1=false;
     }
-    if (x==2){
-        boxone.one1= false;
-        boxone.two1= true;
-        boxone.three1= false;
-        boxone.four1= false;
-        boxone.five1= false;
-        boxone.twoA1= "الإجابة خاطئة";
-    }
-    if (x==4){
-        boxone.one1= false;
-        boxone.two1= false;
-        boxone.three1= false;
-        boxone.four1= true;
-        boxone.five1= false;
-        boxone.fourA1="الإجابة خاطئة";
-    }
-    if (x==5){
-        boxone.one1= false;
-        boxone.two1= false;
-        boxone.three1= false;
-        boxone.four1= false;
-        boxone.five1= true;
-        boxone.fiveA1= "الإجابة خاطئة";
-    }
-    myApp1.guide2 = true;
-}
-
-// Q2
-function guideone20 (){
-    boxone.optionansr1= false;
-    boxone.three1= false;
-    myApp1.guide2= false;
-    myApp1.card1= true;
-    myApp1.img2= true;
-    myApp1.guideone2=true;
-}
-function guideone21 (){
-    myApp1.guideone2=false;
-    myApp1.guidetwo2=true;
-}
-function guideone22 (){
-    myApp1.guidetwo2=false;
-    myApp1.guidethree2=true;
-}
-function guideone23 (){
-    myApp1.guidethree2=false;
-    myApp1.guidefour2=true;
-}
-function guideone24 (){
-    myApp1.guidefour2=false;
-    myApp1.answersguide2=true;
-    myApp1.guidefive2=true;
-}
-function ansrguide2 () {
-    myApp1.answersguide2= false;
-    myApp1.guidefive2= false;
-    myApp1.card1= false;
-    myApp1.img2= false;
-    boxone.optionansr2= true;
-    boxone.optionA2=true;
-    boxone.boxone= true;
-    boxone.one2= true;
-    boxone.two2= true;
-    boxone.three2= true;
-    boxone.four2= true;
-    boxone.five2= true;
-}
-function fouoneA2 () {
-    if (boxone.optionA2==true) {
-        boxone.point=boxone.point+1;
-    }
-    myApp1.guide3 = true;
-    boxone.optionA2= false;
-    boxone.one2= false;
-    boxone.two2= false;
-    boxone.four2= false;
-    boxone.five2= false;
-    boxone.threeA2= "الإجابة صحيحة";
-}
-
-function fouroneA2 (x) {
-    boxone.optionA2= false;
-    if (x==1){
-        boxone.one2= true;
-        boxone.two2= false;
-        boxone.three2= false;
-        boxone.four2= false;
-        boxone.five2= false;
-        boxone.oneA2= "الإجابة خاطئة";
-    }
-    if (x==2){
-        boxone.one2= false;
-        boxone.two2= true;
-        boxone.three2= false;
-        boxone.four2= false;
-        boxone.five2= false;
-        boxone.twoA2= "الإجابة خاطئة";
-    }
-    if (x==4){
-        boxone.one2= false;
-        boxone.two2= false;
-        boxone.three2= false;
-        boxone.four2= true;
-        boxone.five2= false;
-        boxone.fourA2="الإجابة خاطئة";
-    }
-    if (x==5){
-        boxone.one2= false;
-        boxone.two2= false;
-        boxone.three2= false;
-        boxone.four2= false;
-        boxone.five2= true;
-        boxone.fiveA2= "الإجابة خاطئة";
-    }
-    myApp1.guide3 = true;
-    }
-
-
-// Q3
-function guideone30 (){
-    boxone.optionansr2= false;
-    boxone.three2= false;
-    myApp1.guide3= false;
-    myApp1.card1= true;
-    myApp1.img2= true;
-    myApp1.guideone3=true;
-}
-function guideone31 (){
-    myApp1.guideone3=false;
-    myApp1.guidetwo3=true;
-}
-function guideone32 (){
-    myApp1.guidetwo3=false;
-    myApp1.guidethree3=true;
-}
-function guideone33 (){
-    myApp1.guidethree3=false;
-    myApp1.guidefour3=true;
-}
-function guideone34 (){
-    myApp1.guidefour3=false;
-    myApp1.answersguide3=true;
-    myApp1.guidefive3=true;
-}
-function ansrguide3 () {
-    myApp1.answersguide3= false;
-    myApp1.guidefive3= false;
-    myApp1.card1= false;
-    myApp1.img2= false;
-    boxone.optionansr3= true;
-    boxone.optionA3=true;
-    boxone.boxone= true;
-    boxone.one3= true;
-    boxone.two3= true;
-    boxone.three3= true;
-    boxone.four3= true;
-    boxone.five3= true;
-}
-function fouoneA3 () {
-    if (boxone.optionA3==true) {
-        boxone.point=boxone.point+1;
-    }
-    myApp1.guide4= true;
-    boxone.optionA3= false;
-    boxone.one3= false;
-    boxone.two3= false;
-    boxone.four3= false;
-    boxone.five3= false;
-    boxone.threeA3= "الإجابة صحيحة";
-}
-
-function fouroneA3 (x) {
-    boxone.optionA3= false;
-    if (x==1){
-        boxone.one3= true;
-        boxone.two3= false;
-        boxone.three3= false;
-        boxone.four3= false;
-        boxone.five3= false;
-        boxone.oneA3= "الإجابة خاطئة";
-    }
-    if (x==2){
-        boxone.one3= false;
-        boxone.two3= true;
-        boxone.three3= false;
-        boxone.four3= false;
-        boxone.five3= false;
-        boxone.twoA3= "الإجابة خاطئة";
-    }
-    if (x==4){
-        boxone.one3= false;
-        boxone.two3= false;
-        boxone.three3= false;
-        boxone.four3= true;
-        boxone.five3= false;
-        boxone.fourA3="الإجابة خاطئة";
-    }
-    if (x==5){
-        boxone.one3= false;
-        boxone.two3= false;
-        boxone.three3= false;
-        boxone.four3= false;
-        boxone.five3= true;
-        boxone.fiveA3= "الإجابة خاطئة";
-    }
-    myApp1.guide4 = true;
-}
-
-
-// Q4
-function guideone40 (){
-    boxone.optionansr3= false;
-    boxone.three3= false;
-    myApp1.guide4= false;
-    myApp1.card1= true;
-    myApp1.img2= true;
-    myApp1.guideone4=true;
-}
-function guideone41 (){
-    myApp1.guideone4=false;
-    myApp1.guidetwo4=true;
-}
-function guideone42 (){
-    myApp1.guidetwo4=false;
-    myApp1.guidethree4=true;
-}
-function guideone43 (){
-    myApp1.guidethree4=false;
-    myApp1.guidefour4=true;
-}
-function guideone44 (){
-    myApp1.guidefour4=false;
-    myApp1.answersguide4=true;
-    myApp1.guidefive4=true;
-}
-function ansrguide4 () {
-    myApp1.answersguide4= false;
-    myApp1.guidefive4= false;
-    myApp1.card1= false;
-    myApp1.img2= false;
-    boxone.optionansr4= true;
-    boxone.optionA4=true;
-    boxone.boxone= true;
-    boxone.one4= true;
-    boxone.two4= true;
-    boxone.three4= true;
-    boxone.four4= true;
-    boxone.five4= true;
-}
-function fouoneA4 () {
-    if (boxone.optionA4==true) {
-        boxone.point=boxone.point+1;
     }
     
-    myApp1.guide5 = true;
-    boxone.optionA4= false;
-    boxone.one4= false;
-    boxone.two4= false;
-    boxone.four4= false;
-    boxone.five4= false;
-    boxone.threeA4= "الإجابة صحيحة";
-}
-
-function fouroneA4 (x) {
-    boxone.optionA4= false;
-    if (x==1){
+    function play () {
+        App.Audio=false;
+        myApp1.card1= true;
+        myApp.title= true;
+    }
+    
+    // Q1
+    function guideone11 (){
+        myApp1.textproject=false;
+        myApp1.guideone1=true;
+    }
+    function guideone12 (){
+        myApp1.guideone1=false;
+        myApp1.guidetwo1=true;
+    }
+    function guideone13 (){
+        myApp1.guidetwo1=false;
+        myApp1.guidethree1=true;
+    }
+    function guideone14 (){
+        myApp1.guidethree1=false;
+        myApp1.guidefour1=true;
+    }
+    function guideone15 (){
+        myApp1.guidefour1=false;
+        myApp1.answersguide1=true;
+        myApp1.guidefive1=true;
+    }
+    function ansrguide1 () {
+        myApp1.answersguide1= false;
+        myApp1.guidefive1= false;
+        myApp1.card1= false;
+        myApp1.img2= false;
+        //    boxone.optionansr1= true;
+        boxone.inputansr1= true;
+        boxone.optionA1=true;
+        boxone.boxone= true;
+        boxone.one1= true;
+        boxone.two1= true;
+        boxone.three1= true;
+        boxone.four1= true;
+        boxone.five1= true;
+    }
+    function fouoneA () {
+        if (boxone.optionA1==true) {
+            boxone.point=boxone.point+1;
+        }
+        myApp1.guide2 = true;
+        boxone.optionA1= false;
+        boxone.one1= false;
+        boxone.two1= false;
+        boxone.four1= false;
+        boxone.five1= false;
+        boxone.threeA1= "الإجابة صحيحة";
+    }
+    
+    function fouroneA (x) {
+        boxone.optionA1= false;
+        if (x==1){
+            boxone.one1= true;
+            boxone.two1= false;
+            boxone.three1= false;
+            boxone.four1= false;
+            boxone.five1= false;
+            boxone.oneA1= "الإجابة خاطئة";
+        }
+        if (x==2){
+            boxone.one1= false;
+            boxone.two1= true;
+            boxone.three1= false;
+            boxone.four1= false;
+            boxone.five1= false;
+            boxone.twoA1= "الإجابة خاطئة";
+        }
+        if (x==4){
+            boxone.one1= false;
+            boxone.two1= false;
+            boxone.three1= false;
+            boxone.four1= true;
+            boxone.five1= false;
+            boxone.fourA1="الإجابة خاطئة";
+        }
+        if (x==5){
+            boxone.one1= false;
+            boxone.two1= false;
+            boxone.three1= false;
+            boxone.four1= false;
+            boxone.five1= true;
+            boxone.fiveA1= "الإجابة خاطئة";
+        }
+        myApp1.guide2 = true;
+    }
+    
+    // Q2
+    function guideone20 (){
+        boxone.optionansr1= false;
+        boxone.three1= false;
+        myApp1.guide2= false;
+        myApp1.card1= true;
+        myApp1.img2= true;
+        myApp1.guideone2=true;
+    }
+    function guideone21 (){
+        myApp1.guideone2=false;
+        myApp1.guidetwo2=true;
+    }
+    function guideone22 (){
+        myApp1.guidetwo2=false;
+        myApp1.guidethree2=true;
+    }
+    function guideone23 (){
+        myApp1.guidethree2=false;
+        myApp1.guidefour2=true;
+    }
+    function guideone24 (){
+        myApp1.guidefour2=false;
+        myApp1.answersguide2=true;
+        myApp1.guidefive2=true;
+    }
+    function ansrguide2 () {
+        myApp1.answersguide2= false;
+        myApp1.guidefive2= false;
+        myApp1.card1= false;
+        myApp1.img2= false;
+        boxone.optionansr2= true;
+        boxone.optionA2=true;
+        boxone.boxone= true;
+        boxone.one2= true;
+        boxone.two2= true;
+        boxone.three2= true;
+        boxone.four2= true;
+        boxone.five2= true;
+    }
+    function fouoneA2 () {
+        if (boxone.optionA2==true) {
+            boxone.point=boxone.point+1;
+        }
+        myApp1.guide3 = true;
+        boxone.optionA2= false;
+        boxone.one2= false;
+        boxone.two2= false;
+        boxone.four2= false;
+        boxone.five2= false;
+        boxone.threeA2= "الإجابة صحيحة";
+    }
+    
+    function fouroneA2 (x) {
+        boxone.optionA2= false;
+        if (x==1){
+            boxone.one2= true;
+            boxone.two2= false;
+            boxone.three2= false;
+            boxone.four2= false;
+            boxone.five2= false;
+            boxone.oneA2= "الإجابة خاطئة";
+        }
+        if (x==2){
+            boxone.one2= false;
+            boxone.two2= true;
+            boxone.three2= false;
+            boxone.four2= false;
+            boxone.five2= false;
+            boxone.twoA2= "الإجابة خاطئة";
+        }
+        if (x==4){
+            boxone.one2= false;
+            boxone.two2= false;
+            boxone.three2= false;
+            boxone.four2= true;
+            boxone.five2= false;
+            boxone.fourA2="الإجابة خاطئة";
+        }
+        if (x==5){
+            boxone.one2= false;
+            boxone.two2= false;
+            boxone.three2= false;
+            boxone.four2= false;
+            boxone.five2= true;
+            boxone.fiveA2= "الإجابة خاطئة";
+        }
+        myApp1.guide3 = true;
+    }
+    
+    
+    // Q3
+    function guideone30 (){
+        boxone.optionansr2= false;
+        boxone.three2= false;
+        myApp1.guide3= false;
+        myApp1.card1= true;
+        myApp1.img2= true;
+        myApp1.guideone3=true;
+    }
+    function guideone31 (){
+        myApp1.guideone3=false;
+        myApp1.guidetwo3=true;
+    }
+    function guideone32 (){
+        myApp1.guidetwo3=false;
+        myApp1.guidethree3=true;
+    }
+    function guideone33 (){
+        myApp1.guidethree3=false;
+        myApp1.guidefour3=true;
+    }
+    function guideone34 (){
+        myApp1.guidefour3=false;
+        myApp1.answersguide3=true;
+        myApp1.guidefive3=true;
+    }
+    function ansrguide3 () {
+        myApp1.answersguide3= false;
+        myApp1.guidefive3= false;
+        myApp1.card1= false;
+        myApp1.img2= false;
+        boxone.optionansr3= true;
+        boxone.optionA3=true;
+        boxone.boxone= true;
+        boxone.one3= true;
+        boxone.two3= true;
+        boxone.three3= true;
+        boxone.four3= true;
+        boxone.five3= true;
+    }
+    function fouoneA3 () {
+        if (boxone.optionA3==true) {
+            boxone.point=boxone.point+1;
+        }
+        myApp1.guide4= true;
+        boxone.optionA3= false;
+        boxone.one3= false;
+        boxone.two3= false;
+        boxone.four3= false;
+        boxone.five3= false;
+        boxone.threeA3= "الإجابة صحيحة";
+    }
+    
+    function fouroneA3 (x) {
+        boxone.optionA3= false;
+        if (x==1){
+            boxone.one3= true;
+            boxone.two3= false;
+            boxone.three3= false;
+            boxone.four3= false;
+            boxone.five3= false;
+            boxone.oneA3= "الإجابة خاطئة";
+        }
+        if (x==2){
+            boxone.one3= false;
+            boxone.two3= true;
+            boxone.three3= false;
+            boxone.four3= false;
+            boxone.five3= false;
+            boxone.twoA3= "الإجابة خاطئة";
+        }
+        if (x==4){
+            boxone.one3= false;
+            boxone.two3= false;
+            boxone.three3= false;
+            boxone.four3= true;
+            boxone.five3= false;
+            boxone.fourA3="الإجابة خاطئة";
+        }
+        if (x==5){
+            boxone.one3= false;
+            boxone.two3= false;
+            boxone.three3= false;
+            boxone.four3= false;
+            boxone.five3= true;
+            boxone.fiveA3= "الإجابة خاطئة";
+        }
+        myApp1.guide4 = true;
+    }
+    
+    
+    // Q4
+    function guideone40 (){
+        boxone.optionansr3= false;
+        boxone.three3= false;
+        myApp1.guide4= false;
+        myApp1.card1= true;
+        myApp1.img2= true;
+        myApp1.guideone4=true;
+    }
+    function guideone41 (){
+        myApp1.guideone4=false;
+        myApp1.guidetwo4=true;
+    }
+    function guideone42 (){
+        myApp1.guidetwo4=false;
+        myApp1.guidethree4=true;
+    }
+    function guideone43 (){
+        myApp1.guidethree4=false;
+        myApp1.guidefour4=true;
+    }
+    function guideone44 (){
+        myApp1.guidefour4=false;
+        myApp1.answersguide4=true;
+        myApp1.guidefive4=true;
+    }
+    function ansrguide4 () {
+        myApp1.answersguide4= false;
+        myApp1.guidefive4= false;
+        myApp1.card1= false;
+        myApp1.img2= false;
+        boxone.optionansr4= true;
+        boxone.optionA4=true;
+        boxone.boxone= true;
         boxone.one4= true;
-        boxone.two4= false;
-        boxone.three4= false;
-        boxone.four4= false;
-        boxone.five4= false;
-        boxone.oneA4= "الإجابة خاطئة";
-    }
-    if (x==2){
-        boxone.one4= false;
         boxone.two4= true;
-        boxone.three4= false;
-        boxone.four4= false;
-        boxone.five4= false;
-        boxone.twoA4= "الإجابة خاطئة";
-    }
-    if (x==4){
-        boxone.one4= false;
-        boxone.two4= false;
-        boxone.three4= false;
+        boxone.three4= true;
         boxone.four4= true;
-        boxone.five4= false;
-        boxone.fourA4="الإجابة خاطئة";
+        boxone.five4= true;
     }
-    if (x==5){
+    function fouoneA4 () {
+        if (boxone.optionA4==true) {
+            boxone.point=boxone.point+1;
+        }
+        
+        myApp1.guide5 = true;
+        boxone.optionA4= false;
         boxone.one4= false;
         boxone.two4= false;
-        boxone.three4= false;
         boxone.four4= false;
-        boxone.five4= true;
-        boxone.fiveA4= "الإجابة خاطئة";
+        boxone.five4= false;
+        boxone.threeA4= "الإجابة صحيحة";
     }
-    myApp1.guide5 = true;
-}
-
-
-// Q5
-function guideone50 (){
-    boxone.optionansr4= false;
-    boxone.three4= false;
-    myApp1.guide5= false;
-    myApp1.card1= true;
-    myApp1.img2= true;
-    myApp1.guideone5=true;
-}
-function guideone51 (){
-    myApp1.guideone5=false;
-    myApp1.guidetwo5=true;
-}
-function guideone52 (){
-    myApp1.guidetwo5=false;
-    myApp1.guidethree5=true;
-}
-function guideone53 (){
-    myApp1.guidethree5=false;
-    myApp1.guidefour5=true;
-}
-function guideone54 (){
-    myApp1.guidefour5=false;
-    myApp1.answersguide5=true;
-    myApp1.guidefive5=true;
-}
-function ansrguide5 () {
-    myApp1.answersguide5= false;
-    myApp1.guidefive5= false;
-    myApp1.card1= false;
-    myApp1.img2= false;
-    boxone.optionansr5= true;
-    boxone.optionA5=true;
-    boxone.boxone= true;
-    boxone.one5= true;
-    boxone.two5= true;
-    boxone.three5= true;
-    boxone.four5= true;
-    boxone.five5= true;
-}
-function fouoneA5 () {
-    if (boxone.optionA5==true) {
-        boxone.point=boxone.point+1;
+    
+    function fouroneA4 (x) {
+        boxone.optionA4= false;
+        if (x==1){
+            boxone.one4= true;
+            boxone.two4= false;
+            boxone.three4= false;
+            boxone.four4= false;
+            boxone.five4= false;
+            boxone.oneA4= "الإجابة خاطئة";
+        }
+        if (x==2){
+            boxone.one4= false;
+            boxone.two4= true;
+            boxone.three4= false;
+            boxone.four4= false;
+            boxone.five4= false;
+            boxone.twoA4= "الإجابة خاطئة";
+        }
+        if (x==4){
+            boxone.one4= false;
+            boxone.two4= false;
+            boxone.three4= false;
+            boxone.four4= true;
+            boxone.five4= false;
+            boxone.fourA4="الإجابة خاطئة";
+        }
+        if (x==5){
+            boxone.one4= false;
+            boxone.two4= false;
+            boxone.three4= false;
+            boxone.four4= false;
+            boxone.five4= true;
+            boxone.fiveA4= "الإجابة خاطئة";
+        }
+        myApp1.guide5 = true;
     }
-    myApp1.guide6 = true;
-    boxone.optionA5= false;
-    boxone.one5= false;
-    boxone.two5= false;
-    boxone.four5= false;
-    boxone.five5= false;
-    boxone.threeA5= "الإجابة صحيحة";
-}
-
-function fouroneA5 (x) {
-    boxone.optionA5= false;
-    if (x==1){
+    
+    
+    // Q5
+    function guideone50 (){
+        boxone.optionansr4= false;
+        boxone.three4= false;
+        myApp1.guide5= false;
+        myApp1.card1= true;
+        myApp1.img2= true;
+        myApp1.guideone5=true;
+    }
+    function guideone51 (){
+        myApp1.guideone5=false;
+        myApp1.guidetwo5=true;
+    }
+    function guideone52 (){
+        myApp1.guidetwo5=false;
+        myApp1.guidethree5=true;
+    }
+    function guideone53 (){
+        myApp1.guidethree5=false;
+        myApp1.guidefour5=true;
+    }
+    function guideone54 (){
+        myApp1.guidefour5=false;
+        myApp1.answersguide5=true;
+        myApp1.guidefive5=true;
+    }
+    function ansrguide5 () {
+        myApp1.answersguide5= false;
+        myApp1.guidefive5= false;
+        myApp1.card1= false;
+        myApp1.img2= false;
+        boxone.optionansr5= true;
+        boxone.optionA5=true;
+        boxone.boxone= true;
         boxone.one5= true;
-        boxone.two5= false;
-        boxone.three5= false;
-        boxone.four5= false;
-        boxone.five5= false;
-        boxone.oneA5= "الإجابة خاطئة";
-    }
-    if (x==2){
-        boxone.one5= false;
         boxone.two5= true;
-        boxone.three5= false;
-        boxone.four5= false;
-        boxone.five5= false;
-        boxone.twoA5= "الإجابة خاطئة";
-    }
-    if (x==4){
-        boxone.one5= false;
-        boxone.two5= false;
-        boxone.three5= false;
+        boxone.three5= true;
         boxone.four5= true;
-        boxone.five5= false;
-        boxone.fourA5="الإجابة خاطئة";
+        boxone.five5= true;
     }
-    if (x==5){
+    function fouoneA5 () {
+        if (boxone.optionA5==true) {
+            boxone.point=boxone.point+1;
+        }
+        myApp1.guide6 = true;
+        boxone.optionA5= false;
         boxone.one5= false;
         boxone.two5= false;
-        boxone.three5= false;
         boxone.four5= false;
-        boxone.five5= true;
-        boxone.fiveA5= "الإجابة خاطئة";
+        boxone.five5= false;
+        boxone.threeA5= "الإجابة صحيحة";
     }
-     myApp1.guide6 = true;
-}
-
-
-// Q6
-function guideone60 (){
-    boxone.optionansr5= false;
-    boxone.three5= false;
-    myApp1.guide6= false;
-    myApp1.card1= true;
-    myApp1.img2= true;
-    myApp1.guideone6=true;
-}
-function guideone61 (){
-    myApp1.guideone6=false;
-    myApp1.guidetwo6=true;
-}
-function guideone62 (){
-    myApp1.guidetwo6=false;
-    myApp1.guidethree6=true;
-}
-function guideone63 (){
-    myApp1.guidethree6=false;
-    myApp1.guidefour6=true;
-}
-function guideone64 (){
-    myApp1.guidefour6=false;
-    myApp1.answersguide6=true;
-    myApp1.guidefive6=true;
-}
-function ansrguide6 () {
-    myApp1.answersguide6= false;
-    myApp1.guidefive6= false;
-    myApp1.card1= false;
-    myApp1.img2= false;
-    boxone.optionansr6= true;
-    boxone.optionA6=true;
-    boxone.boxone= true;
-    boxone.one6= true;
-    boxone.two6= true;
-    boxone.three6= true;
-    boxone.four6= true;
-    boxone.five6= true;
-}
-function fouoneA6 () {
-    if (boxone.optionA6==true) {
-        boxone.point=boxone.point+1;
+    
+    function fouroneA5 (x) {
+        boxone.optionA5= false;
+        if (x==1){
+            boxone.one5= true;
+            boxone.two5= false;
+            boxone.three5= false;
+            boxone.four5= false;
+            boxone.five5= false;
+            boxone.oneA5= "الإجابة خاطئة";
+        }
+        if (x==2){
+            boxone.one5= false;
+            boxone.two5= true;
+            boxone.three5= false;
+            boxone.four5= false;
+            boxone.five5= false;
+            boxone.twoA5= "الإجابة خاطئة";
+        }
+        if (x==4){
+            boxone.one5= false;
+            boxone.two5= false;
+            boxone.three5= false;
+            boxone.four5= true;
+            boxone.five5= false;
+            boxone.fourA5="الإجابة خاطئة";
+        }
+        if (x==5){
+            boxone.one5= false;
+            boxone.two5= false;
+            boxone.three5= false;
+            boxone.four5= false;
+            boxone.five5= true;
+            boxone.fiveA5= "الإجابة خاطئة";
+        }
+        myApp1.guide6 = true;
     }
-    myApp1.guide7 = true;
-    boxone.optionA6= false;
-    boxone.one6= false;
-    boxone.two6= false;
-    boxone.four6= false;
-    boxone.five6= false;
-    boxone.threeA6= "الإجابة صحيحة";
-}
-
-function fouroneA6 (x) {
-    boxone.optionA6= false;
-    if (x==1){
+    
+    
+    // Q6
+    function guideone60 (){
+        boxone.optionansr5= false;
+        boxone.three5= false;
+        myApp1.guide6= false;
+        myApp1.card1= true;
+        myApp1.img2= true;
+        myApp1.guideone6=true;
+    }
+    function guideone61 (){
+        myApp1.guideone6=false;
+        myApp1.guidetwo6=true;
+    }
+    function guideone62 (){
+        myApp1.guidetwo6=false;
+        myApp1.guidethree6=true;
+    }
+    function guideone63 (){
+        myApp1.guidethree6=false;
+        myApp1.guidefour6=true;
+    }
+    function guideone64 (){
+        myApp1.guidefour6=false;
+        myApp1.answersguide6=true;
+        myApp1.guidefive6=true;
+    }
+    function ansrguide6 () {
+        myApp1.answersguide6= false;
+        myApp1.guidefive6= false;
+        myApp1.card1= false;
+        myApp1.img2= false;
+        boxone.optionansr6= true;
+        boxone.optionA6=true;
+        boxone.boxone= true;
         boxone.one6= true;
-        boxone.two6= false;
-        boxone.three6= false;
-        boxone.four6= false;
-        boxone.five6= false;
-        boxone.oneA6= "الإجابة خاطئة";
-    }
-    if (x==2){
-        boxone.one6= false;
         boxone.two6= true;
-        boxone.three6= false;
-        boxone.four6= false;
-        boxone.five6= false;
-        boxone.twoA6= "الإجابة خاطئة";
-    }
-    if (x==4){
-        boxone.one6= false;
-        boxone.two6= false;
-        boxone.three6= false;
+        boxone.three6= true;
         boxone.four6= true;
-        boxone.five6= false;
-        boxone.fourA6="الإجابة خاطئة";
+        boxone.five6= true;
     }
-    if (x==5){
+    function fouoneA6 () {
+        if (boxone.optionA6==true) {
+            boxone.point=boxone.point+1;
+        }
+        myApp1.guide7 = true;
+        boxone.optionA6= false;
         boxone.one6= false;
         boxone.two6= false;
-        boxone.three6= false;
         boxone.four6= false;
-        boxone.five6= true;
-        boxone.fiveA6= "الإجابة خاطئة";
+        boxone.five6= false;
+        boxone.threeA6= "الإجابة صحيحة";
     }
+    
+    function fouroneA6 (x) {
+        boxone.optionA6= false;
+        if (x==1){
+            boxone.one6= true;
+            boxone.two6= false;
+            boxone.three6= false;
+            boxone.four6= false;
+            boxone.five6= false;
+            boxone.oneA6= "الإجابة خاطئة";
+        }
+        if (x==2){
+            boxone.one6= false;
+            boxone.two6= true;
+            boxone.three6= false;
+            boxone.four6= false;
+            boxone.five6= false;
+            boxone.twoA6= "الإجابة خاطئة";
+        }
+        if (x==4){
+            boxone.one6= false;
+            boxone.two6= false;
+            boxone.three6= false;
+            boxone.four6= true;
+            boxone.five6= false;
+            boxone.fourA6="الإجابة خاطئة";
+        }
+        if (x==5){
+            boxone.one6= false;
+            boxone.two6= false;
+            boxone.three6= false;
+            boxone.four6= false;
+            boxone.five6= true;
+            boxone.fiveA6= "الإجابة خاطئة";
+        }
         myApp1.guide7 = true;
-}
-
-// Q7
-function guideone70 (){
-    boxone.optionansr6= false;
-    boxone.three6= false;
-    myApp1.guide7= false;
-    myApp1.card1= true;
-    myApp1.img2= true;
-    myApp1.guideone7=true;
-}
-function guideone71 (){
-    myApp1.guideone7=false;
-    myApp1.guidetwo7=true;
-}
-function guideone72 (){
-    myApp1.guidetwo7=false;
-    myApp1.guidethree7=true;
-}
-function guideone73 (){
-    myApp1.guidethree7=false;
-    myApp1.guidefour7=true;
-}
-function guideone74 (){
-    myApp1.guidefour7=false;
-    myApp1.answersguide7=true;
-    myApp1.guidefive7=true;
-}
-function ansrguide7 () {
-    myApp1.answersguide7= false;
-    myApp1.guidefive7= false;
-    myApp1.card1= false;
-    myApp1.img2= false;
-    boxone.optionansr7= true;
-    boxone.optionA7=true;
-    boxone.boxone= true;
-    boxone.one7= true;
-    boxone.two7= true;
-    boxone.three7= true;
-    boxone.four7= true;
-    boxone.five7= true;
-}
-function fouoneA7 () {
-    if (boxone.optionA7==true) {
-        boxone.point=boxone.point+1;
     }
-    myApp1.guide8 = true;
-    boxone.optionA7= false;
-    boxone.one7= false;
-    boxone.two7= false;
-    boxone.four7= false;
-    boxone.five7= false;
-    boxone.threeA7= "الإجابة صحيحة";
-}
-
-function fouroneA7 (x) {
-    boxone.optionA7= false;
-    if (x==1){
+    
+    // Q7
+    function guideone70 (){
+        boxone.optionansr6= false;
+        boxone.three6= false;
+        myApp1.guide7= false;
+        myApp1.card1= true;
+        myApp1.img2= true;
+        myApp1.guideone7=true;
+    }
+    function guideone71 (){
+        myApp1.guideone7=false;
+        myApp1.guidetwo7=true;
+    }
+    function guideone72 (){
+        myApp1.guidetwo7=false;
+        myApp1.guidethree7=true;
+    }
+    function guideone73 (){
+        myApp1.guidethree7=false;
+        myApp1.guidefour7=true;
+    }
+    function guideone74 (){
+        myApp1.guidefour7=false;
+        myApp1.answersguide7=true;
+        myApp1.guidefive7=true;
+    }
+    function ansrguide7 () {
+        myApp1.answersguide7= false;
+        myApp1.guidefive7= false;
+        myApp1.card1= false;
+        myApp1.img2= false;
+        boxone.optionansr7= true;
+        boxone.optionA7=true;
+        boxone.boxone= true;
         boxone.one7= true;
-        boxone.two7= false;
-        boxone.three7= false;
-        boxone.four7= false;
-        boxone.five7= false;
-        boxone.oneA7= "الإجابة خاطئة";
-    }
-    if (x==2){
-        boxone.one7= false;
         boxone.two7= true;
-        boxone.three7= false;
-        boxone.four7= false;
-        boxone.five7= false;
-        boxone.twoA7= "الإجابة خاطئة";
-    }
-    if (x==4){
-        boxone.one7= false;
-        boxone.two7= false;
-        boxone.three7= false;
+        boxone.three7= true;
         boxone.four7= true;
-        boxone.five7= false;
-        boxone.fourA7="الإجابة خاطئة";
+        boxone.five7= true;
     }
-    if (x==5){
+    function fouoneA7 () {
+        if (boxone.optionA7==true) {
+            boxone.point=boxone.point+1;
+        }
+        myApp1.guide8 = true;
+        boxone.optionA7= false;
         boxone.one7= false;
         boxone.two7= false;
-        boxone.three7= false;
         boxone.four7= false;
-        boxone.five7= true;
-        boxone.fiveA7= "الإجابة خاطئة";
+        boxone.five7= false;
+        boxone.threeA7= "الإجابة صحيحة";
     }
-    myApp1.guide8 = true;
-}
-
-
-// Q8
-function guideone80 (){
-    boxone.optionansr7= false;
-    boxone.three7= false;
-    myApp1.guide8= false;
-    myApp1.card1= true;
-    myApp1.img2= true;
-    myApp1.guideone8=true;
-}
-function guideone81 (){
-    myApp1.guideone8=false;
-    myApp1.guidetwo8=true;
-}
-function guideone82 (){
-    myApp1.guidetwo8=false;
-    myApp1.guidethree8=true;
-}
-function guideone83 (){
-    myApp1.guidethree8=false;
-    myApp1.guidefour8=true;
-}
-function guideone84 (){
-    myApp1.guidefour8=false;
-    myApp1.answersguide8=true;
-    myApp1.guidefive8=true;
-}
-function ansrguide8 () {
-    myApp1.answersguide8= false;
-    myApp1.guidefive8= false;
-    myApp1.card1= false;
-    myApp1.img2= false;
-    boxone.optionansr8= true;
-    boxone.optionA8=true;
-    boxone.boxone= true;
-    boxone.one8= true;
-    boxone.two8= true;
-    boxone.three8= true;
-    boxone.four8= true;
-    boxone.five8= true;
-}
-function fouoneA8 () {
-    if (boxone.optionA8==true) {
-        boxone.point=boxone.point+1;
+    
+    function fouroneA7 (x) {
+        boxone.optionA7= false;
+        if (x==1){
+            boxone.one7= true;
+            boxone.two7= false;
+            boxone.three7= false;
+            boxone.four7= false;
+            boxone.five7= false;
+            boxone.oneA7= "الإجابة خاطئة";
+        }
+        if (x==2){
+            boxone.one7= false;
+            boxone.two7= true;
+            boxone.three7= false;
+            boxone.four7= false;
+            boxone.five7= false;
+            boxone.twoA7= "الإجابة خاطئة";
+        }
+        if (x==4){
+            boxone.one7= false;
+            boxone.two7= false;
+            boxone.three7= false;
+            boxone.four7= true;
+            boxone.five7= false;
+            boxone.fourA7="الإجابة خاطئة";
+        }
+        if (x==5){
+            boxone.one7= false;
+            boxone.two7= false;
+            boxone.three7= false;
+            boxone.four7= false;
+            boxone.five7= true;
+            boxone.fiveA7= "الإجابة خاطئة";
+        }
+        myApp1.guide8 = true;
     }
-    myApp1.guide9 = true;
-    boxone.optionA8= false;
-    boxone.one8= false;
-    boxone.two8= false;
-    boxone.four8= false;
-    boxone.five8= false;
-    boxone.threeA8= "الإجابة صحيحة";
-}
-
-function fouroneA8 (x) {
-    boxone.optionA8= false;
-    if (x==1){
+    
+    
+    // Q8
+    function guideone80 (){
+        boxone.optionansr7= false;
+        boxone.three7= false;
+        myApp1.guide8= false;
+        myApp1.card1= true;
+        myApp1.img2= true;
+        myApp1.guideone8=true;
+    }
+    function guideone81 (){
+        myApp1.guideone8=false;
+        myApp1.guidetwo8=true;
+    }
+    function guideone82 (){
+        myApp1.guidetwo8=false;
+        myApp1.guidethree8=true;
+    }
+    function guideone83 (){
+        myApp1.guidethree8=false;
+        myApp1.guidefour8=true;
+    }
+    function guideone84 (){
+        myApp1.guidefour8=false;
+        myApp1.answersguide8=true;
+        myApp1.guidefive8=true;
+    }
+    function ansrguide8 () {
+        myApp1.answersguide8= false;
+        myApp1.guidefive8= false;
+        myApp1.card1= false;
+        myApp1.img2= false;
+        boxone.optionansr8= true;
+        boxone.optionA8=true;
+        boxone.boxone= true;
         boxone.one8= true;
-        boxone.two8= false;
-        boxone.three8= false;
-        boxone.four8= false;
-        boxone.five8= false;
-        boxone.oneA8= "الإجابة خاطئة";
-    }
-    if (x==2){
-        boxone.one8= false;
         boxone.two8= true;
-        boxone.three8= false;
-        boxone.four8= false;
-        boxone.five8= false;
-        boxone.twoA8= "الإجابة خاطئة";
-    }
-    if (x==4){
-        boxone.one8= false;
-        boxone.two8= false;
-        boxone.three8= false;
+        boxone.three8= true;
         boxone.four8= true;
-        boxone.five8= false;
-        boxone.fourA8="الإجابة خاطئة";
+        boxone.five8= true;
     }
-    if (x==5){
+    function fouoneA8 () {
+        if (boxone.optionA8==true) {
+            boxone.point=boxone.point+1;
+        }
+        myApp1.guide9 = true;
+        boxone.optionA8= false;
         boxone.one8= false;
         boxone.two8= false;
-        boxone.three8= false;
         boxone.four8= false;
-        boxone.five8= true;
-        boxone.fiveA8= "الإجابة خاطئة";
+        boxone.five8= false;
+        boxone.threeA8= "الإجابة صحيحة";
     }
-    myApp1.guide9 = true;
-}
-
-
-// Q9
-function guideone90 (){
-    boxone.optionansr8= false;
-    boxone.three8= false;
-    myApp1.guide9= false;
-    myApp1.card1= true;
-    myApp1.img2= true;
-    myApp1.guideone9=true;
-}
-function guideone91 (){
-    myApp1.guideone9=false;
-    myApp1.guidetwo9=true;
-}
-function guideone92 (){
-    myApp1.guidetwo9=false;
-    myApp1.guidethree9=true;
-}
-function guideone93 (){
-    myApp1.guidethree9=false;
-    myApp1.guidefour9=true;
-}
-function guideone94 (){
-    myApp1.guidefour9=false;
-    myApp1.answersguide9=true;
-    myApp1.guidefive9=true;
-}
-function ansrguide9 () {
-    myApp1.answersguide9= false;
-    myApp1.guidefive9= false;
-    myApp1.card1= false;
-    myApp1.img2= false;
-    boxone.optionansr9= true;
-    boxone.optionA9=true;
-    boxone.boxone= true;
-    boxone.one9= true;
-    boxone.two9= true;
-    boxone.three9= true;
-    boxone.four9= true;
-    boxone.five9= true;
-}
-function fouoneA9 () {
-    if (boxone.optionA9==true) {
-        boxone.point=boxone.point+1;
+    
+    function fouroneA8 (x) {
+        boxone.optionA8= false;
+        if (x==1){
+            boxone.one8= true;
+            boxone.two8= false;
+            boxone.three8= false;
+            boxone.four8= false;
+            boxone.five8= false;
+            boxone.oneA8= "الإجابة خاطئة";
+        }
+        if (x==2){
+            boxone.one8= false;
+            boxone.two8= true;
+            boxone.three8= false;
+            boxone.four8= false;
+            boxone.five8= false;
+            boxone.twoA8= "الإجابة خاطئة";
+        }
+        if (x==4){
+            boxone.one8= false;
+            boxone.two8= false;
+            boxone.three8= false;
+            boxone.four8= true;
+            boxone.five8= false;
+            boxone.fourA8="الإجابة خاطئة";
+        }
+        if (x==5){
+            boxone.one8= false;
+            boxone.two8= false;
+            boxone.three8= false;
+            boxone.four8= false;
+            boxone.five8= true;
+            boxone.fiveA8= "الإجابة خاطئة";
+        }
+        myApp1.guide9 = true;
     }
-    myApp1.guide10 = true;
-    boxone.optionA9= false;
-    boxone.one9= false;
-    boxone.two9= false;
-    boxone.four9= false;
-    boxone.five9= false;
-    boxone.threeA9= "الإجابة صحيحة";
-}
-
-function fouroneA9 (x) {
-    boxone.optionA9= false;
-    if (x==1){
+    
+    
+    // Q9
+    function guideone90 (){
+        boxone.optionansr8= false;
+        boxone.three8= false;
+        myApp1.guide9= false;
+        myApp1.card1= true;
+        myApp1.img2= true;
+        myApp1.guideone9=true;
+    }
+    function guideone91 (){
+        myApp1.guideone9=false;
+        myApp1.guidetwo9=true;
+    }
+    function guideone92 (){
+        myApp1.guidetwo9=false;
+        myApp1.guidethree9=true;
+    }
+    function guideone93 (){
+        myApp1.guidethree9=false;
+        myApp1.guidefour9=true;
+    }
+    function guideone94 (){
+        myApp1.guidefour9=false;
+        myApp1.answersguide9=true;
+        myApp1.guidefive9=true;
+    }
+    function ansrguide9 () {
+        myApp1.answersguide9= false;
+        myApp1.guidefive9= false;
+        myApp1.card1= false;
+        myApp1.img2= false;
+        boxone.optionansr9= true;
+        boxone.optionA9=true;
+        boxone.boxone= true;
         boxone.one9= true;
-        boxone.two9= false;
-        boxone.three9= false;
-        boxone.four9= false;
-        boxone.five9= false;
-        boxone.oneA9= "الإجابة خاطئة";
-    }
-    if (x==2){
-        boxone.one9= false;
         boxone.two9= true;
-        boxone.three9= false;
-        boxone.four9= false;
-        boxone.five9= false;
-        boxone.twoA9= "الإجابة خاطئة";
-    }
-    if (x==4){
-        boxone.one9= false;
-        boxone.two9= false;
-        boxone.three9= false;
+        boxone.three9= true;
         boxone.four9= true;
-        boxone.five9= false;
-        boxone.fourA9="الإجابة خاطئة";
+        boxone.five9= true;
     }
-    if (x==5){
+    function fouoneA9 () {
+        if (boxone.optionA9==true) {
+            boxone.point=boxone.point+1;
+        }
+        myApp1.guide10 = true;
+        boxone.optionA9= false;
         boxone.one9= false;
         boxone.two9= false;
-        boxone.three9= false;
         boxone.four9= false;
-        boxone.five9= true;
-        boxone.fiveA9= "الإجابة خاطئة";
+        boxone.five9= false;
+        boxone.threeA9= "الإجابة صحيحة";
     }
-    myApp1.guide10 = true;
-}
-
-
-// Q10
-function guideone100 (){
-    boxone.optionansr9= false;
-    boxone.three9= false;
-    myApp1.guide10= false;
-    myApp1.card1= true;
-    myApp1.img2= true;
-    myApp1.guideone10=true;
-}
-function guideone101 (){
-    myApp1.guideone10=false;
-    myApp1.guidetwo10=true;
-}
-function guideone102 (){
-    myApp1.guidetwo10=false;
-    myApp1.guidethree10=true;
-}
-function guideone103 (){
-    myApp1.guidethree10=false;
-    myApp1.guidefour10=true;
-}
-function guideone104 (){
-    myApp1.guidefour10=false;
-    myApp1.answersguide10=true;
-    myApp1.guidefive10=true;
-}
-function ansrguide10 () {
-    myApp1.answersguide10= false;
-    myApp1.guidefive10= false;
-    myApp1.card1= false;
-    myApp1.img2= false;
-    boxone.optionansr10= true;
-    boxone.optionA10=true;
-    boxone.boxone= true;
-    boxone.one10= true;
-    boxone.two10= true;
-    boxone.three10= true;
-    boxone.four10= true;
-    boxone.five10= true;
-}
-function fouoneA10 () {
-    if (boxone.optionA10==true) {
-        boxone.point=boxone.point+1;
+    
+    function fouroneA9 (x) {
+        boxone.optionA9= false;
+        if (x==1){
+            boxone.one9= true;
+            boxone.two9= false;
+            boxone.three9= false;
+            boxone.four9= false;
+            boxone.five9= false;
+            boxone.oneA9= "الإجابة خاطئة";
+        }
+        if (x==2){
+            boxone.one9= false;
+            boxone.two9= true;
+            boxone.three9= false;
+            boxone.four9= false;
+            boxone.five9= false;
+            boxone.twoA9= "الإجابة خاطئة";
+        }
+        if (x==4){
+            boxone.one9= false;
+            boxone.two9= false;
+            boxone.three9= false;
+            boxone.four9= true;
+            boxone.five9= false;
+            boxone.fourA9="الإجابة خاطئة";
+        }
+        if (x==5){
+            boxone.one9= false;
+            boxone.two9= false;
+            boxone.three9= false;
+            boxone.four9= false;
+            boxone.five9= true;
+            boxone.fiveA9= "الإجابة خاطئة";
+        }
+        myApp1.guide10 = true;
     }
-    boxone.optionA10= false;
-    boxone.one10= false;
-    boxone.two10= false;
-    boxone.four10= false;
-    boxone.five10= false;
-    boxone.threeA10= "الإجابة صحيحة";
-    boxone.points= true;
-    boxone.lasttext= true;
-}
-
-function fouroneA10 (x) {
-    boxone.optionA10= false;
-    if (x==1){
+    
+    
+    // Q10
+    function guideone100 (){
+        boxone.optionansr9= false;
+        boxone.three9= false;
+        myApp1.guide10= false;
+        myApp1.card1= true;
+        myApp1.img2= true;
+        myApp1.guideone10=true;
+    }
+    function guideone101 (){
+        myApp1.guideone10=false;
+        myApp1.guidetwo10=true;
+    }
+    function guideone102 (){
+        myApp1.guidetwo10=false;
+        myApp1.guidethree10=true;
+    }
+    function guideone103 (){
+        myApp1.guidethree10=false;
+        myApp1.guidefour10=true;
+    }
+    function guideone104 (){
+        myApp1.guidefour10=false;
+        myApp1.answersguide10=true;
+        myApp1.guidefive10=true;
+    }
+    function ansrguide10 () {
+        myApp1.answersguide10= false;
+        myApp1.guidefive10= false;
+        myApp1.card1= false;
+        myApp1.img2= false;
+        boxone.optionansr10= true;
+        boxone.optionA10=true;
+        boxone.boxone= true;
         boxone.one10= true;
-        boxone.two10= false;
-        boxone.three10= false;
-        boxone.four10= false;
-        boxone.five10= false;
-        boxone.oneA10= "الإجابة خاطئة";
-    }
-    if (x==2){
-        boxone.one10= false;
-        boxone.two19= true;
-        boxone.three10= false;
-        boxone.four10= false;
-        boxone.five10= false;
-        boxone.twoA10= "الإجابة خاطئة";
-    }
-    if (x==4){
-        boxone.one10= false;
-        boxone.two10= false;
-        boxone.three10= false;
+        boxone.two10= true;
+        boxone.three10= true;
         boxone.four10= true;
-        boxone.five10= false;
-        boxone.fourA10="الإجابة خاطئة";
+        boxone.five10= true;
     }
-    if (x==5){
+    function fouoneA10 () {
+        if (boxone.optionA10==true) {
+            boxone.point=boxone.point+1;
+        }
+        boxone.optionA10= false;
         boxone.one10= false;
         boxone.two10= false;
-        boxone.three10= false;
         boxone.four10= false;
-        boxone.five10= true;
-        boxone.fiveA10= "الإجابة خاطئة";
+        boxone.five10= false;
+        boxone.threeA10= "الإجابة صحيحة";
+        boxone.points= true;
+        boxone.lasttext= true;
     }
-    boxone.points= true;
-    boxone.lasttext= true;
-     titlereturn();
-}
-
-
-
-//  var myApp2 = new Vue({
-//     el: '#apptwo',
-//     data: {
-//     card2: false,
-//     text: true,
-//     textproject: false
-// }
-// })
-
-// var myApp3 = new Vue({
-//     el: '#appthree',
-//     data: {
-//     card3: false,
-//     text:true,
-//     textproject: false
-// }
-// })
-
-// var myApp4 = new Vue({
-//     el: '#appfour',
-//     data: {
-//     card4: false,
-//     text:true,
-//     textproject: false
-// }
-// })
-
-
-
-function apptitlereturn () {
-    myApp.apptitle=true;
-    myApp.apptitlereturn=false;
-}
-
-function titlereturn (){
- //   myApp.apptitle=true;
- //   myApp.apptitlereturn=false;
- //   myApp1.card1= true;
-    myApp1.img1=false;
-    myApp1.img2=false;
-    boxone.optionansr1=false;
-    boxone.optionansr2=false;
-    boxone.optionansr3=false;
-    boxone.optionansr4=false;
-    boxone.optionansr5=false;
-    boxone.optionansr6=false;
-    boxone.optionansr7=false;
-    boxone.optionansr8=false;
-    boxone.optionansr9=false;
-    boxone.optionansr10=false;
-    boxone.optionA1= false;
-    boxone.three1= false;
-    boxone.one1= false;
-    boxone.two1= false;
-    boxone.four1= false;
-    boxone.five1= false;
-    boxone.optionA2= false;
-    boxone.three2= false;
-    boxone.one2= false;
-    boxone.two2= false;
-    boxone.four2= false;
-    boxone.five2= false;
-    boxone.optionA3= false;
-    boxone.three3= false;
-    boxone.one3= false;
-    boxone.two3= false;
-    boxone.four3= false;
-    boxone.five3= false;
-    boxone.optionA4= false
-    boxone.three4= false;
-    boxone.one4= false;
-    boxone.two4= false;
-    boxone.four4= false;
-    boxone.five4= false;
-    boxone.optionA5= false;
-    boxone.three5= false;
-    boxone.one5= false;
-    boxone.two5= false;
-    boxone.four5= false;
-    boxone.five5= false;
-    boxone.optionA6= false;
-    boxone.three6= false;
-    boxone.one6= false;
-    boxone.two6= false;
-    boxone.four6= false;
-    boxone.five6= false;
-    boxone.optionA7= false;
-    boxone.three7= false;
-    boxone.one7= false;
-    boxone.two7= false;
-    boxone.four7= false;
-    boxone.five7= false;
-    boxone.optionA8= false;
-    boxone.three8= false;
-    boxone.one8= false;
-    boxone.two8= false;
-    boxone.four8= false;
-    boxone.five8= false;
-    boxone.optionA9= false;
-    boxone.three9= false;
-    boxone.one9= false;
-    boxone.two9= false;
-    boxone.four9= false;
-    boxone.five9= false;
-    boxone.optionA10= false;
-    boxone.three10= false;
-    boxone.one10= false;
-    boxone.two10= false;
-    boxone.four10= false;
-    boxone.five10= false;
-    myApp1.guideone1=false;
-    myApp1.guidetwo1=false;
-    myApp1.guidethree1=false;
-    myApp1.guidefour1=false;
-    myApp1.guidefive1=false;
-    myApp1.answersguide1=false;
-    myApp1.guideone2=false;
-    myApp1.guidetwo2=false;
-    myApp1.guidethree2=false;
-    myApp1.guidefour2=false;
-    myApp1.guidefive2=false;
-    myApp1.answersguide2=false;
-    myApp1.guideone3=false;
-    myApp1.guidetwo3=false;
-    myApp1.guidethree3=false;
-    myApp1.guidefour3=false;
-    myApp1.guidefive3=false;
-    myApp1.answersguide3=false;
-    myApp1.guideone4=false;
-    myApp1.guidetwo4=false;
-    myApp1.guidethree4=false;
-    myApp1.guidefour4=false;
-    myApp1.guidefive4=false;
-    myApp1.answersguide4=false;
-    myApp1.guideone5=false;
-    myApp1.guidetwo5=false;
-    myApp1.guidethree5=false;
-    myApp1.guidefour5=false;
-    myApp1.guidefive5=false;
-    myApp1.answersguide5=false;
-    myApp1.guideone6=false;
-    myApp1.guidetwo6=false;
-    myApp1.guidethree6=false;
-    myApp1.guidefour6=false;
-    myApp1.guidefive6=false;
-    myApp1.answersguide6=false;
-    myApp1.guideone7=false;
-    myApp1.guidetwo7=false;
-    myApp1.guidethree7=false;
-    myApp1.guidefour7=false;
-    myApp1.guidefive7=false;
-    myApp1.answersguide7=false;
-    myApp1.guideone8=false;
-    myApp1.guidetwo8=false;
-    myApp1.guidethree8=false;
-    myApp1.guidefour8=false;
-    myApp1.guidefive8=false;
-    myApp1.answersguide8=false;
-    myApp1.guideone9=false;
-    myApp1.guidetwo9=false;
-    myApp1.guidethree9=false;
-    myApp1.guidefour9=false;
-    myApp1.guidefive9=false;
-    myApp1.answersguide9=false;
-    myApp1.guideone10=false;
-    myApp1.guidetwo10=false;
-    myApp1.guidethree10=false;
-    myApp1.guidefour10=false;
-    myApp1.guidefive10=false;
-    myApp1.answersguide10=false;
-//    boxone.boxone=false;
-    boxone.fiveA1= "صهيب الرومي";
-    boxone.fourA1= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
-    boxone.threeA1= "سلمان الفارسي";
-    boxone.twoA1= "سعد بن معاذ";
-    boxone.oneA1= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
-    boxone.fiveA2= "صهيب الرومي";
-    boxone.fourA2= "زيد بن حارثة";
-    boxone.threeA2="عمار بن ياسر";
-    boxone.twoA2= "أبو ذر جندب بن جنادة الغفاري";
-    boxone.oneA2= "الزبير بن العوام";
-    boxone.fiveA3= "أبو سفيان صخر بن حرب بن أمية";
-    boxone.fourA3= "عمرو بن العاص";
-    boxone.threeA3= "خالد بن الوليد";
-    boxone.twoA3= "ضرار بن الأزور الأسدي";
-    boxone.oneA3= "أبو سفيان بن حرب";
-    boxone.fiveA4= "صهيب الرومي";
-    boxone.fourA4= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
-    boxone.threeA4= "أبي ذر جندب بن جنادة الغفاري";
-    boxone.twoA4= "زيد بن حارثة";
-    boxone.oneA4= "عمرو بن العاص";
-    boxone.fiveA5= "سعد بن أبي وقاص";
-    boxone.fourA5= "ابي موسى الأشعري";
-    boxone.threeA5= "سعد بن معاذ";
-    boxone.twoA5= "عبدالرحمن بن صخر الدوسي";
-    boxone.oneA5= "معاذ بن جبل";
-    boxone.fiveA6= "أبو الدرداء اﻷنصاري";
-    boxone.fourA6= "أبو عبيده بن الجراح";
-    boxone.threeA6= "معاذ بن جبل";
-    boxone.twoA6= "زيد بن ثابت بن الضحّاك الأنصاري";
-    boxone.oneA6= "أبو سعيد سعد بن مالك بن سنان الخدري";
-    boxone.fiveA7= "عثمان بن أبي العاص";
-    boxone.fourA7= "العباس بن عبد المطلب";
-    boxone.threeA7= "أبو سفيان صخر بن حرب";
-    boxone.twoA7= "حمزة بن عبد المطلب";
-    boxone.oneA7= "عبدالله بن عتبة بن ربيعة";
-    boxone.fiveA8= "خطأ";
-    boxone.fourA8= "خطأ";
-    boxone.threeA8= "صح";
-    boxone.twoA8= "خطأ";
-    boxone.oneA8= "خطأ";
-    boxone.fiveA9= "خطأ";
-    boxone.fourA9= "خطأ";
-    boxone.threeA9= "صح";
-    boxone.twoA9= "خطأ";
-    boxone.oneA9= "خطأ";
-    boxone.fiveA10= "خطأ";
-    boxone.fourA10= "خطأ";
-    boxone.threeA10= "صح";
-    boxone.twoA10= "خطأ";
-    boxone.oneA10= "خطأ";
-    texttitlereturn();
-}
-
-function texttitlereturn (){
-    myApp1.text= true;
-    //  myApp2.text= true;
-    //  myApp3.text= true;
-    //  myApp4.text= true;
-    myApp1.textproject= false;
-    //  myApp2.textproject= false;
-    //  myApp3.textproject= false;
-    //  myApp4.textproject= false;
-}
-
-function clickone () {
-    // myApp2.card2= false;
-    // myApp3.card3= false;
-    // myApp4.card4= false;
-    myApp1.text=false;
-    myApp.title=false;
-    myApp1.textproject=true;
-    myApp1.img1=false;
-    myApp1.img2=true;
-    myApp1.points= false;
-    apptitlereturn();
-}
-function clicktwo () {
-    myApp1.card1= false;
-    // myApp3.card3= false;
-    // myApp4.card4= false;
-    // myApp2.text=false;
-    // myApp2.textproject=true;
-    apptitlereturn();
-}
-function clickthree () {
-    myApp1.card1= false;
-    // myApp2.card2= false;
-    // myApp4.card4= false;
-    // myApp3.text=false
-    // myApp3.textproject=true;
-    apptitlereturn();
-}
-function clickfour () {
-    myApp1.card1= false;
-    // myApp2.card2= false;
-    // myApp3.card3= false;
-    // myApp4.text=false;
-    // myApp4.textproject=true;
-    apptitlereturn();
-}
+    
+    function fouroneA10 (x) {
+        boxone.optionA10= false;
+        if (x==1){
+            boxone.one10= true;
+            boxone.two10= false;
+            boxone.three10= false;
+            boxone.four10= false;
+            boxone.five10= false;
+            boxone.oneA10= "الإجابة خاطئة";
+        }
+        if (x==2){
+            boxone.one10= false;
+            boxone.two19= true;
+            boxone.three10= false;
+            boxone.four10= false;
+            boxone.five10= false;
+            boxone.twoA10= "الإجابة خاطئة";
+        }
+        if (x==4){
+            boxone.one10= false;
+            boxone.two10= false;
+            boxone.three10= false;
+            boxone.four10= true;
+            boxone.five10= false;
+            boxone.fourA10="الإجابة خاطئة";
+        }
+        if (x==5){
+            boxone.one10= false;
+            boxone.two10= false;
+            boxone.three10= false;
+            boxone.four10= false;
+            boxone.five10= true;
+            boxone.fiveA10= "الإجابة خاطئة";
+        }
+        boxone.points= true;
+        boxone.lasttext= true;
+        titlereturn();
+    }
+    
+    
+    
+    //  var myApp2 = new Vue({
+    //     el: '#apptwo',
+    //     data: {
+    //     card2: false,
+    //     text: true,
+    //     textproject: false
+    // }
+    // })
+    
+    // var myApp3 = new Vue({
+    //     el: '#appthree',
+    //     data: {
+    //     card3: false,
+    //     text:true,
+    //     textproject: false
+    // }
+    // })
+    
+    // var myApp4 = new Vue({
+    //     el: '#appfour',
+    //     data: {
+    //     card4: false,
+    //     text:true,
+    //     textproject: false
+    // }
+    // })
+    
+    
+    
+    function apptitlereturn () {
+        myApp.apptitle=true;
+        myApp.apptitlereturn=false;
+    }
+    
+    function titlereturn (){
+        //   myApp.apptitle=true;
+        //   myApp.apptitlereturn=false;
+        //   myApp1.card1= true;
+        myApp1.img1=false;
+        myApp1.img2=false;
+        boxone.optionansr1=false;
+        boxone.optionansr2=false;
+        boxone.optionansr3=false;
+        boxone.optionansr4=false;
+        boxone.optionansr5=false;
+        boxone.optionansr6=false;
+        boxone.optionansr7=false;
+        boxone.optionansr8=false;
+        boxone.optionansr9=false;
+        boxone.optionansr10=false;
+        boxone.optionA1= false;
+        boxone.three1= false;
+        boxone.one1= false;
+        boxone.two1= false;
+        boxone.four1= false;
+        boxone.five1= false;
+        boxone.optionA2= false;
+        boxone.three2= false;
+        boxone.one2= false;
+        boxone.two2= false;
+        boxone.four2= false;
+        boxone.five2= false;
+        boxone.optionA3= false;
+        boxone.three3= false;
+        boxone.one3= false;
+        boxone.two3= false;
+        boxone.four3= false;
+        boxone.five3= false;
+        boxone.optionA4= false
+        boxone.three4= false;
+        boxone.one4= false;
+        boxone.two4= false;
+        boxone.four4= false;
+        boxone.five4= false;
+        boxone.optionA5= false;
+        boxone.three5= false;
+        boxone.one5= false;
+        boxone.two5= false;
+        boxone.four5= false;
+        boxone.five5= false;
+        boxone.optionA6= false;
+        boxone.three6= false;
+        boxone.one6= false;
+        boxone.two6= false;
+        boxone.four6= false;
+        boxone.five6= false;
+        boxone.optionA7= false;
+        boxone.three7= false;
+        boxone.one7= false;
+        boxone.two7= false;
+        boxone.four7= false;
+        boxone.five7= false;
+        boxone.optionA8= false;
+        boxone.three8= false;
+        boxone.one8= false;
+        boxone.two8= false;
+        boxone.four8= false;
+        boxone.five8= false;
+        boxone.optionA9= false;
+        boxone.three9= false;
+        boxone.one9= false;
+        boxone.two9= false;
+        boxone.four9= false;
+        boxone.five9= false;
+        boxone.optionA10= false;
+        boxone.three10= false;
+        boxone.one10= false;
+        boxone.two10= false;
+        boxone.four10= false;
+        boxone.five10= false;
+        myApp1.guideone1=false;
+        myApp1.guidetwo1=false;
+        myApp1.guidethree1=false;
+        myApp1.guidefour1=false;
+        myApp1.guidefive1=false;
+        myApp1.answersguide1=false;
+        myApp1.guideone2=false;
+        myApp1.guidetwo2=false;
+        myApp1.guidethree2=false;
+        myApp1.guidefour2=false;
+        myApp1.guidefive2=false;
+        myApp1.answersguide2=false;
+        myApp1.guideone3=false;
+        myApp1.guidetwo3=false;
+        myApp1.guidethree3=false;
+        myApp1.guidefour3=false;
+        myApp1.guidefive3=false;
+        myApp1.answersguide3=false;
+        myApp1.guideone4=false;
+        myApp1.guidetwo4=false;
+        myApp1.guidethree4=false;
+        myApp1.guidefour4=false;
+        myApp1.guidefive4=false;
+        myApp1.answersguide4=false;
+        myApp1.guideone5=false;
+        myApp1.guidetwo5=false;
+        myApp1.guidethree5=false;
+        myApp1.guidefour5=false;
+        myApp1.guidefive5=false;
+        myApp1.answersguide5=false;
+        myApp1.guideone6=false;
+        myApp1.guidetwo6=false;
+        myApp1.guidethree6=false;
+        myApp1.guidefour6=false;
+        myApp1.guidefive6=false;
+        myApp1.answersguide6=false;
+        myApp1.guideone7=false;
+        myApp1.guidetwo7=false;
+        myApp1.guidethree7=false;
+        myApp1.guidefour7=false;
+        myApp1.guidefive7=false;
+        myApp1.answersguide7=false;
+        myApp1.guideone8=false;
+        myApp1.guidetwo8=false;
+        myApp1.guidethree8=false;
+        myApp1.guidefour8=false;
+        myApp1.guidefive8=false;
+        myApp1.answersguide8=false;
+        myApp1.guideone9=false;
+        myApp1.guidetwo9=false;
+        myApp1.guidethree9=false;
+        myApp1.guidefour9=false;
+        myApp1.guidefive9=false;
+        myApp1.answersguide9=false;
+        myApp1.guideone10=false;
+        myApp1.guidetwo10=false;
+        myApp1.guidethree10=false;
+        myApp1.guidefour10=false;
+        myApp1.guidefive10=false;
+        myApp1.answersguide10=false;
+        //    boxone.boxone=false;
+        boxone.fiveA1= "صهيب الرومي";
+        boxone.fourA1= "أبو أيوب خالد بن زيد بن كليب الأنصاري";
+        boxone.threeA1= "سلمان الفارسي";
+        boxone.twoA1= "سعد بن معاذ";
+        boxone.oneA1= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
+        boxone.fiveA2= "صهيب الرومي";
+        boxone.fourA2= "زيد بن حارثة";
+        boxone.threeA2="عمار بن ياسر";
+        boxone.twoA2= "أبو ذر جندب بن جنادة الغفاري";
+        boxone.oneA2= "الزبير بن العوام";
+        boxone.fiveA3= "أبو سفيان صخر بن حرب بن أمية";
+        boxone.fourA3= "عمرو بن العاص";
+        boxone.threeA3= "خالد بن الوليد";
+        boxone.twoA3= "ضرار بن الأزور الأسدي";
+        boxone.oneA3= "أبو سفيان بن حرب";
+        boxone.fiveA4= "صهيب الرومي";
+        boxone.fourA4= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
+        boxone.threeA4= "أبي ذر جندب بن جنادة الغفاري";
+        boxone.twoA4= "زيد بن حارثة";
+        boxone.oneA4= "عمرو بن العاص";
+        boxone.fiveA5= "سعد بن أبي وقاص";
+        boxone.fourA5= "ابي موسى الأشعري";
+        boxone.threeA5= "سعد بن معاذ";
+        boxone.twoA5= "عبدالرحمن بن صخر الدوسي";
+        boxone.oneA5= "معاذ بن جبل";
+        boxone.fiveA6= "أبو الدرداء اﻷنصاري";
+        boxone.fourA6= "أبو عبيده بن الجراح";
+        boxone.threeA6= "معاذ بن جبل";
+        boxone.twoA6= "زيد بن ثابت بن الضحّاك الأنصاري";
+        boxone.oneA6= "أبو سعيد سعد بن مالك بن سنان الخدري";
+        boxone.fiveA7= "عثمان بن أبي العاص";
+        boxone.fourA7= "العباس بن عبد المطلب";
+        boxone.threeA7= "أبو سفيان صخر بن حرب";
+        boxone.twoA7= "حمزة بن عبد المطلب";
+        boxone.oneA7= "عبدالله بن عتبة بن ربيعة";
+        boxone.fiveA8= "خطأ";
+        boxone.fourA8= "خطأ";
+        boxone.threeA8= "صح";
+        boxone.twoA8= "خطأ";
+        boxone.oneA8= "خطأ";
+        boxone.fiveA9= "خطأ";
+        boxone.fourA9= "خطأ";
+        boxone.threeA9= "صح";
+        boxone.twoA9= "خطأ";
+        boxone.oneA9= "خطأ";
+        boxone.fiveA10= "خطأ";
+        boxone.fourA10= "خطأ";
+        boxone.threeA10= "صح";
+        boxone.twoA10= "خطأ";
+        boxone.oneA10= "خطأ";
+        texttitlereturn();
+    }
+    
+    function texttitlereturn (){
+        myApp1.text= true;
+        //  myApp2.text= true;
+        //  myApp3.text= true;
+        //  myApp4.text= true;
+        myApp1.textproject= false;
+        //  myApp2.textproject= false;
+        //  myApp3.textproject= false;
+        //  myApp4.textproject= false;
+    }
+    
+    function clickone () {
+        // myApp2.card2= false;
+        // myApp3.card3= false;
+        // myApp4.card4= false;
+        myApp1.text=false;
+        myApp.title=false;
+        myApp1.textproject=true;
+        myApp1.img1=false;
+        myApp1.img2=true;
+        myApp1.points= false;
+        apptitlereturn();
+    }
+    function clicktwo () {
+        myApp1.card1= false;
+        // myApp3.card3= false;
+        // myApp4.card4= false;
+        // myApp2.text=false;
+        // myApp2.textproject=true;
+        apptitlereturn();
+    }
+    function clickthree () {
+        myApp1.card1= false;
+        // myApp2.card2= false;
+        // myApp4.card4= false;
+        // myApp3.text=false
+        // myApp3.textproject=true;
+        apptitlereturn();
+    }
+    function clickfour () {
+        myApp1.card1= false;
+        // myApp2.card2= false;
+        // myApp3.card3= false;
+        // myApp4.text=false;
+        // myApp4.textproject=true;
+        apptitlereturn();
+    }
