@@ -23,6 +23,16 @@ var boxone = new Vue({
         optionansr8: false,
         optionansr9: false,
         optionansr10: false,
+        inputansr1: false,
+        inputansr2: false,
+        inputansr3: false,
+        inputansr4: false,
+        inputansr5: false,
+        inputansr6: false,
+        inputansr7: false,
+        inputansr8: false,
+        inputansr9: false,
+        inputansr10: false,
         optionA1: false,
         optionA2: false,
         optionA3: false,
@@ -277,7 +287,12 @@ var App = new Vue({
 function answer1 () {
 if(document.getElementById("answerA1").value===boxone.threeA1 || document.getElementById("answerA1").value==="الفارسي"){
     myApp1.point=myApp1.point+5;
-    boxone.optionansr1= false;
+    boxone.inputansr1= false;
+    myApp1.guide2 = true;
+    boxone.boxone= false;
+} else {
+    myApp1.guide2 = true;
+    boxone.inputansr1= false;
 }
 }
 
@@ -317,7 +332,8 @@ function ansrguide1 () {
     myApp1.guidefive1= false;
     myApp1.card1= false;
     myApp1.img2= false;
-    boxone.optionansr1= true;
+//    boxone.optionansr1= true;
+    boxone.inputansr1= true;
     boxone.optionA1=true;
     boxone.boxone= true;
     boxone.one1= true;
