@@ -149,6 +149,7 @@ var boxone = new Vue({
 var myApp1 = new Vue({
     el: '#appone',
     data: {
+        points: false,
         point:0,
         card1: false,
         img1:true,
@@ -289,10 +290,6 @@ if(document.getElementById("answerA1").value===boxone.threeA1 || document.getEle
     myApp1.point=myApp1.point+5;
     boxone.inputansr1= false;
     myApp1.guide2 = true;
-    boxone.boxone= false;
-} else {
-    myApp1.guide2 = true;
-    boxone.inputansr1= false;
 } if (x===1){
     boxone.optionansr1=true; 
     boxone.inputansr1=false;
@@ -1211,6 +1208,7 @@ function fouroneA10 (x) {
         boxone.fiveA10= "الإجابة خاطئة";
     }
     myApp.title=true;
+    myApp1.points= true;
 }
 
 
