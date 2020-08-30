@@ -286,6 +286,22 @@ var App = new Vue({
     }
 })
 
+
+            if (boxone.optionansr1===true || boxone.optionansr2===true || boxone.optionansr3===true || boxone.optionansr4===true || boxone.optionansr5===true || boxone.optionansr6===true || boxone.optionansr7===true || boxone.optionansr8===true || boxone.optionansr9===true || boxone.optionansr10===true){
+                myApp1.guide1 = true;
+                myApp1.guide2 = true;
+                myApp1.guide3 = true;
+                myApp1.guide4 = true;
+                myApp1.guide5 = true;
+                myApp1.guide6 = true;
+                myApp1.guide7 = true;
+                myApp1.guide8 = true;
+                myApp1.guide9 = true;
+                myApp1.guide10 = true;
+            }
+
+
+
 function answer1 (x) {
     if(document.getElementById("answerA1").value===boxone.threeA1 || document.getElementById("answerA1").value==="الفارسي"){
         boxone.point=boxone.point+5;
@@ -301,6 +317,8 @@ function answer1 (x) {
     }
     }
 
+
+        
 
 function answer2 (x) {
     if(document.getElementById("answerA2").value===boxone.threeA2 || document.getElementById("answerA2").value==="بن ياسر"){
@@ -426,10 +444,14 @@ function answer10 (x) {
     if(document.getElementById("answerA10").value===boxone.threeA10){
         boxone.point=boxone.point+5;
         boxone.inputansr10= false;
-//        myApp1.guide2 = true;
+        boxone.points= true;
+        boxone.lasttext= true;
+//      myApp1.guide11 = true;
     } else {
         boxone.inputansr10= false;
-//        myApp1.guide2 = true;
+//      myApp1.guide11 = true;
+        boxone.points= true;
+        boxone.lasttext= true;
     }
     if (x===1){
         boxone.optionansr10=true;
