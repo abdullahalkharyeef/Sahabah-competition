@@ -97,7 +97,7 @@ var boxone = new Vue({
         fourA3: "عمرو بن العاص",
         threeA3:"خالد بن الوليد",
         twoA3: "ضرار بن الأزور الأسدي",
-        oneA3: "أبو سفيان",
+        oneA3: "أبو سفيان صخر بن حرب",
         fiveA4: "صهيب الرومي",
         fourA4: "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ",
         threeA4:"أبي ذر جندب بن جنادة الغفاري",
@@ -113,11 +113,11 @@ var boxone = new Vue({
         threeA6:"معاذ بن جبل",
         twoA6: "زيد بن ثابت بن الضحّاك الأنصاري",
         oneA6: "أبو سعيد سعد بن مالك بن سنان الخدري",        
-        fiveA7: "",
-        fourA7: "",
-        threeA7:"",
-        twoA7: "",
-        oneA7: "",
+        fiveA7: "عثمان بن أبي العاص",
+        fourA7: "العباس بن عبد المطلب",
+        threeA7:"أبو سفيان صخر بن حرب",
+        twoA7: "حمزة بن عبد المطلب",
+        oneA7: "عبدالله بن عتبة بن ربيعة",
         fiveA8: "",
         fourA8: "",
         threeA8:"",
@@ -244,11 +244,11 @@ var myApp1 = new Vue({
         guide63: "قال أبو إدريس الخولاني: «دخلت مسجد حمص، فإذا فيه نحو من ثلاثين كهلاً من الصحابة، فإذا فيهم شاب أكحل العينين، براق الثنايا ساكت، فإذا امترى القوم، أقبلوا عليه، فسألوه، فقلت: «من هذا؟» قيل: «...». فوقعت محبته في قلبي». الطبقات الكبرى لابن سعد",
         guide64: "قال النبي صلى الله عليه وسلم: «(...) أمام العلماء يوم القيامة برتوة أو رتوتين». أسد الغابة في معرفة الصحابة",
         guide65: "بعد وفاة النبي صلى الله عليه وسلم، شارك رضي الله عنه في الفتح الإسلامي للشام، وتوفي في الأردن في طاعون عمواس سنة ١٨ للهجرة وكان عمره رضي الله عنه ثماني وثلاثين سنة ومنهم من قال ثلاث وثلاثين أو أربع وثلاثين",
-        guide71: "",
-        guide72: "",
-        guide73: "",
-        guide74: "",
-        guide75: "",
+        guide71: "صحابي، من سادات قريش قبل الإسلام. كان تاجراً واسع الثراء، كان من الذين عارضوا الرسول صلى الله عليه وسلم قبل إسلامه.",
+        guide72: "لقبه: <br> أبو حنظلة",
+        guide73: "تاريخ دخوله الإسلام:<br> ٨ من هجرة الرسول صلى الله عليه وسلم",
+        guide74: "قال رضي الله عنه: إنك لكريم فداك أبي وأمي، والله لقد حاربتك فنعم المحارب كنت، ثم سالمتك فنعم المسالم أنت، جزاك الله خيراً. رواه ابن هشام",
+        guide75: "توفي بالمدينة المنورة سنة 31 هـ، وله نحو من تسعين سنة، وصلى عليه عثمان بن عفان،",
         guide81: "",
         guide82: "",
         guide83: "",
@@ -778,7 +778,7 @@ function fouoneA6 () {
     if (boxone.optionA6==true) {
         myApp1.point=myApp1.point+1;
     }
-//    myApp1.guide7 = true;
+    myApp1.guide7 = true;
     myApp.title=true;
     boxone.optionA6= false;
     boxone.one6= false;
@@ -822,7 +822,7 @@ function fouroneA6 (x) {
         boxone.five6= true;
         boxone.fiveA6= "الإجابة خاطئة";
     }
-        myApp.title=true;
+        myApp1.guide7 = true;
 }
 
 // Q7
@@ -869,7 +869,8 @@ function fouoneA7 () {
     if (boxone.optionA7==true) {
         myApp1.point=myApp1.point+1;
     }
-    myApp1.guide8 = true;
+//  myApp1.guide8 = true;
+    myApp.title=true;
     boxone.optionA7= false;
     boxone.one7= false;
     boxone.two7= false;
@@ -1375,7 +1376,7 @@ function titlereturn (){
     boxone.fourA3= "عمرو بن العاص";
     boxone.threeA3= "خالد بن الوليد";
     boxone.twoA3= "ضرار بن الأزور الأسدي";
-    boxone.oneA3= "عكرمة بن أبي جهل";
+    boxone.oneA3= "أبو سفيان بن حرب";
     boxone.fiveA4= "صهيب الرومي";
     boxone.fourA4= "سَلَمَةُ بْنُ عَمْرِو بْنِ الْأَكْوَعِ";
     boxone.threeA4= "أبي ذر جندب بن جنادة الغفاري";
@@ -1391,11 +1392,11 @@ function titlereturn (){
     boxone.threeA6= "معاذ بن جبل";
     boxone.twoA6= "زيد بن ثابت بن الضحّاك الأنصاري";
     boxone.oneA6= "أبو سعيد سعد بن مالك بن سنان الخدري";
-    boxone.fiveA7= "";
-    boxone.fourA7= "";
-    boxone.threeA7= "";
-    boxone.twoA7= "";
-    boxone.oneA7= "";
+    boxone.fiveA7= "عثمان بن أبي العاص";
+    boxone.fourA7= "العباس بن عبد المطلب";
+    boxone.threeA7= "أبو سفيان صخر بن حرب";
+    boxone.twoA7= "حمزة بن عبد المطلب";
+    boxone.oneA7= "عبدالله بن عتبة بن ربيعة";
     boxone.fiveA8= "";
     boxone.fourA8= "";
     boxone.threeA8= "";
