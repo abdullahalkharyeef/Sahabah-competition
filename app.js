@@ -149,6 +149,7 @@ var boxone = new Vue({
 var myApp1 = new Vue({
     el: '#appone',
     data: {
+        lasttext: false,
         points: false,
         point:0,
         card1: false,
@@ -1209,6 +1210,8 @@ function fouroneA10 (x) {
     }
     myApp.title=true;
     myApp1.points= true;
+    myApp1.lasttext= true;
+    myApp1.img1=false;
 }
 
 
@@ -1457,6 +1460,7 @@ function clickone () {
     myApp1.textproject=true;
     myApp1.img1=false;
     myApp1.img2=true;
+    myApp1.points= false;
     apptitlereturn();
 }
 function clicktwo () {
