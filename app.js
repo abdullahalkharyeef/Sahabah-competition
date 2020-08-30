@@ -118,21 +118,21 @@ var boxone = new Vue({
         threeA7:"أبو سفيان صخر بن حرب",
         twoA7: "حمزة بن عبد المطلب",
         oneA7: "عبدالله بن عتبة بن ربيعة",
-        fiveA8: "",
-        fourA8: "",
-        threeA8:"",
-        twoA8: "",
-        oneA8: "",
-        fiveA9: "",
-        fourA9: "",
-        threeA9:"",
-        twoA9: "",
-        oneA9: "",
-        fiveA10: "",
-        fourA10: "",
-        threeA10:"",
-        twoA10: "",
-        oneA10: ""
+        fiveA8: "خطأ",
+        fourA8: "خطأ",
+        threeA8:"صح",
+        twoA8: "خطأ",
+        oneA8: "خطأ",
+        fiveA9: "خطأ",
+        fourA9: "خطأ",
+        threeA9:"صح",
+        twoA9: "خطأ",
+        oneA9: "خطأ",
+        fiveA10: "خطأ",
+        fourA10: "خطأ",
+        threeA10:"صح",
+        twoA10: "خطأ",
+        oneA10: "خطأ"
     }
 })
 
@@ -245,25 +245,25 @@ var myApp1 = new Vue({
         guide64: "قال النبي صلى الله عليه وسلم: «(...) أمام العلماء يوم القيامة برتوة أو رتوتين». أسد الغابة في معرفة الصحابة",
         guide65: "بعد وفاة النبي صلى الله عليه وسلم، شارك رضي الله عنه في الفتح الإسلامي للشام، وتوفي في الأردن في طاعون عمواس سنة ١٨ للهجرة وكان عمره رضي الله عنه ثماني وثلاثين سنة ومنهم من قال ثلاث وثلاثين أو أربع وثلاثين",
         guide71: "صحابي، من سادات قريش قبل الإسلام. كان تاجراً واسع الثراء، كان من الذين عارضوا الرسول صلى الله عليه وسلم قبل إسلامه.",
-        guide72: "لقبه: <br> أبو حنظلة",
-        guide73: "تاريخ دخوله الإسلام:<br> ٨ من هجرة الرسول صلى الله عليه وسلم",
+        guide72: "لقبه: أبو حنظلة",
+        guide73: "تاريخ دخوله الإسلام: ٨ من هجرة الرسول صلى الله عليه وسلم",
         guide74: "قال رضي الله عنه: إنك لكريم فداك أبي وأمي، والله لقد حاربتك فنعم المحارب كنت، ثم سالمتك فنعم المسالم أنت، جزاك الله خيراً. رواه ابن هشام",
         guide75: "توفي بالمدينة المنورة سنة 31 هـ، وله نحو من تسعين سنة، وصلى عليه عثمان بن عفان،",
-        guide81: "",
-        guide82: "",
-        guide83: "",
-        guide84: "",
-        guide85: "",
-        guide91: "",
-        guide92: "",
-        guide93: "",
-        guide94: "",
-        guide95: "",
-        guide101: "",
-        guide102: "",
-        guide103: "",
-        guide104: "",
-        guide105: ""
+        guide81: "الاولى",
+        guide82: "الثانيه",
+        guide83: "الثالثه",
+        guide84: "الرابعه",
+        guide85: "الخامسه",
+        guide91: "الاولى",
+        guide92: "الثانيه",
+        guide93: "الثالثه",
+        guide94: "الرابعه",
+        guide95: "الخامسه",
+        guide101: "الاولى",
+        guide102: "الثانيه",
+        guide103: "الثالثه",
+        guide104: "الرابعه",
+        guide105: "الخامسه"
         
     }
 })
@@ -868,8 +868,7 @@ function fouoneA7 () {
     if (boxone.optionA7==true) {
         myApp1.point=myApp1.point+1;
     }
-//  myApp1.guide8 = true;
-    myApp.title=true;
+    myApp1.guide8 = true;
     boxone.optionA7= false;
     boxone.one7= false;
     boxone.two7= false;
@@ -912,7 +911,7 @@ function fouroneA7 (x) {
         boxone.five7= true;
         boxone.fiveA7= "الإجابة خاطئة";
     }
-    myApp.title=true;
+    myApp1.guide8 = true;
 }
 
 
@@ -1003,7 +1002,7 @@ function fouroneA8 (x) {
         boxone.five8= true;
         boxone.fiveA8= "الإجابة خاطئة";
     }
-    myApp.title=true;
+    myApp1.guide9 = true;
 }
 
 
@@ -1094,7 +1093,7 @@ function fouroneA9 (x) {
         boxone.five9= true;
         boxone.fiveA9= "الإجابة خاطئة";
     }
-    myApp.title=true;
+    myApp1.guide10 = true;
 }
 
 
