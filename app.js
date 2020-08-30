@@ -14,6 +14,7 @@ var boxone = new Vue({
     data: {
         boxone: false,
         lasttext: false,
+        point: 0,
         points: false,
         optionansr1: false,
         optionansr2: false,
@@ -151,7 +152,6 @@ var boxone = new Vue({
 var myApp1 = new Vue({
     el: '#appone',
     data: {
-        point:0,
         card1: false,
         img1:true,
         img2:false,
@@ -288,7 +288,7 @@ var App = new Vue({
 
 function answer1 (x) {
 if(document.getElementById("answerA1").value===boxone.threeA1 || document.getElementById("answerA1").value==="الفارسي"){
-    myApp1.point=myApp1.point+5;
+    boxone.point=myApp1.point+5;
     boxone.inputansr1= false;
     myApp1.guide2 = true;
 } if (x===1){
@@ -345,7 +345,7 @@ function ansrguide1 () {
 }
 function fouoneA () {
     if (boxone.optionA1==true) {
-        myApp1.point=myApp1.point+1;
+        boxone.point=boxone.point+1;
     }
     myApp1.guide2 = true;
     boxone.optionA1= false;
@@ -435,7 +435,7 @@ function ansrguide2 () {
 }
 function fouoneA2 () {
     if (boxone.optionA2==true) {
-        myApp1.point=myApp1.point+1;
+        boxone.point=boxone.point+1;
     }
     myApp1.guide3 = true;
     boxone.optionA2= false;
@@ -526,7 +526,7 @@ function ansrguide3 () {
 }
 function fouoneA3 () {
     if (boxone.optionA3==true) {
-        myApp1.point=myApp1.point+1;
+        boxone.point=boxone.point+1;
     }
     myApp1.guide4= true;
     boxone.optionA3= false;
@@ -617,7 +617,7 @@ function ansrguide4 () {
 }
 function fouoneA4 () {
     if (boxone.optionA4==true) {
-        myApp1.point=myApp1.point+1;
+        boxone.point=boxone.point+1;
     }
     
     myApp1.guide5 = true;
@@ -709,7 +709,7 @@ function ansrguide5 () {
 }
 function fouoneA5 () {
     if (boxone.optionA5==true) {
-        myApp1.point=myApp1.point+1;
+        boxone.point=boxone.point+1;
     }
     myApp1.guide6 = true;
     boxone.optionA5= false;
@@ -800,7 +800,7 @@ function ansrguide6 () {
 }
 function fouoneA6 () {
     if (boxone.optionA6==true) {
-        myApp1.point=myApp1.point+1;
+        boxone.point=boxone.point+1;
     }
     myApp1.guide7 = true;
     boxone.optionA6= false;
@@ -890,7 +890,7 @@ function ansrguide7 () {
 }
 function fouoneA7 () {
     if (boxone.optionA7==true) {
-        myApp1.point=myApp1.point+1;
+        boxone.point=boxone.point+1;
     }
     myApp1.guide8 = true;
     boxone.optionA7= false;
@@ -981,7 +981,7 @@ function ansrguide8 () {
 }
 function fouoneA8 () {
     if (boxone.optionA8==true) {
-        myApp1.point=myApp1.point+1;
+        boxone.point=boxone.point+1;
     }
     myApp1.guide9 = true;
     boxone.optionA8= false;
@@ -1072,7 +1072,7 @@ function ansrguide9 () {
 }
 function fouoneA9 () {
     if (boxone.optionA9==true) {
-        myApp1.point=myApp1.point+1;
+        boxone.point=boxone.point+1;
     }
     myApp1.guide10 = true;
     boxone.optionA9= false;
@@ -1163,7 +1163,7 @@ function ansrguide10 () {
 }
 function fouoneA10 () {
     if (boxone.optionA10==true) {
-        myApp1.point=myApp1.point+1;
+        boxone.point=boxone.point+1;
     }
     boxone.optionA10= false;
     boxone.one10= false;
