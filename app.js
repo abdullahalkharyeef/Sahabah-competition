@@ -1171,8 +1171,8 @@ function fouoneA10 () {
     boxone.four10= false;
     boxone.five10= false;
     boxone.threeA10= "الإجابة صحيحة";
-    myApp1.points= true;
-    myApp1.lasttext= true;
+    boxone.points= true;
+    boxone.lasttext= true;
 }
 
 function fouroneA10 (x) {
@@ -1211,7 +1211,7 @@ function fouroneA10 (x) {
     }
     boxone.points= true;
     boxone.lasttext= true;
-    // titlereturn();
+     titlereturn();
 }
 
 
@@ -1246,14 +1246,14 @@ function fouroneA10 (x) {
 
 
 function apptitlereturn () {
-    myApp.apptitle=false;
-    myApp.apptitlereturn=true;
+    myApp.apptitle=true;
+    myApp.apptitlereturn=false;
 }
 
 function titlereturn (){
-    myApp.apptitle=raise;
-    myApp.apptitlereturn=false;
-    myApp1.card1= true;
+ //   myApp.apptitle=true;
+ //   myApp.apptitlereturn=false;
+ //   myApp1.card1= true;
     myApp1.img1=false;
     myApp1.img2=false;
     boxone.optionansr1=false;
