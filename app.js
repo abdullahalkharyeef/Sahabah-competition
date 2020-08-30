@@ -1265,7 +1265,7 @@ function titlereturn (){
     boxone.optionansr8=false;
     boxone.optionansr9=false;
     boxone.optionansr10=false;
-    boxone.optionA1= false
+    boxone.optionA1= false;
     boxone.three1= false;
     boxone.one1= false;
     boxone.two1= false;
