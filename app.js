@@ -1210,8 +1210,7 @@ function fouroneA10 (x) {
     }
     myApp1.points= true;
     myApp1.lasttext= true;
-    myApp1.img1=false;
-    titlereturn();
+    // titlereturn();
 }
 
 
