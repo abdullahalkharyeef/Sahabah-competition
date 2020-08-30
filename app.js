@@ -1208,10 +1208,10 @@ function fouroneA10 (x) {
         boxone.five10= true;
         boxone.fiveA10= "الإجابة خاطئة";
     }
-    myApp.title=true;
     myApp1.points= true;
     myApp1.lasttext= true;
     myApp1.img1=false;
+    titlereturn();
 }
 
 
@@ -1254,7 +1254,7 @@ function titlereturn (){
     myApp.apptitle=true;
     myApp.apptitlereturn=false;
     myApp1.card1= true;
-    myApp1.img1=true;
+    myApp1.img1=false;
     myApp1.img2=false;
     boxone.optionansr1=false;
     boxone.optionansr2=false;
