@@ -779,7 +779,6 @@ function fouoneA6 () {
         myApp1.point=myApp1.point+1;
     }
     myApp1.guide7 = true;
-    myApp.title=true;
     boxone.optionA6= false;
     boxone.one6= false;
     boxone.two6= false;
