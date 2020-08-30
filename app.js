@@ -1395,21 +1395,21 @@ function titlereturn (){
     boxone.threeA7= "أبو سفيان صخر بن حرب";
     boxone.twoA7= "حمزة بن عبد المطلب";
     boxone.oneA7= "عبدالله بن عتبة بن ربيعة";
-    boxone.fiveA8= "";
-    boxone.fourA8= "";
-    boxone.threeA8= "";
-    boxone.twoA8= "";
-    boxone.oneA8= "";
-    boxone.fiveA9= "";
-    boxone.fourA9= "";
-    boxone.threeA9= "";
-    boxone.twoA9= "";
-    boxone.oneA9= "";
-    boxone.fiveA10= "";
-    boxone.fourA10= "";
-    boxone.threeA10= "";
-    boxone.twoA10= "";
-    boxone.oneA10= "";
+    boxone.fiveA8= "خطأ";
+    boxone.fourA8= "خطأ";
+    boxone.threeA8= "صح";
+    boxone.twoA8= "خطأ";
+    boxone.oneA8= "خطأ";
+    boxone.fiveA9= "خطأ";
+    boxone.fourA9= "خطأ";
+    boxone.threeA9= "صح";
+    boxone.twoA9= "خطأ";
+    boxone.oneA9= "خطأ";
+    boxone.fiveA10= "خطأ";
+    boxone.fourA10= "خطأ";
+    boxone.threeA10= "صح";
+    boxone.twoA10= "خطأ";
+    boxone.oneA10= "خطأ";
     texttitlereturn();
 }
 
