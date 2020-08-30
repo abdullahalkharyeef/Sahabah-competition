@@ -13,6 +13,8 @@ var boxone = new Vue({
     el: '#boxone',
     data: {
         boxone: false,
+        lasttext: false,
+        points: false,
         optionansr1: false,
         optionansr2: false,
         optionansr3: false,
@@ -149,8 +151,6 @@ var boxone = new Vue({
 var myApp1 = new Vue({
     el: '#appone',
     data: {
-        lasttext: false,
-        points: false,
         point:0,
         card1: false,
         img1:true,
@@ -1209,8 +1209,8 @@ function fouroneA10 (x) {
         boxone.five10= true;
         boxone.fiveA10= "الإجابة خاطئة";
     }
-    myApp1.points= true;
-    myApp1.lasttext= true;
+    boxone.points= true;
+    boxone.lasttext= true;
     // titlereturn();
 }
 
@@ -1251,7 +1251,7 @@ function apptitlereturn () {
 }
 
 function titlereturn (){
-    myApp.apptitle=true;
+    myApp.apptitle=raise;
     myApp.apptitlereturn=false;
     myApp1.card1= true;
     myApp1.img1=false;
