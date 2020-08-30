@@ -444,11 +444,12 @@ function answer10 (x) {
     if(document.getElementById("answerA10").value===boxone.threeA10){
         boxone.point=boxone.point+5;
         boxone.inputansr10= false;
+        boxone.optionansr10= false;
         boxone.points= true;
         boxone.lasttext= true;
 //      myApp1.guide11 = true;
     } else {
-        boxone.optionansr10= true;
+        boxone.optionansr10= false;
         boxone.inputansr10= false;
 //      myApp1.guide11 = true;
         boxone.points= true;
