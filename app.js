@@ -291,7 +291,11 @@ if(document.getElementById("answerA1").value===boxone.threeA1 || document.getEle
     boxone.point=boxone.point+5;
     boxone.inputansr1= false;
     myApp1.guide2 = true;
-} if (x===1){
+} if else {
+    boxone.inputansr1= false;
+    myApp1.guide2 = true;
+}
+if (x===1){
     boxone.optionansr1=true; 
     boxone.inputansr1=false;
 }
