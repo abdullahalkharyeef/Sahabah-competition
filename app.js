@@ -1171,7 +1171,8 @@ function fouoneA10 () {
     boxone.four10= false;
     boxone.five10= false;
     boxone.threeA10= "الإجابة صحيحة";
-    myApp.title=true;
+    myApp1.points= true;
+    myApp1.lasttext= true;
 }
 
 function fouroneA10 (x) {
