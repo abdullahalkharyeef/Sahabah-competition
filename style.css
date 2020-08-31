@@ -27,7 +27,7 @@ input[type=submit]:hover {
   border-radius: 5px;
   width: 250px;
   height: auto;
-  background-image: url("backgroundG.svg");
+  background: #346a68;
   padding: 20px;
   margin: 60px auto;
 }
