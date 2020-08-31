@@ -135,7 +135,18 @@ margin-right: 20px;
 #scrollansr {
 overflow-x:scroll; 
 height:330px;
+animation: moving 5s infinite;
+position: relative;
 }
+@-webkit-keyframes moving {
+    from {bottom: 0px;}
+    to {bottom: 100px;}
+}
+@keyframes moving {
+    from {bottom: 0px;}
+    to {bottom: 100px;}
+}
+
 
 
 .card {
