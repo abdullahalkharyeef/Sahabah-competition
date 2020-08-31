@@ -357,7 +357,7 @@ function answer3 (x) {
 }
 
 function answer4 (x) {
-    if(document.getElementById("answerA4").value===boxone.threeA4 || document.getElementById("answerA4").value==="أبي ذر الغفاري" || document.getElementById("answerA4").value==="أبي ذر" || document.getElementById("answerA4").value==="ابي ذر الغفاري" || document.getElementById("answerA4").value==="ابي ذر" || document.getElementById("answerA4").value==="ابو ذر الغفاري" || document.getElementById("answerA4").value==="أبو ذر" || document.getElementById("answerA4").value==="أبو ذر الغفاري"){
+    if(document.getElementById("answerA4").value===boxone.threeA4 || document.getElementById("answerA4").value==="أبي ذر الغفاري" || document.getElementById("answerA4").value==="أبي ذر" || document.getElementById("answerA4").value==="ابي ذر الغفاري" || document.getElementById("answerA4").value==="ابي ذر" || document.getElementById("answerA4").value==="ابو ذر الغفاري" || document.getElementById("answerA4").value==="أبو ذر" || document.getElementById("answerA4").value==="أبو ذر الغفاري" || document.getElementById("answerA4").value==="ابو ذر"){
         boxone.point=boxone.point+5;
         boxone.inputansr4= false;
         myApp1.guide5 = true;
@@ -417,7 +417,7 @@ function answer7 (x) {
 }
 
 function answer8 (x) {
-    if(document.getElementById("answerA8").value===boxone.threeA1){
+    if(document.getElementById("answerA8").value===boxone.threeA8){
         boxone.point=boxone.point+5;
         boxone.inputansr8= false;
         myApp1.guide9 = true;
