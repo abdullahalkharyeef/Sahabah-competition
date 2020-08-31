@@ -31,6 +31,7 @@ input[type=submit]:hover {
   background: #346a68;
   padding: 20px;
   margin: 60px auto;
+  font-family: Yaseer;
 }
 label {
   text-align:center;
@@ -55,7 +56,7 @@ label {
 html {
   height: 100%;
   margin: 0;
-  
+  font-size: 150%;
 }
 html .body {
   /* The image used */
