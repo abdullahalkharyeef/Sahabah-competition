@@ -1390,15 +1390,10 @@ function answer10 (x) {
     }
 
     function guideone110() {
-        boxone.one10= false;
-        boxone.two10= false;
-        boxone.three10= false;
-        boxone.four10= false;
-        boxone.five10= false;
         myApp1.guide110= false;
-        myApp1.optionansr10=false;
         boxone.points= true;
         boxone.lasttext= true;
+        titlereturn ();
     }
     
     
