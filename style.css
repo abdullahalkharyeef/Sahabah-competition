@@ -56,7 +56,6 @@ label {
 html {
   height: 100%;
   margin: 0;
-  font-size: 150%;
 }
 html .body {
   /* The image used */
@@ -82,7 +81,7 @@ html .body {
 .nextbtn {
  border: 4px solid white; 
  border-radius: 50px;
- font-size: 20px; 
+ font-size: 40px; 
  margin: 60px auto;
  text-align: center;
  width: 300px;
@@ -117,7 +116,7 @@ html .body {
   text-align:center;
   border-radius: 0px 0px 40px 40px;
   font-family: Yaseer;
-  font-size: 25px;
+  font-size: 40px;
   margin-top: -270px;
   height: 40px;
 }
@@ -125,8 +124,8 @@ html .body {
   text-align:center;
   border-radius: 0px 0px 40px 40px;
   font-family: Yaseer;
-  font-size: 15px;
-  margin-top: -165px;
+  font-size: 25px;
+  margin-top: -145px;
   height: 40px;
 }
 .card:hover {
@@ -151,7 +150,7 @@ overflow-x:scroll;
 height:330px;
 }
 .guidesize {
-font-size:20px;
+font-size:40px;
 animation: moving 10s infinite;
 position: relative;
 }
@@ -191,7 +190,7 @@ position: relative;
   margin: 5px auto;
   width: 300px;
   font-family: Yaseer;
-  font-size: 20px;
+  font-size: 40px;
   box-sizing: border-box;
   padding: 15px 30px;
   text-align: center;
@@ -234,7 +233,7 @@ position: relative;
   width: 130px;
   height: 90px;
   border-radius: 10px;
-box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
   cursor: pointer;
   transition: 0.5s;
 }
@@ -255,7 +254,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   text-align: center;
   border-radius: 0px 0px 40px 40px;
   font-family: Yaseer;
-  font-size: 20px;
+  font-size: 30px;
   margin-top: -100px;
   height: 40px;
 }
@@ -283,13 +282,13 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   background-repeat: no-repeat;
   background-position: center;
   background-repeat: no-repeat;
-box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
   transition: 0.4s;
 }
 
 @media all and (max-width: 120px){  
 .card-listme {
- flex-direction: column;
+  flex-direction: column;
   }
 }
 
@@ -298,7 +297,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   margin: 10px auto;
   width: 300px;
   font-family: Yaseer;
-  font-size: 20px;
+  font-size: 40px;
   box-sizing: border-box;
   padding: 15px 30px;
   text-align: center;
