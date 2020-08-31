@@ -61,9 +61,6 @@ html .body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-.guidesize {
-font-size:20px;
-}
 
 .cards-list {
   font-family: 'Cairo', sans-serif;
@@ -131,13 +128,17 @@ font-size:20px;
 #scrollcard {
 margin-left: 20px;
 margin-right: 20px;
-animation: moving 5s infinite;
-position: relative;
 }
 #scrollansr {
 overflow-x:scroll; 
 height:330px;
 }
+.guidesize {
+font-size:20px;
+animation: moving 5s infinite;
+position: relative;
+}
+
 @-webkit-keyframes moving {
     from {bottom: 0px;}
     to {bottom: 100px;}
