@@ -186,7 +186,7 @@
 <input type="submit" onclick="answer1()" value="ارسل"><br><br>
 <input type="submit" onclick="answer1(1)" value="خيارات (نقطة واحده بدل خمس نقاط)">
 </div> <!-- div v-if inputansr1 -->
-<div v-if="optionansr1">
+<div v-if="optionansr1" id="optionAnswers">
 <div  class="boxfull" v-if="optionA1">
 اختر الإجابة الصحيحة:
 </div><br>
@@ -206,7 +206,7 @@
 <div class="box" id="threeA" v-if="three1" onclick="fouoneA()">
 {{threeA1}}
 </div>
-</div> <!-- div scrollansr --><br><br><br><br><br><br>
+</div> <!-- div scrollansr -->
 </div> <!-- div v-if optionansr1 -->
 
 <div id="formAnswer" v-if="inputansr2" >
@@ -215,7 +215,7 @@
 <input type="submit" onclick="answer2()" value="ارسل"><br><br>
 <input type="submit" onclick="answer2(1)" value="خيارات (نقطة واحده بدل خمس نقاط)">
 </div> <!-- div v-if inputansr2 -->
-<div v-if="optionansr2">
+<div v-if="optionansr2" id="optionAnswers">
 <div  class="boxfull" v-if="optionA2">
 اختر الإجابة الصحيحة:
 </div><br>
@@ -235,7 +235,7 @@
 <div class="box" id="twoA" v-if="two2" onclick="fouroneA2(2)">
 {{twoA2}}
 </div>
-</div> <!-- div scrollansr --><br><br><br><br><br><br>
+</div> <!-- div scrollansr -->
 </div> <!-- div v-if optionansr2 -->
 
 <div id="formAnswer" v-if="inputansr3" >
@@ -244,7 +244,7 @@
 <input type="submit" onclick="answer3()" value="ارسل"><br><br>
 <input type="submit" onclick="answer3(1)" value="خيارات (نقطة واحده بدل خمس نقاط)">
 </div> <!-- div v-if inputansr3 -->
-<div v-if="optionansr3">
+<div v-if="optionansr3" id="optionAnswers">
 <div  class="boxfull" v-if="optionA3">
 اختر الإجابة الصحيحة:
 </div><br>
@@ -264,7 +264,7 @@
 <div class="box" id="twoA" v-if="two3" onclick="fouroneA3(2)">
 {{twoA3}}
 </div>
-</div> <!-- div scrollansr --><br><br><br><br><br><br>
+</div> <!-- div scrollansr -->
 </div> <!-- div v-if optionansr3 -->
 
 <div id="formAnswer" v-if="inputansr4" >
@@ -273,7 +273,7 @@
 <input type="submit" onclick="answer4()" value="ارسل"><br><br>
 <input type="submit" onclick="answer4(1)" value="خيارات (نقطة واحده بدل خمس نقاط)">
 </div> <!-- div v-if inputansr4 -->
-<div v-if="optionansr4">
+<div v-if="optionansr4" id="optionAnswers">
 <div  class="boxfull" v-if="optionA4">
 اختر الإجابة الصحيحة:
 </div><br>
@@ -293,7 +293,7 @@
 <div class="box" id="twoA" v-if="two4" onclick="fouroneA4(2)">
 {{twoA4}}
 </div>
-</div> <!-- div scrollansr --><br><br><br><br><br><br>
+</div> <!-- div scrollansr -->
 </div> <!-- div v-if optionansr4 -->
 
 <div id="formAnswer" v-if="inputansr5" >
@@ -302,7 +302,7 @@
 <input type="submit" onclick="answer5()" value="ارسل"><br><br>
 <input type="submit" onclick="answer5(1)" value="خيارات (نقطة واحده بدل خمس نقاط)">
 </div> <!-- div v-if inputansr5 -->
-<div v-if="optionansr5">
+<div v-if="optionansr5" id="optionAnswers">
 <div  class="boxfull" v-if="optionA5">
 اختر الإجابة الصحيحة:
 </div><br>
@@ -322,7 +322,7 @@
 <div class="box" id="threeA" v-if="three5" onclick="fouoneA5()">
 {{threeA5}}
 </div>
-</div> <!-- div scrollansr --><br><br><br><br><br><br>
+</div> <!-- div scrollansr -->
 </div> <!-- div v-if optionansr5 -->
 
 <div id="formAnswer" v-if="inputansr6" >
@@ -331,7 +331,7 @@
 <input type="submit" onclick="answer6()" value="ارسل"><br><br>
 <input type="submit" onclick="answer6(1)" value="خيارات (نقطة واحده بدل خمس نقاط)">
 </div> <!-- div v-if inputansr2 -->
-<div v-if="optionansr6">
+<div v-if="optionansr6" id="optionAnswers">
 <div  class="boxfull" v-if="optionA6">
 اختر الإجابة الصحيحة:
 </div><br>
@@ -351,7 +351,7 @@
 <div class="box" id="twoA" v-if="two6" onclick="fouroneA6(2)">
 {{twoA6}}
 </div>
-</div> <!-- div scrollansr --><br><br><br><br><br><br>
+</div> <!-- div scrollansr -->
 </div> <!-- div v-if optionansr6 -->
 
 <div id="formAnswer" v-if="inputansr7" >
@@ -360,7 +360,7 @@
 <input type="submit" onclick="answer7()" value="ارسل"><br><br>
 <input type="submit" onclick="answer7(1)" value="خيارات (نقطة واحده بدل خمس نقاط)">
 </div> <!-- div v-if inputansr7 -->
-<div v-if="optionansr7">
+<div v-if="optionansr7" id="optionAnswers">
 <div  class="boxfull" v-if="optionA7">
 اختر الإجابة الصحيحة:
 </div><br>
@@ -380,7 +380,7 @@
 <div class="box" id="threeA" v-if="three7" onclick="fouoneA7()">
 {{threeA7}}
 </div>
-</div> <!-- div scrollansr --><br><br><br><br><br><br>
+</div> <!-- div scrollansr -->
 </div> <!-- div v-if optionansr7 -->
 
 <div id="formAnswer" v-if="inputansr8" >
@@ -389,7 +389,7 @@
 <input type="submit" onclick="answer8()" value="ارسل"><br><br>
 <input type="submit" onclick="answer8(1)" value="خيارات (نقطة واحده بدل خمس نقاط)">
 </div> <!-- div v-if inputansr8 -->
-<div v-if="optionansr8">
+<div v-if="optionansr8" id="optionAnswers">
 <div  class="boxfull" v-if="optionA8">
 اختر الإجابة الصحيحة:
 </div><br>
@@ -409,7 +409,7 @@
 <div class="box" id="threeA" v-if="three8" onclick="fouoneA8()">
 {{threeA8}}
 </div>
-</div> <!-- div scrollansr --><br><br><br><br><br><br>
+</div> <!-- div scrollansr -->
 </div> <!-- div v-if optionansr8 -->
 
 <div id="formAnswer" v-if="inputansr9" >
@@ -418,7 +418,7 @@
 <input type="submit" onclick="answer9()" value="ارسل"><br><br>
 <input type="submit" onclick="answer9(1)" value="خيارات (نقطة واحده بدل خمس نقاط)">
 </div> <!-- div v-if inputansr9 -->
-<div v-if="optionansr9">
+<div v-if="optionansr9" id="optionAnswers">
 <div  class="boxfull" v-if="optionA9">
 اختر الإجابة الصحيحة:
 </div><br>
@@ -438,7 +438,7 @@
 <div class="box" id="threeA" v-if="three9" onclick="fouoneA9()">
 {{threeA9}}
 </div>
-</div> <!-- div scrollansr --><br><br><br><br><br><br>
+</div> <!-- div scrollansr -->
 </div> <!-- div v-if optionansr9 -->
 
 <div id="formAnswer" v-if="inputansr10" >
@@ -447,7 +447,7 @@
 <input type="submit" onclick="answer10()" value="ارسل"><br><br>
 <input type="submit" onclick="answer10(1)" value="خيارات (نقطة واحده بدل خمس نقاط)">
 </div> <!-- div v-if inputansr10 -->
-<div v-if="optionansr10">
+<div v-if="optionansr10" id="optionAnswers">
 <div  class="boxfull" v-if="optionA10">
 اختر الإجابة الصحيحة:
 </div><br>
@@ -467,7 +467,7 @@
 <div class="box" id="threeA" v-if="three10" onclick="fouoneA10()">
 {{threeA10}}
 </div>
-</div> <!-- div scrollansr --><br><br><br><br><br><br>
+</div> <!-- div scrollansr -->
 </div> <!-- div v-if optionansr10 -->
 
 </div> <!-- div v-if boxone -->
