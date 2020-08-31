@@ -49,8 +49,12 @@ label {
 	display: none; 
 }
 html {
+  background: #346a68;
+  font-family: yaseer;
+  src: url(yaseer.otf);
   height: 100%;
   margin: 0;
+  
 }
 html .body {
   /* The image used */
