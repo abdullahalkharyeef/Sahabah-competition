@@ -32,7 +32,9 @@ input[type=submit]:hover {
   padding: 20px;
   margin: 60px auto;
 }
-
+label {
+  text-align:center;
+} 
 #optionAnswers {
   height: 250px;
 }
