@@ -225,6 +225,13 @@ var myApp1 = new Vue({
         guidefour10: false,
         guidefive10: false,
         answersguide10: false,
+        guide11: false,
+        guideone11: false,
+        guidetwo11: false,
+        guidethree11: false,
+        guidefour11: false,
+        guidefive11: false,
+        answersguide11: false,
         guide11: "انتقل بين البلدان ليصحب الرجال الصالحين من القساوسة، إلى أن وصف له أحدهم ظهور نبي في بلاد العرب محمد صلى الله عليه وسلم",
         guide12: "أعلى النبي صلى الله عليه وسلم من منزلته، فقد روى أنس بن مالك عن النبي صلى الله عليه وسلم قوله: «الجنة تشتاق إلى ثلاثة:...» وذكره منهم. /سنن الترمذي» كتاب المناقب",
         guide13: "قال عنه الخليفة علي بن أبي طالب رضي الله عنه: «أدرك العلم الأول، والعلم الآخر، بحر لا يدرك قعره، وهو منا أهل البيت». /سير أعلام النبلاء",
@@ -1341,9 +1348,8 @@ function answer10 (x) {
         boxone.four10= false;
         boxone.five10= false;
         boxone.threeA10= "الإجابة صحيحة";
-        boxone.points= true;
-        boxone.lasttext= true;
-    }
+        myApp1.guide11 = true;
+        }
     
     function fouroneA10 (x) {
         boxone.optionA10= false;
@@ -1379,11 +1385,14 @@ function answer10 (x) {
             boxone.five10= true;
             boxone.fiveA10= "الإجابة خاطئة";
         }
+        myApp1.guide11 = true;
+    }
+
+    function guideone110 (){
+        myApp1.optionansr10=false;
         boxone.points= true;
         boxone.lasttext= true;
-        titlereturn();
     }
-    
     
     
     //  var myApp2 = new Vue({
