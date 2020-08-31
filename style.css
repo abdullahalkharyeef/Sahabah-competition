@@ -31,7 +31,9 @@ input[type=submit]:hover {
   padding: 20px;
   margin: 60px auto;
 }
-
+#optionAnswers{
+height: 300px;
+}
 .nav
 { 
 	display: none; 
