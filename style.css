@@ -125,6 +125,7 @@ html .body {
   font-size: 30px;
   margin-top: -435px;
   height: 40px;
+  color: #346a68;
 }
 .card:hover {
   transform: scale(0.9, 0.9);
