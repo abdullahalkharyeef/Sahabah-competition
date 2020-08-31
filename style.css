@@ -49,7 +49,6 @@ label {
 	display: none; 
 }
 html {
-  background: #346a68;
   font-family: yaseer;
   src: url(yaseer.otf);
   height: 100%;
@@ -59,7 +58,7 @@ html {
 html .body {
   /* The image used */
   background-image: url("backgroundG.svg");
-
+  background: #346a68;
   /* Full height */
   height: 100%; 
 
