@@ -457,7 +457,7 @@ function answer10 (x) {
     } else {
         boxone.optionansr10= false;
         boxone.inputansr10= false;
-//      myApp1.guide11 = true;
+//      myApp1.guide110 = true;
         boxone.points= true;
         boxone.lasttext= true;
     }
@@ -466,6 +466,7 @@ function answer10 (x) {
     function answer10x () {
         boxone.optionansr10=true;
         boxone.inputansr10=false;
+        myApp1.guide110=true;
 }
 
     function play () {
@@ -1348,7 +1349,7 @@ function answer10 (x) {
         boxone.four10= false;
         boxone.five10= false;
         boxone.threeA10= "الإجابة صحيحة";
-        myApp1.guide110= true;
+        // myApp1.guide110= true;
         }
     
     function fouroneA10 (x) {
@@ -1385,7 +1386,7 @@ function answer10 (x) {
             boxone.five10= true;
             boxone.fiveA10= "الإجابة خاطئة";
         }
-        myApp1.guide110 = true;
+        // myApp1.guide110 = true;
     }
 
     function guideone110() {
