@@ -1388,7 +1388,7 @@ function answer10 (x) {
         myApp1.guide110 = true;
     }
 
-    function guideone100() {
+    function guideone110() {
         myApp1.guide110= false;
         myApp1.optionansr10=false;
         boxone.points= true;
