@@ -5,7 +5,6 @@ var myApp = new Vue({
         apptitle:true,
         apptitlereturn:false,
         text: 'المسابقة',
-        text1: 'العودة'
     }
 })
 
