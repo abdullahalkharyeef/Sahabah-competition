@@ -135,7 +135,7 @@ height:330px;
 }
 .guidesize {
 font-size:20px;
-animation: moving 5s infinite;
+animation: moving 10s infinite;
 position: relative;
 }
 
@@ -185,7 +185,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   border: solid 5px transparent;
   border-radius: 10px;
   font-size:20px;
-  animation: moving 5s infinite;
+  animation: moving 8s infinite;
   position: relative;
 }
   .border {
