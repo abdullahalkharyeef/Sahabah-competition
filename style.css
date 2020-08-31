@@ -127,13 +127,14 @@ font-size:20px;
 .title-black {
   color: black;
 }
+
 #scrollcard {
 margin-left: 20px;
 margin-right: 20px;
 }
 #scrollansr {
 overflow-x:scroll; 
-height:250px;
+height:280px;
 }
 
 
