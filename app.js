@@ -225,12 +225,12 @@ var myApp1 = new Vue({
         guidefour10: false,
         guidefive10: false,
         answersguide10: false,
-        guide11: false,
-        guideone11: false,
-        guidetwo11: false,
-        guidethree11: false,
-        guidefour11: false,
-        guidefive11: false,
+        guide110: false,
+        guideone110: false,
+        guidetwo110: false,
+        guidethree110: false,
+        guidefour110: false,
+        guidefive110: false,
         answersguide11: false,
         guide11: "انتقل بين البلدان ليصحب الرجال الصالحين من القساوسة، إلى أن وصف له أحدهم ظهور نبي في بلاد العرب محمد صلى الله عليه وسلم",
         guide12: "أعلى النبي صلى الله عليه وسلم من منزلته، فقد روى أنس بن مالك عن النبي صلى الله عليه وسلم قوله: «الجنة تشتاق إلى ثلاثة:...» وذكره منهم. /سنن الترمذي» كتاب المناقب",
@@ -1348,7 +1348,7 @@ function answer10 (x) {
         boxone.four10= false;
         boxone.five10= false;
         boxone.threeA10= "الإجابة صحيحة";
-        myApp1.guide11= true;
+        myApp1.guide110= true;
         }
     
     function fouroneA10 (x) {
@@ -1385,10 +1385,11 @@ function answer10 (x) {
             boxone.five10= true;
             boxone.fiveA10= "الإجابة خاطئة";
         }
-        myApp1.guide11 = true;
+        myApp1.guide110 = true;
     }
 
-    function guideone110 (){
+    function guideone100() {
+        myApp1.guide110= false;
         myApp1.optionansr10=false;
         boxone.points= true;
         boxone.lasttext= true;
