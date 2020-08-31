@@ -454,13 +454,13 @@ function answer10 (x) {
         boxone.points= true;
         boxone.lasttext= true;
     }
-    if (x===1){
-        boxone.optionansr10=true;
-        boxone.inputansr10=false;
-    }
 }
 
-    
+    function answer10x () {
+        boxone.optionansr10=true;
+        boxone.inputansr10=false;
+}
+
     function play () {
         App.Audio=false;
         myApp1.card1= true;
