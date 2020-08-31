@@ -158,12 +158,12 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 }
 
 .box {
-  margin: 2px auto;
+  margin: 5px auto;
   width: 300px;
   font-family: 'Cairo', sans-serif;
   font-size: 20px;
   box-sizing: border-box;
-  padding: 0px 0px;
+  padding: 15px 30px;
   text-align: center;
   position: relative;
   color: white;
@@ -174,7 +174,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 }
   .border {
     position: absolute;
-    margin: -5px;
+ //   margin: -5px;
     border-radius: inherit;
     z-index: -1;
     background: white;
