@@ -71,7 +71,7 @@ html .body {
 }
 
 .cards-list {
-  font-family: 'Cairo', sans-serif;
+  font-family: Yaseer;
   z-index: 0;
   width: auto;
   display: block;
@@ -89,7 +89,7 @@ html .body {
  background: #346a68;
 }
 .card {
-  font-family: 'Cairo', sans-serif;
+  font-family: Yaseer;
   margin: 60px auto;
   width: 300px;
   height: 300px;
@@ -115,7 +115,7 @@ html .body {
 .card .card_title {
   text-align:center;
   border-radius: 0px 0px 40px 40px;
-  font-family: 'Cairo', sans-serif;
+  font-family: Yaseer;
   font-size: 25px;
   margin-top: -270px;
   height: 40px;
@@ -123,7 +123,7 @@ html .body {
 .card .card_title1 {
   text-align:center;
   border-radius: 0px 0px 40px 40px;
-  font-family: 'Cairo', sans-serif;
+  font-family: Yaseer;
   font-size: 15px;
   margin-top: -165px;
   height: 40px;
@@ -189,7 +189,7 @@ position: relative;
 .box {
   margin: 5px auto;
   width: 300px;
-  font-family: 'Cairo', sans-serif;
+  font-family: Yaseer;
   font-size: 20px;
   box-sizing: border-box;
   padding: 15px 30px;
@@ -219,7 +219,7 @@ position: relative;
 
 /* for me */
 .cardsme-listme {
-  font-family: 'Cairo', sans-serif;
+  font-family: Yaseer;
   z-index: 0;
   width: 10%;
   display: flex;
@@ -228,7 +228,7 @@ position: relative;
 }
 
 .cardme {
-  font-family: 'Cairo', sans-serif;
+  font-family: Yaseer;
   margin: 30px auto;
   width: 130px;
   height: 90px;
@@ -253,7 +253,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 .cardme .card_titleme {
   text-align: center;
   border-radius: 0px 0px 40px 40px;
-  font-family: 'Cairo', sans-serif;
+  font-family: Yaseer;
   font-size: 20px;
   margin-top: -100px;
   height: 40px;
@@ -273,7 +273,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
   color: black;
 }
 .cardme {
-  font-family: 'Cairo', sans-serif;
+  font-family: Yaseer;
   margin: 30px auto;
   width: 120px;
   height: 90px;
@@ -296,7 +296,7 @@ box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.2
 .boxfull {
   margin: 10px auto;
   width: 300px;
-  font-family: 'Cairo', sans-serif;
+  font-family: Yaseer;
   font-size: 20px;
   box-sizing: border-box;
   padding: 15px 30px;
