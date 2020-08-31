@@ -40,14 +40,12 @@ label {
   height: 250px;
 }
 
-.nav
-{ 
-	display: none; 
+.nav { 
+  display: none; 
 }
 
-#header, #footer
-{ 
-	display: none; 
+#header, #footer { 
+  display: none; 
 }
 @font-face {
   font-family: Yaseer;
@@ -125,7 +123,7 @@ html .body {
   border-radius: 0px 0px 40px 40px;
   font-family: Yaseer;
   font-size: 25px;
-  margin-top: -145px;
+  margin-top: -155px;
   height: 40px;
 }
 .card:hover {
@@ -150,7 +148,7 @@ overflow-x:scroll;
 height:330px;
 }
 .guidesize {
-font-size:40px;
+font-size:30px;
 animation: moving 10s infinite;
 position: relative;
 }
@@ -190,7 +188,7 @@ position: relative;
   margin: 5px auto;
   width: 300px;
   font-family: Yaseer;
-  font-size: 40px;
+  font-size: 30px;
   box-sizing: border-box;
   padding: 15px 30px;
   text-align: center;
@@ -297,7 +295,7 @@ position: relative;
   margin: 10px auto;
   width: 300px;
   font-family: Yaseer;
-  font-size: 40px;
+  font-size: 30px;
   box-sizing: border-box;
   padding: 15px 30px;
   text-align: center;
