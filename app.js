@@ -1348,7 +1348,7 @@ function answer10 (x) {
         boxone.four10= false;
         boxone.five10= false;
         boxone.threeA10= "الإجابة صحيحة";
-        myApp1.guide11 = true;
+        myApp1.guide11= true;
         }
     
     function fouroneA10 (x) {
