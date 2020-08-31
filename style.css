@@ -103,7 +103,16 @@ html .body {
   border-radius: 50px;
   object-fit: cover;
 }
+
 .card .card_title {
+  text-align:center;
+  border-radius: 0px 0px 40px 40px;
+  font-family: 'Cairo', sans-serif;
+  font-size: 25px;
+  margin-top: -270px;
+  height: 40px;
+}
+.card .card_title1 {
   text-align:center;
   border-radius: 0px 0px 40px 40px;
   font-family: 'Cairo', sans-serif;
@@ -111,7 +120,6 @@ html .body {
   margin-top: -180px;
   height: 40px;
 }
-
 .card:hover {
   transform: scale(0.9, 0.9);
   box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
