@@ -193,7 +193,7 @@ position: relative;
 
 
 @media all and (max-width: 300px){  
-.cards-list {
+.cardss-list {
  flex-direction: column;
   }
 }
