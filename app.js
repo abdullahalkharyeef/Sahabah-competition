@@ -453,6 +453,7 @@ function answer10 (x) {
         boxone.optionansr10= false;
         boxone.points= true;
         boxone.lasttext= true;
+        titlereturn ();
 //      myApp1.guide11 = true;
     } else {
         boxone.optionansr10= false;
@@ -460,6 +461,7 @@ function answer10 (x) {
 //      myApp1.guide110 = true;
         boxone.points= true;
         boxone.lasttext= true;
+        titlereturn ();
     }
 }
 
