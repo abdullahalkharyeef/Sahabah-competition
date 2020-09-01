@@ -315,12 +315,11 @@ position: relative;
   position: absolute;
   top: 0;
   left: 0;
-  width: 300px;
+  font-family: Yaseer;
+  margin: 0px auto;
+  width: 300px; 
   height: 300px;
-  margin-left: 100px;
-  margin-top: 20px;
-  display: block;
-  box-sizing: border-box;
+  cursor: pointer;
 }
 
 .cards span:nth-child(1)
