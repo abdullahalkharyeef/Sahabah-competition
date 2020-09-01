@@ -203,8 +203,6 @@ position: relative;
   border: solid 5px transparent;
   border-radius: 10px;
   font-size:20px;
-  animation: moving 8s infinite;
-  position: relative;
 }
   .border {
     position: absolute;
