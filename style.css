@@ -322,21 +322,6 @@ position: relative;
 }
 
 
-section {
-font-family: Yaseer;
-  z-index: 0;
-  width: auto;
-  display: block;
-  justify-content: space-around;
-  flex-wrap: wrap;
-
-  font-family: Yaseer;
-  margin: 60px auto;
-  width: 300px;
-  height: 300px;
-  border-radius: 50px;
-  cursor: pointer;
-} 
 
 .container1{
   padding-top: 20px;
@@ -366,6 +351,19 @@ font-family: Yaseer;
   height: 300px;
   background: #000000a6;
   box-sizing: border-box;
+  font-family: Yaseer;
+  z-index: 0;
+  width: auto;
+  display: block;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+  font-family: Yaseer;
+  margin: 60px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  cursor: pointer;
   overflow: hidden;
   box-shadow: 0 20px 50px rgb(23, 32, 90);
   border: 2px solid #346a68;
