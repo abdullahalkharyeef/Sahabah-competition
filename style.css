@@ -345,9 +345,10 @@ position: relative;
 {
   content: '';
   position: absolute;
-  margin-left: 40px;
+  padding-left: 40px;
+  padding-top: 10px;
   width: 300px;
-  height: 20px;
+  height: 2px;
   background: #346a68;
   animation: animate 4s linear infinite;
 }
