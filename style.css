@@ -380,15 +380,15 @@ height: 300px;
 
 
 .box .content{
-  position:absolute;
-  top:15px;
+/*   position:absolute; 
+   top:15px;
   left:15px;
   right:15px;
-  bottom:15px;
+  bottom:15px; */
   border:1px solid #346a68;
-  padding:20px;
+/*   padding:20px;
   text-align:center;
-  box-shadow: 0 5px 10px rgba(9,0,0,0.5);
+  box-shadow: 0 5px 10px rgba(9,0,0,0.5); */
   
 }
 
