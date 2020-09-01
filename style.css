@@ -49,9 +49,10 @@ label {
 #header, #footer { 
   display: none; 
 }
+
 @font-face {
   font-family: Yaseer;
-  src: url(yaseer.otf);
+  src: url(Molhim.otf);
 } 
 html {
   height: 100%;
