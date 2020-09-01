@@ -321,12 +321,9 @@ position: relative;
 }
 
 
-*{
-  margin:0;
-  padding:0;
-}
 
-.container{  padding-top: 20px;
+
+.container1{  padding-top: 20px;
   padding-bottom: 20px;}
 body{
 /*   background-color: #111845; */
@@ -345,7 +342,7 @@ height: 300px;
   position: relative;
 }
 
-.box{
+.box1{
   position: absolute;
   top: 50%;
   left: 50%;
@@ -361,7 +358,7 @@ height: 300px;
   padding: 20px;
 }
 
-.box:before{
+.box1:before{
   content: '';
   position:absolute;
   top:0;
@@ -373,13 +370,13 @@ height: 300px;
   pointer-events: none;
 }
 
-.box:hover:before{
+.box1:hover:before{
   left:-50%;
   transform: skewX(-5deg);
 }
 
 
-.box .content{
+.box1 .content1{
 /*   position:absolute; 
    top:15px;
   left:15px;
@@ -392,7 +389,7 @@ height: 300px;
   
 }
 
-.box span{
+.box1 span{
   position: absolute;
   top: 0;
   left: 0;
@@ -402,27 +399,27 @@ height: 300px;
   box-sizing: border-box;
 }
 
-.box span:nth-child(1)
+.box1 span:nth-child(1)
 {
   transform:rotate(0deg);
 }
 
-.box span:nth-child(2)
+.box1 span:nth-child(2)
 {
   transform:rotate(90deg);
 }
 
-.box span:nth-child(3)
+.box1 span:nth-child(3)
 {
   transform:rotate(180deg);
 }
 
-.box span:nth-child(4)
+.box1 span:nth-child(4)
 {
   transform:rotate(270deg);
 }
 
-.box span:before
+.box1 span:before
 {
   content: '';
   position: absolute;
