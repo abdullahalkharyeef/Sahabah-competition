@@ -106,13 +106,11 @@ html .body {
 .cards .card_image {
   width: inherit;
   height: inherit;
-  border-radius: 50px;
 }
 
 .cards .card_image img {
   width: inherit;
   height: inherit;
-  border-radius: 50px;
   object-fit: cover;
 }
 
@@ -185,9 +183,9 @@ position: relative;
 
 
 @media all and (max-width: 300px){  
-.cardss-list {
+/* .cardss-list {
  flex-direction: column;
-  }
+  } */
 }
 
 .box {
