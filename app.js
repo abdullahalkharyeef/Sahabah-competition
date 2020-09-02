@@ -467,6 +467,7 @@ function answer10 (x) {
         boxone.optionansr10=true;
         boxone.inputansr10=false;
         myApp1.guide110=true;
+        titlereturn ();
 }
 
     function play () {
@@ -1329,7 +1330,7 @@ function answer10 (x) {
         myApp1.guidefive10= false;
         myApp1.card1= false;
         myApp1.img2= false;
-//        boxone.optionansr10= true;
+//      boxone.optionansr10= true;
         boxone.inputansr10= true;
         boxone.optionA10=true;
         boxone.boxone= true;
@@ -1349,7 +1350,7 @@ function answer10 (x) {
         boxone.four10= false;
         boxone.five10= false;
         boxone.threeA10= "الإجابة صحيحة";
-        // myApp1.guide110= true;
+        myApp1.guide110= true;
         }
     
     function fouroneA10 (x) {
@@ -1386,7 +1387,7 @@ function answer10 (x) {
             boxone.five10= true;
             boxone.fiveA10= "الإجابة خاطئة";
         }
-        // myApp1.guide110 = true;
+         myApp1.guide110 = true;
     }
 
     function guideone110() {
