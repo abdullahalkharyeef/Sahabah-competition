@@ -1433,7 +1433,7 @@ function answer10 (x) {
     }
     
     function titlereturn (){
-        //   myApp.apptitle=true;
+        myApp.title=true;
         //   myApp.apptitlereturn=false;
         //   myApp1.card1= true;
         myApp1.img1=false;
