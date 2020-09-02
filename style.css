@@ -1,4 +1,4 @@
-	input[type=text], select {
+input[type=text], select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -127,7 +127,7 @@ html .body {
   font-family: Yaseer;
   font-size: 30px;
   font-weight: 500;
-  margin-top: -275px;
+  margin-top: -205px;
   height: 40px;
   color: #346a68;
 }
