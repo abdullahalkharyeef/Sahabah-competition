@@ -432,7 +432,7 @@ function answer8 (x) {
 }
 
 function answer9 (x) {
-    if(document.getElementById("answerA9").value===boxone.threeA9){
+    if(document.getElementById("answerA9").value===boxone.threeA9 || document.getElementById("answerA9").value==="سعد بن ابي وقاص" || document.getElementById("answerA9").value==="بن أبي وقاص" || document.getElementById("answerA9").value==="بن ابي وقاص"){
         boxone.point=boxone.point+5;
         boxone.inputansr9= false;
         myApp1.guide10 = true;
