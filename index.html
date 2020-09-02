@@ -13,7 +13,7 @@
 
 <div id="app">
 <div v-if="Audio"><br><br><br><br><br>
-<div class="cards 1">
+<div class="card 1">
 <div class="card_image" onclick="play()"><img src="icon0.svg"></div>
 </div>
 </div> <!-- div v-if audio -->
@@ -28,7 +28,10 @@
 <div v-if="title">
 <div class="cardme">
 <div class="card_imageme"> <img src="icon.svg" />
-</div></div></div></div>
+<img v-if="apptitlereturn" onclick="titlereturn()" src="" />
+</div>
+
+</div></div></div>
 
 
 
@@ -36,21 +39,22 @@
 
 
 
-<div class="cardss-list">
+<div class="cards-list">
 <div id="appone">
 <div v-if="card1">
-<div class="cards 1">
+<div class="card 1">
 
 
 <div class="card_image">
 <img v-if="img1" onclick="clickone()" src="backgroundGf.gif">
-<img v-if="img2" src="Empty.png" style="background:#000000a6"></div> 
-<p v-if="img1" class="card_title1" onclick="clickone()">اضمر الصحابي&ensp;&ensp;</p>
-<p v-if="textproject" class="card_title1" style="font-size:20px;color:white;">
-من خلال استعراض بعض صفاته <br> توقع من هو الصحابي صاحب <br> هذه الصفات أو صاحب <br> هذه المواقف </p>
-  
+<img v-if="img2" src="backgroundGf.jpeg" style="background: #346a68">
+</div>
+
+<p v-if="img1" style="color: white" class="card_title1 title-white" onclick="clickone()"><br><br><br><br>اضمر الصحابي</p>
 <div class="card_title title-white">
 <div id="scrollcard" style="overflow-x:scroll; height:225px;">
+<p v-if="textproject" style="font-size:20px; color:white;">
+من خلال استعراض بعض صفاته توقع من هو الصحابي صاحب هذه الصفات أو صاحب هذه المواقف </p>
 <p v-if="guideone1" class="guidesize">{{guide11}}</p>
 <p v-if="guidetwo1" class="guidesize">{{guide12}}</p>
 <p v-if="guidethree1" class="guidesize">{{guide13}}</p>
@@ -101,10 +105,9 @@
 <p v-if="guidethree10" class="guidesize">{{guide103}}</p>
 <p v-if="guidefour10" class="guidesize">{{guide104}}</p>
 <p v-if="guidefive10" class="guidesize">{{guide105}}</p></div></div></div>
-
 </div> <!-- div v-if card1 -->
-
 <br>
+
 <!-- next btn underline -->
 <p class="nextbtn" onclick="guideone11()" v-if="textproject">التالي</p>
 <p class="nextbtn" onclick="guideone12()" v-if="guideone1">التالي</p>
@@ -167,13 +170,14 @@
 <p class="nextbtn" onclick="guideone104()" v-if="guidefour10">التالي</p>
 <p class="nextbtn" onclick="ansrguide10()" v-if="answersguide10">التالي</p>
 <p class="nextbtn" onclick="guideone110()" v-if="guide110">التالي</p>
+</div>
 
 
 
 
 <div id="boxone" v-if="boxone">
-<p v-if="lasttext" style="text-align:center; font-size:35px; color:white;"><br><br><br><br>انتهت المسابقة <br> على أمل أن نجدد الأسئلة <br> ونزيدها قريباً بأذن الله ⁦❤️⁩</p>
-<p v-if="points" style="text-align:center; font-size:35px; color:white;">النقاط: 50/{{point}}</p>
+<p v-if="lasttext" style="text-align:center; font-size:20px; color:white;"><br><br><br><br><br>انتهت المسابقة <br> على أمل أن نجدد الأسئلة ونزيدها قريباً بأذن الله ⁦❤️⁩</p>
+<p v-if="points" style="text-align:center; font-size:20px; color:white;">النقاط: 50/{{point}}</p>
 
 
 <div id="formAnswer" v-if="inputansr1" >
@@ -467,7 +471,6 @@
 </div> <!-- div v-if optionansr10 -->
 
 </div> <!-- div v-if boxone -->
-
 </div> <!-- div complete appone -->
 
 
@@ -487,7 +490,6 @@
 <p v-if="text">المسابقة الثانية</p> <p v-if="textproject">فكرة المسابقة الثانية</p>
 </div>
 </div></div>
-
 <div id="appthree" v-if="card3"><div class="card 3" onclick="clickthree()">
 <div class="card_image">
 <img src="https://media.giphy.com/media/10SvWCbt1ytWCc/giphy.gif" />
@@ -496,7 +498,6 @@
 <p v-if="text">المسابقة الثالثة</p> <p v-if="textproject">فكرة المسابقة الثالثة</p>
 </div>
 </div></div>
-
 <div id="appfour" v-if="card4"><div class="card 4" onclick="clickfour()" >
 <div class="card_image">
 <img src="https://media.giphy.com/media/LwIyvaNcnzsD6/giphy.gif" />
