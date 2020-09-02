@@ -1,3 +1,4 @@
+
 input[type=text], select {
   width: 100%;
   padding: 12px 20px;
@@ -6,7 +7,6 @@ input[type=text], select {
   border: 1px solid #ccc;
   border-radius: 4px;
   box-sizing: border-box;
-  font-family: Yaseer;
 }
 
 input[type=submit] {
@@ -18,52 +18,31 @@ input[type=submit] {
   border: none;
   border-radius: 4px;
   cursor: pointer;
-  font-family: Yaseer;
 }
 
 input[type=submit]:hover {
   background-color: #45a049;
 }
 
-#formAnswer {
-  color: white ;
-  border-radius: 5px;
-  width: 250px;
-  height: auto;
-  background: #346a68;
-  padding: 20px;
-  margin: 60px auto;
-  font-family: Yaseer;
-}
-label {
-  text-align:center;
-} 
-#optionAnswers {
-  height: 250px;
+
+
+.nav
+{ 
+	display: none; 
 }
 
-.nav { 
-  display: none; 
+#header, #footer
+{ 
+	display: none; 
 }
-
-#header, #footer { 
-  display: none; 
-}
-
-@font-face {
-  font-family: Yaseer;
-  src: url(yaseer.otf);
-} 
-
 html {
   height: 100%;
   margin: 0;
 }
-.body {background: #346a68;} 
-
 html .body {
   /* The image used */
-  background-image: url("backgroundG.svg");
+  background-image: url("https://i.pinimg.com/originals/fe/e5/ea/fee5eab30a698c169dc4fd5752359c2c.jpg");
+
   /* Full height */
   height: 100%; 
 
@@ -72,9 +51,12 @@ html .body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.guidesize {
+font-size:20px;
+}
 
-.cardss-list {
-  font-family: Yaseer;
+.cards-list {
+  font-family: 'Cairo', sans-serif;
   z-index: 0;
   width: auto;
   display: block;
@@ -84,53 +66,47 @@ html .body {
 .nextbtn {
  border: 4px solid white; 
  border-radius: 50px;
- font-size: 30px; 
- margin:60px auto;
+ font-size: 20px; 
+ margin: 60px auto;
  text-align: center;
  width: 300px;
  color:white;
- background: #346a68;
+ background: #4962EB;
 }
-.cards {
-  font-family: Yaseer;
-  margin: 2px auto;
-  width: 300px; 
+.card {
+  font-family: 'Cairo', sans-serif;
+  margin: 60px auto;
+  width: 300px;
   height: 300px;
+  border-radius: 50px;
   box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
   cursor: pointer;
-  background: #000000a6;
+  transition: 0.6s;
 }
 
-.cards .card_image {
+.card .card_image {
   width: inherit;
   height: inherit;
+  border-radius: 50px;
 }
 
-.cards .card_image img {
+.card .card_image img {
   width: inherit;
   height: inherit;
+  border-radius: 50px;
   object-fit: cover;
 }
-
-.cards .card_title {
+.card .card_title {
   text-align:center;
   border-radius: 0px 0px 40px 40px;
-  font-family: Yaseer;
+  font-family: 'Cairo', sans-serif;
   font-size: 30px;
-  margin-top: -270px;
-  height: 40px;
-}
-.cards .card_title1 {
-  text-align:center;
-  border-radius: 0px 0px 40px 40px;
-  font-family: Yaseer;
-  font-size: 30px;
-  font-weight: 500;
   margin-top: -275px;
   height: 40px;
-  color: #346a68;
 }
-.cards:hover {
+
+.card:hover {
+  transform: scale(0.9, 0.9);
   box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
     -5px -5px 30px 15px rgba(0,0,0,0.22);
 }
@@ -141,65 +117,50 @@ html .body {
 .title-black {
   color: black;
 }
-
 #scrollcard {
 margin-left: 20px;
 margin-right: 20px;
 }
 #scrollansr {
 overflow-x:scroll; 
-height:330px;
-}
-.guidesize {
-font-size:30px;
-animation: moving 10s infinite;
-position: relative;
-}
-
-@-webkit-keyframes moving {
-    from {bottom: 0px;}
-    to {bottom: 100px;}
-}
-@keyframes moving {
-    from {bottom: 0px;}
-    to {bottom: 100px;}
+height:430px;
 }
 
 
-
-.cards {
-  margin: 0px auto;
-  width: 300px; 
-  height: 300px; 
+.card {
+  margin: 30px auto;
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  transition: 0.6s;
 }
 
 
 @media all and (max-width: 300px){  
-/* .cardss-list {
+.card-list {
  flex-direction: column;
-  } */
+  }
 }
 
 .box {
   margin: 5px auto;
   width: 300px;
-  font-family: Yaseer;
-  font-size: 30px;
+  font-family: 'Cairo', sans-serif;
+  font-size: 20px;
   box-sizing: border-box;
   padding: 15px 30px;
   text-align: center;
   position: relative;
   color: white;
-  background: #346a68;
+  background: #4962EB;
   background-clip: padding-box;
   border: solid 5px transparent;
-  border-radius: 2px;
-  font-size:20px;
+  border-radius: 10px;
 }
   .border {
     position: absolute;
@@ -216,7 +177,7 @@ position: relative;
 
 /* for me */
 .cardsme-listme {
-  font-family: Yaseer;
+  font-family: 'Cairo', sans-serif;
   z-index: 0;
   width: 10%;
   display: flex;
@@ -225,37 +186,39 @@ position: relative;
 }
 
 .cardme {
-  font-family: Yaseer;
+  font-family: 'Cairo', sans-serif;
   margin: 30px auto;
   width: 130px;
   height: 90px;
-  border-radius: 2px;
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  border-radius: 10px;
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .cardme .card_imageme {
   width: inherit;
   height: inherit;
-  border-radius: 2px;
+  border-radius: 10px;
 }
 
 .cardme .card_imageme img {
   width: inherit;
   height: inherit;
-  border-radius: 2px;
+  border-radius: 10px;
   object-fit: cover;
 }
 .cardme .card_titleme {
   text-align: center;
-  border-radius: 2px;
-  font-family: Yaseer;
-  font-size: 30px;
+  border-radius: 0px 0px 40px 40px;
+  font-family: 'Cairo', sans-serif;
+  font-size: 20px;
   margin-top: -100px;
   height: 40px;
 }
 
 .cardme:hover {
+  transform: scale(0.9, 0.9);
   box-shadow: 5px 5px 30px 15px rgba(0,0,0,0.25), 
     -5px -5px 30px 15px rgba(0,0,0,0.22);
 }
@@ -268,45 +231,47 @@ position: relative;
   color: black;
 }
 .cardme {
-  font-family: Yaseer;
+  font-family: 'Cairo', sans-serif;
   margin: 30px auto;
   width: 120px;
   height: 90px;
-  border-radius: 2px;
+  border-radius: 40px;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-repeat: no-repeat;
-  box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+box-shadow: 5px 5px 30px 7px rgba(0,0,0,0.25), -5px -5px 30px 7px rgba(0,0,0,0.22);
+  transition: 0.4s;
 }
 
 @media all and (max-width: 120px){  
-/* .card-listme {
-  flex-direction: column;
-  } */
+.card-listme {
+ flex-direction: column;
+  }
 }
 
 
 .boxfull {
   margin: 10px auto;
   width: 300px;
-  font-family: Yaseer;
-  font-size: 30px;
+  font-family: 'Cairo', sans-serif;
+  font-size: 25px;
   box-sizing: border-box;
   padding: 15px 30px;
   text-align: center;
   position: relative;
   color: white;
-  background: #346a68;
+  background: #4962EB;
   background-clip: padding-box;
-  border-radius: 2px;
+  border: solid 3px transparent;
+  border-radius: 10px;
   cursor: pointer;
 }
 
   .boxfull .borderfull {
     position: absolute;
     margin: -3px;
-    border-radius: 2px;
+    border-radius: inherit;
     z-index: -1;
     background: white;
 }
