@@ -511,7 +511,15 @@
 </div>
 
 </body>
-
+<script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
+<script>
+  window.OneSignal = window.OneSignal || [];
+  OneSignal.push(function() {
+    OneSignal.init({
+      appId: "5895c1b8-dc7d-402f-8742-382ff383e43a",
+    });
+  });
+</script>
 <script src="vue.js"></script>
 <script src="app.js"></script>
 </html>
