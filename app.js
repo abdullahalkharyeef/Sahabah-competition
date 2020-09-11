@@ -467,7 +467,7 @@ function answer10 (x) {
         boxone.optionansr10=true;
         boxone.inputansr10=false;
         myApp1.guide110=true;
-        titlereturn ();
+//        titlereturn ();
 }
 
     function play () {
