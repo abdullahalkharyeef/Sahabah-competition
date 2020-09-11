@@ -1365,7 +1365,7 @@ function answer10 (x) {
         }
         if (x==2){
             boxone.one10= false;
-            boxone.two19= true;
+            boxone.two10= true;
             boxone.three10= false;
             boxone.four10= false;
             boxone.five10= false;
