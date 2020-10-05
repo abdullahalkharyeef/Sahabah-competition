@@ -61,6 +61,7 @@ html {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
+  padding: 0px;
 }
 .body {background: #346a68;} 
 html .body {
