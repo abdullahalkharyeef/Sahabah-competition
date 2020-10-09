@@ -64,7 +64,7 @@ html {
   -webkit-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  pointer-events: none;
+  select: none;
 }
 .body {background: #346a68;} 
 html .body {
